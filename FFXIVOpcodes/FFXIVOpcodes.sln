@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFXIVOpcodes", "FFXIVOpcodes.csproj", "{E975FEA7-A75D-4067-A230-6B4A60B0008D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVOpcodes", "FFXIVOpcodes.csproj", "{E975FEA7-A75D-4067-A230-6B4A60B0008D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github", "Github", "{5C34F192-2A8C-4CD0-8C7E-5D51D4606869}"
 	ProjectSection(SolutionItems) = preProject

@@ -32,9 +32,9 @@ namespace FFXIVOpcodes
                     {
                         var command = new OutputEntry
                         {
-                            name = ipcCommand.ToString(),
-                            opcode = (ipcCommand as IConvertible).ToInt32(CultureInfo.CurrentCulture),
-                            version = regions[i].Version,
+                            Name = ipcCommand.ToString(),
+                            Opcode = (ipcCommand as IConvertible).ToInt32(CultureInfo.CurrentCulture),
+                            Version = regions[i].Version,
                         };
                         regions[i].Lists[enums[i][j].Name].Add(command);
                     }
