@@ -41,7 +41,8 @@ namespace FFXIVOpcodes
                 }
             }
 
-            File.WriteAllText(Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "opcodes.json"), JsonConvert.SerializeObject(regions, Formatting.Indented));
+            var path = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "opcodes.json");
+            File.WriteAllText(path, JsonConvert.SerializeObject(regions, Formatting.Indented));
 
             Console.WriteLine("Done!");
             Console.ReadLine();

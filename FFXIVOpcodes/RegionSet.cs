@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 namespace FFXIVOpcodes
@@ -11,8 +12,8 @@ namespace FFXIVOpcodes
         [JsonPropertyName("lists")]
         public Dictionary<string, List<OutputEntry>> Lists { get; set; }
 
-        [JsonIgnore]
-        public string Version { get; set; }
+        [NonSerialized]
+        public string Version;
 
         public RegionSet()
         {

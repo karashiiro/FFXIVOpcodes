@@ -457,8 +457,7 @@
       ],
       "ServerChatIpcType": [],
       "ClientChatIpcType": []
-    },
-    "Version": "5.21 hotfix"
+    }
   },
   {
     "Region": "CN",
@@ -780,8 +779,7 @@
           "version": "5.1"
         }
       ]
-    },
-    "Version": "5.1"
+    }
   },
   {
     "Region": "KR",
@@ -1713,7 +1711,6 @@
           "version": "5.0"
         }
       ]
-    },
-    "Version": "5.0"
+    }
   }
 ]
