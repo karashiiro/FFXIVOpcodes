@@ -13,9 +13,9 @@ namespace FFXIVOpcodes
             Console.WriteLine("Exporting...");
 
             List<RegionSet> regions = new List<RegionSet>{
-                new RegionSet { region = "Global" },
-                new RegionSet { region = "CN" },
-                new RegionSet { region = "KR" },
+                new RegionSet { Region = "Global", Version = "5.21 hotfix" },
+                new RegionSet { Region = "CN", Version = "5.1" },
+                new RegionSet { Region = "KR", Version = "5.0" },
             };
 
             Type[][] enums = {
@@ -23,8 +23,6 @@ namespace FFXIVOpcodes
                 new Type[] { typeof(CN.ServerZoneIpcType), typeof(CN.ClientZoneIpcType), typeof(CN.ServerChatIpcType), typeof(CN.ClientChatIpcType), typeof(CN.ServerLobbyIpcType), typeof(CN.ClientLobbyIpcType), },
                 new Type[] { typeof(KR.ServerZoneIpcType), typeof(KR.ClientZoneIpcType), typeof(KR.ServerChatIpcType), typeof(KR.ClientChatIpcType), typeof(KR.ServerLobbyIpcType), typeof(KR.ClientLobbyIpcType), },
             };
-
-            string version = "5.21 hotfix";
 
             for (int i = 0; i < 3; i++)
             {
@@ -36,14 +34,14 @@ namespace FFXIVOpcodes
                         {
                             name = ipcCommand.ToString(),
                             opcode = (ipcCommand as IConvertible).ToInt32(CultureInfo.CurrentCulture),
-                            version = version,
+                            version = regions[i].Version,
                         };
-                        regions[i].lists[enums[i][j].Name].Add(command);
+                        regions[i].Lists[enums[i][j].Name].Add(command);
                     }
                 }
             }
 
-            File.WriteAllText(Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "opcodes.json"), JsonConvert.SerializeObject(regions, Formatting.Indented));
+            File.WriteAllText(Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "opcodes.json"), JsonConvert.SerializeObject(regions, Formatting.Indented));
 
             Console.WriteLine("Done!");
             Console.ReadLine();

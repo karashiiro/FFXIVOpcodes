@@ -1,15 +1,22 @@
 ﻿using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace FFXIVOpcodes
 {
     class RegionSet
     {
-        public string region;
-        public Dictionary<string, List<OutputEntry>> lists;
+        [JsonPropertyName("region")]
+        public string Region { get; set; }
+
+        [JsonPropertyName("lists")]
+        public Dictionary<string, List<OutputEntry>> Lists { get; set; }
+
+        [JsonIgnore]
+        public string Version { get; set; }
 
         public RegionSet()
         {
-            lists = new Dictionary<string, List<OutputEntry>>
+            Lists = new Dictionary<string, List<OutputEntry>>
             {
                 { "ServerZoneIpcType", new List<OutputEntry>() },
                 { "ClientZoneIpcType", new List<OutputEntry>() },
