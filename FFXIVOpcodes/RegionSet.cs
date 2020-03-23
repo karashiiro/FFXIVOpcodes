@@ -1,14 +1,14 @@
-﻿using System.Collections.Generic;
-using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace FFXIVOpcodes
 {
     class RegionSet
     {
-        [JsonPropertyName("region")]
+        [JsonProperty("region")]
         public string Region { get; set; }
 
-        [JsonPropertyName("lists")]
+        [JsonProperty("lists")]
         public Dictionary<string, List<OutputEntry>> Lists { get; set; }
 
         public RegionSet()

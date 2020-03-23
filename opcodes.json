@@ -1,7 +1,7 @@
 [
   {
-    "Region": "Global",
-    "Lists": {
+    "region": "Global",
+    "lists": {
       "ServerZoneIpcType": [
         {
           "name": "ActorFreeSpawn",
@@ -371,8 +371,8 @@
     }
   },
   {
-    "Region": "CN",
-    "Lists": {
+    "region": "CN",
+    "lists": {
       "ServerZoneIpcType": [
         {
           "name": "UpdateHpMpTp",
@@ -632,8 +632,8 @@
     }
   },
   {
-    "Region": "KR",
-    "Lists": {
+    "region": "KR",
+    "lists": {
       "ServerZoneIpcType": [
         {
           "name": "Ping",
