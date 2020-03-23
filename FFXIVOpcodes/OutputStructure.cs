@@ -9,8 +9,5 @@ namespace FFXIVOpcodes
 
         [JsonProperty("opcode")]
         public int Opcode;
-
-        [JsonProperty("version")]
-        public string Version;
     }
 }

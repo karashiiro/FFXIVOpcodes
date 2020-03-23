@@ -13,9 +13,9 @@ namespace FFXIVOpcodes
             Console.WriteLine("Exporting...");
 
             List<RegionSet> regions = new List<RegionSet>{
-                new RegionSet { Region = "Global", Version = "5.21 hotfix" },
-                new RegionSet { Region = "CN", Version = "5.1" },
-                new RegionSet { Region = "KR", Version = "5.0" },
+                new RegionSet { Region = "Global" },
+                new RegionSet { Region = "CN" },
+                new RegionSet { Region = "KR" },
             };
 
             Type[][] enums = {
@@ -34,7 +34,6 @@ namespace FFXIVOpcodes
                         {
                             Name = ipcCommand.ToString(),
                             Opcode = (ipcCommand as IConvertible).ToInt32(CultureInfo.CurrentCulture),
-                            Version = regions[i].Version,
                         };
                         regions[i].Lists[enums[i][j].Name].Add(command);
                     }
