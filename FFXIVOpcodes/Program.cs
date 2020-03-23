@@ -37,11 +37,15 @@ namespace FFXIVOpcodes
                         };
                         regions[i].Lists[enums[i][j].Name].Add(command);
                     }
+                    regions[i].Lists[enums[i][j].Name].Sort((obj1, obj2) => obj1.Name[0] - obj2.Name[0]);
                 }
             }
 
-            var path = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "opcodes.json");
-            File.WriteAllText(path, JsonConvert.SerializeObject(regions, Formatting.Indented));
+            var path1 = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "opcodes.json");
+            File.WriteAllText(path1, JsonConvert.SerializeObject(regions, Formatting.Indented));
+
+            var path2 = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "opcodes.min.json");
+            File.WriteAllText(path2, JsonConvert.SerializeObject(regions));
 
             Console.WriteLine("Done!");
             Console.ReadLine();

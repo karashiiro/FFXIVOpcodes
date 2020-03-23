@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github", "Github", "{5C34F1
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{62613B37-4C8B-473C-85E4-DB48C50D5A12}"
+	ProjectSection(SolutionItems) = preProject
+		..\opcodes.json = ..\opcodes.json
+		..\opcodes.min.json = ..\opcodes.min.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
