@@ -1,0 +1,11 @@
+{
+  "Global": {
+    "InventoryOperationBaseValue": 110
+  },
+  "CN": {
+    "InventoryOperationBaseValue": 110
+  },
+  "KR": {
+    "InventoryOperationBaseValue": 7
+  }
+}
