@@ -9,18 +9,18 @@ namespace FFXIVOpcodes
         public string Region { get; set; }
 
         [JsonProperty("lists")]
-        public Dictionary<string, List<OutputEntry>> Lists { get; set; }
+        public Dictionary<string, List<OpcodeEntry>> Lists { get; set; }
 
         public RegionSet()
         {
-            Lists = new Dictionary<string, List<OutputEntry>>
+            Lists = new Dictionary<string, List<OpcodeEntry>>
             {
-                { "ServerZoneIpcType", new List<OutputEntry>() },
-                { "ClientZoneIpcType", new List<OutputEntry>() },
-                { "ServerLobbyIpcType", new List<OutputEntry>() },
-                { "ClientLobbyIpcType", new List<OutputEntry>() },
-                { "ServerChatIpcType", new List<OutputEntry>() },
-                { "ClientChatIpcType", new List<OutputEntry>() }
+                { "ServerZoneIpcType", new List<OpcodeEntry>() },
+                { "ClientZoneIpcType", new List<OpcodeEntry>() },
+                { "ServerLobbyIpcType", new List<OpcodeEntry>() },
+                { "ClientLobbyIpcType", new List<OpcodeEntry>() },
+                { "ServerChatIpcType", new List<OpcodeEntry>() },
+                { "ClientChatIpcType", new List<OpcodeEntry>() }
             };
         }
     }

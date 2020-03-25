@@ -2,7 +2,7 @@
 
 namespace FFXIVOpcodes
 {
-    struct OutputEntry
+    struct OpcodeEntry
     {
         [JsonProperty("name")]
         public string Name;

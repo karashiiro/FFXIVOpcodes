@@ -30,7 +30,7 @@ namespace FFXIVOpcodes
                 {
                     foreach (var ipcCommand in Enum.GetValues(enums[i][j]))
                     {
-                        var command = new OutputEntry
+                        var command = new OpcodeEntry
                         {
                             Name = ipcCommand.ToString(),
                             Opcode = (ipcCommand as IConvertible).ToInt32(CultureInfo.CurrentCulture),
