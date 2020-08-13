@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace FFXIVDynamicConstants
+namespace FFXIVConstants
 {
     class Output
     {
@@ -25,11 +25,10 @@ namespace FFXIVDynamicConstants
                 KR = KR.Constants,
             };
 
-            // TODO: rename this stuff just "constants", "dynamic-constants" is dumb
-            var path1 = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "dynamic-constants.json");
+            var path1 = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "constants.json");
             File.WriteAllText(path1, JsonConvert.SerializeObject(output, Formatting.Indented));
 
-            var path2 = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "dynamic-constants.min.json");
+            var path2 = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "constants.min.json");
             File.WriteAllText(path2, JsonConvert.SerializeObject(output));
 
             Console.WriteLine("Done!");

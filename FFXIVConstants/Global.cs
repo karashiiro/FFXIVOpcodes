@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 
-namespace FFXIVDynamicConstants
+namespace FFXIVConstants
 {
-    static class KR
+    static class Global
     {
         public static Dictionary<string, object> Constants = new Dictionary<string, object>
         {
-            { "InventoryOperationBaseValue", 0x07 }
+            { "InventoryOperationBaseValue", 0x11F }
         };
     }
 }

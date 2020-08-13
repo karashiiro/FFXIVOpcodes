@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace FFXIVDynamicConstants
+namespace FFXIVConstants
 {
     static class CN
     {

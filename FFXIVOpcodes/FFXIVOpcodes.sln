@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github", "Github", "{5C34F1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{62613B37-4C8B-473C-85E4-DB48C50D5A12}"
 	ProjectSection(SolutionItems) = preProject
+		..\constants.json = ..\constants.json
+		..\constants.min.json = ..\constants.min.json
 		..\dynamic-constants.json = ..\dynamic-constants.json
 		..\dynamic-constants.min.json = ..\dynamic-constants.min.json
 		..\opcodes.json = ..\opcodes.json
@@ -22,7 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{62613B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVDataStructures", "..\FFXIVDataStructures\FFXIVDataStructures.csproj", "{1A08393A-71AB-4037-A0A7-B8F545058FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFXIVDynamicConstants", "..\FFXIVDynamicConstants\FFXIVDynamicConstants.csproj", "{CA50A4E8-1239-4C77-9442-53AB75BA29C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVConstants", "..\FFXIVConstants\FFXIVConstants.csproj", "{6C415227-83AD-4A6A-A221-1FF762844E1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,10 +40,10 @@ Global
 		{1A08393A-71AB-4037-A0A7-B8F545058FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A08393A-71AB-4037-A0A7-B8F545058FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A08393A-71AB-4037-A0A7-B8F545058FED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA50A4E8-1239-4C77-9442-53AB75BA29C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA50A4E8-1239-4C77-9442-53AB75BA29C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA50A4E8-1239-4C77-9442-53AB75BA29C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA50A4E8-1239-4C77-9442-53AB75BA29C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C415227-83AD-4A6A-A221-1FF762844E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C415227-83AD-4A6A-A221-1FF762844E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C415227-83AD-4A6A-A221-1FF762844E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C415227-83AD-4A6A-A221-1FF762844E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
