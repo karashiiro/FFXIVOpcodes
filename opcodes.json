@@ -279,272 +279,220 @@
     "lists": {
       "ServerZoneIpcType": [
         {
-          "name": "AddStatusEffect",
-          "opcode": 567
-        },
-        {
-          "name": "ActorMove",
-          "opcode": 926
-        },
-        {
-          "name": "AoeEffect24",
-          "opcode": 907
-        },
-        {
-          "name": "ActorControl",
-          "opcode": 870
-        },
-        {
-          "name": "AoeEffect32",
-          "opcode": 255
-        },
-        {
-          "name": "ActorGauge",
-          "opcode": 848
+          "name": "AoeEffect16",
+          "opcode": 366
         },
         {
           "name": "ActorCast",
-          "opcode": 812
-        },
-        {
-          "name": "ActorSetPos",
-          "opcode": 609
-        },
-        {
-          "name": "AoeEffect8",
-          "opcode": 433
-        },
-        {
-          "name": "AoeEffect16",
-          "opcode": 313
-        },
-        {
-          "name": "ActorControlSelf",
-          "opcode": 377
-        },
-        {
-          "name": "BossStatusEffectList",
-          "opcode": 180
-        },
-        {
-          "name": "ContainerInfo",
-          "opcode": 650
-        },
-        {
-          "name": "Chat",
-          "opcode": 120
-        },
-        {
-          "name": "CurrencyCrystalInfo",
-          "opcode": 305
-        },
-        {
-          "name": "CFPreferredRole",
-          "opcode": 164
-        },
-        {
-          "name": "CFNotify",
-          "opcode": 365
-        },
-        {
-          "name": "EventStart",
-          "opcode": 270
-        },
-        {
-          "name": "EventFinish",
-          "opcode": 441
-        },
-        {
-          "name": "EventPlay4",
-          "opcode": 532
-        },
-        {
-          "name": "EventPlay",
-          "opcode": 534
-        },
-        {
-          "name": "ExamineSearchInfo",
-          "opcode": 566
-        },
-        {
-          "name": "Effect",
-          "opcode": 574
-        },
-        {
-          "name": "Examine",
-          "opcode": 189
-        },
-        {
-          "name": "InventoryTransaction",
-          "opcode": 514
-        },
-        {
-          "name": "InitZone",
-          "opcode": 837
-        },
-        {
-          "name": "ItemInfo",
-          "opcode": 616
-        },
-        {
-          "name": "MarketBoardItemListing",
-          "opcode": 971
-        },
-        {
-          "name": "MarketBoardItemListingCount",
-          "opcode": 190
-        },
-        {
-          "name": "MarketBoardItemListingHistory",
-          "opcode": 692
-        },
-        {
-          "name": "MarketBoardSearchResult",
-          "opcode": 593
-        },
-        {
-          "name": "MarketTaxRates",
-          "opcode": 940
-        },
-        {
-          "name": "NpcSpawn",
-          "opcode": 388
-        },
-        {
-          "name": "NpcSpawn2",
-          "opcode": 296
-        },
-        {
-          "name": "PlayerSetup",
-          "opcode": 886
-        },
-        {
-          "name": "Playtime",
-          "opcode": 261
-        },
-        {
-          "name": "PlayerSpawn",
           "opcode": 669
         },
         {
+          "name": "AoeEffect8",
+          "opcode": 353
+        },
+        {
+          "name": "ActorControlSelf",
+          "opcode": 322
+        },
+        {
+          "name": "ActorMove",
+          "opcode": 854
+        },
+        {
+          "name": "AoeEffect24",
+          "opcode": 615
+        },
+        {
+          "name": "ActorGauge",
+          "opcode": 247
+        },
+        {
+          "name": "AoeEffect32",
+          "opcode": 588
+        },
+        {
+          "name": "ActorControl",
+          "opcode": 943
+        },
+        {
+          "name": "ActorSetPos",
+          "opcode": 213
+        },
+        {
+          "name": "AddStatusEffect",
+          "opcode": 167
+        },
+        {
+          "name": "BossStatusEffectList",
+          "opcode": 297
+        },
+        {
+          "name": "CFPreferredRole",
+          "opcode": 318
+        },
+        {
+          "name": "CurrencyCrystalInfo",
+          "opcode": 345
+        },
+        {
+          "name": "Chat",
+          "opcode": 886
+        },
+        {
+          "name": "CFNotify",
+          "opcode": 253
+        },
+        {
+          "name": "ContainerInfo",
+          "opcode": 244
+        },
+        {
+          "name": "DirectorStart",
+          "opcode": 476
+        },
+        {
+          "name": "EventPlay",
+          "opcode": 174
+        },
+        {
+          "name": "EventStart",
+          "opcode": 205
+        },
+        {
+          "name": "EventPlay4",
+          "opcode": 767
+        },
+        {
+          "name": "Effect",
+          "opcode": 235
+        },
+        {
+          "name": "ExamineSearchInfo",
+          "opcode": 225
+        },
+        {
+          "name": "Examine",
+          "opcode": 659
+        },
+        {
+          "name": "EventFinish",
+          "opcode": 222
+        },
+        {
+          "name": "GroupMessage",
+          "opcode": 114
+        },
+        {
+          "name": "InitZone",
+          "opcode": 827
+        },
+        {
+          "name": "InventoryActionAck",
+          "opcode": 881
+        },
+        {
+          "name": "ItemInfo",
+          "opcode": 105
+        },
+        {
+          "name": "InventoryTransaction",
+          "opcode": 522
+        },
+        {
+          "name": "MarketBoardItemListing",
+          "opcode": 603
+        },
+        {
+          "name": "MarketTaxRates",
+          "opcode": 265
+        },
+        {
+          "name": "MarketBoardItemListingCount",
+          "opcode": 687
+        },
+        {
+          "name": "MarketBoardSearchResult",
+          "opcode": 497
+        },
+        {
+          "name": "MarketBoardItemListingHistory",
+          "opcode": 718
+        },
+        {
+          "name": "NpcSpawn2",
+          "opcode": 330
+        },
+        {
+          "name": "NpcSpawn",
+          "opcode": 978
+        },
+        {
+          "name": "PlayerSpawn",
+          "opcode": 954
+        },
+        {
           "name": "PlayerStats",
-          "opcode": 645
+          "opcode": 630
+        },
+        {
+          "name": "Playtime",
+          "opcode": 308
+        },
+        {
+          "name": "PlayerSetup",
+          "opcode": 628
         },
         {
           "name": "RetainerInformation",
-          "opcode": 286
-        },
-        {
-          "name": "SomeDirectorUnk4",
-          "opcode": 702
+          "opcode": 649
         },
         {
           "name": "StatusEffectList",
-          "opcode": 921
+          "opcode": 538
         },
         {
-          "name": "UpdateSearchInfo",
-          "opcode": 785
-        },
-        {
-          "name": "UpdateClassInfo",
-          "opcode": 965
+          "name": "SomeDirectorUnk4",
+          "opcode": 109
         },
         {
           "name": "UpdateHpMpTp",
-          "opcode": 842
+          "opcode": 642
+        },
+        {
+          "name": "UpdateSearchInfo",
+          "opcode": 332
         },
         {
           "name": "UpdateInventorySlot",
-          "opcode": 316
+          "opcode": 164
+        },
+        {
+          "name": "UpdateClassInfo",
+          "opcode": 938
         }
       ],
       "ClientZoneIpcType": [
         {
           "name": "ClientTrigger",
-          "opcode": 607
+          "opcode": 675
         },
         {
           "name": "ChatHandler",
-          "opcode": 709
+          "opcode": 693
         },
         {
           "name": "InventoryModifyHandler",
-          "opcode": 911
+          "opcode": 862
         },
         {
           "name": "SetSearchInfoHandler",
-          "opcode": 571
+          "opcode": 994
         }
       ],
-      "ServerLobbyIpcType": [
-        {
-          "name": "LobbyError",
-          "opcode": 2
-        },
-        {
-          "name": "LobbyServiceAccountList",
-          "opcode": 12
-        },
-        {
-          "name": "LobbyCharList",
-          "opcode": 13
-        },
-        {
-          "name": "LobbyCharCreate",
-          "opcode": 14
-        },
-        {
-          "name": "LobbyEnterWorld",
-          "opcode": 15
-        },
-        {
-          "name": "LobbyServerList",
-          "opcode": 21
-        },
-        {
-          "name": "LobbyRetainerList",
-          "opcode": 23
-        }
-      ],
-      "ClientLobbyIpcType": [
-        {
-          "name": "ClientVersionInfo",
-          "opcode": 5
-        },
-        {
-          "name": "ReqCharList",
-          "opcode": 3
-        },
-        {
-          "name": "ReqEnterWorld",
-          "opcode": 4
-        },
-        {
-          "name": "ReqCharDelete",
-          "opcode": 10
-        },
-        {
-          "name": "ReqCharCreate",
-          "opcode": 11
-        }
-      ],
-      "ServerChatIpcType": [
-        {
-          "name": "FreeCompanyEvent",
-          "opcode": 300
-        },
-        {
-          "name": "TellErrNotFound",
-          "opcode": 102
-        }
-      ],
-      "ClientChatIpcType": [
-        {
-          "name": "TellReq",
-          "opcode": 100
-        }
-      ]
+      "ServerLobbyIpcType": [],
+      "ClientLobbyIpcType": [],
+      "ServerChatIpcType": [],
+      "ClientChatIpcType": []
     }
   },
   {

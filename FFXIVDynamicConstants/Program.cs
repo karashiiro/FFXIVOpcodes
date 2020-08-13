@@ -25,6 +25,7 @@ namespace FFXIVDynamicConstants
                 KR = KR.Constants,
             };
 
+            // TODO: rename this stuff just "constants", "dynamic-constants" is dumb
             var path1 = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "dynamic-constants.json");
             File.WriteAllText(path1, JsonConvert.SerializeObject(output, Formatting.Indented));
 
