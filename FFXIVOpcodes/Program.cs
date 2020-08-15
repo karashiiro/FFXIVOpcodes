@@ -1,15 +1,19 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 
 namespace FFXIVOpcodes
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] _)
+        public static void Main(string[] _)
         {
+            ValidateOpcodes();
+
             Console.WriteLine("Exporting...");
 
             List<RegionSet> regions = new List<RegionSet>{
@@ -19,9 +23,9 @@ namespace FFXIVOpcodes
             };
 
             Type[][] enums = {
-                new Type[] { typeof(Global.ServerZoneIpcType), typeof(Global.ClientZoneIpcType), typeof(Global.ServerChatIpcType), typeof(Global.ClientChatIpcType), typeof(Global.ServerLobbyIpcType), typeof(Global.ClientLobbyIpcType), },
-                new Type[] { typeof(CN.ServerZoneIpcType), typeof(CN.ClientZoneIpcType), typeof(CN.ServerChatIpcType), typeof(CN.ClientChatIpcType), typeof(CN.ServerLobbyIpcType), typeof(CN.ClientLobbyIpcType), },
-                new Type[] { typeof(KR.ServerZoneIpcType), typeof(KR.ClientZoneIpcType), typeof(KR.ServerChatIpcType), typeof(KR.ClientChatIpcType), typeof(KR.ServerLobbyIpcType), typeof(KR.ClientLobbyIpcType), },
+                new[] { typeof(Global.ServerZoneIpcType), typeof(Global.ClientZoneIpcType), typeof(Global.ServerChatIpcType), typeof(Global.ClientChatIpcType), typeof(Global.ServerLobbyIpcType), typeof(Global.ClientLobbyIpcType), },
+                new[] { typeof(CN.ServerZoneIpcType), typeof(CN.ClientZoneIpcType), typeof(CN.ServerChatIpcType), typeof(CN.ClientChatIpcType), typeof(CN.ServerLobbyIpcType), typeof(CN.ClientLobbyIpcType), },
+                new[] { typeof(KR.ServerZoneIpcType), typeof(KR.ClientZoneIpcType), typeof(KR.ServerChatIpcType), typeof(KR.ClientChatIpcType), typeof(KR.ServerLobbyIpcType), typeof(KR.ClientLobbyIpcType), },
             };
 
             for (int i = 0; i < 3; i++)
@@ -48,7 +52,24 @@ namespace FFXIVOpcodes
             File.WriteAllText(path2, JsonConvert.SerializeObject(regions));
 
             Console.WriteLine("Done!");
-            Console.ReadLine();
+            Console.ReadKey();
+        }
+
+        private static void ValidateOpcodes()
+        {
+            var globalIpcLists = new[] { typeof(Global.ClientChatIpcType), typeof(Global.ServerChatIpcType), typeof(Global.ClientLobbyIpcType), typeof(Global.ServerLobbyIpcType), typeof(Global.ClientZoneIpcType), typeof(Global.ServerZoneIpcType) };
+            var cnIpcLists = new[] { typeof(CN.ClientChatIpcType), typeof(CN.ServerChatIpcType), typeof(CN.ClientZoneIpcType), typeof(CN.ServerZoneIpcType) };
+            var krIpcLists = new[] { typeof(KR.ClientChatIpcType), typeof(KR.ServerChatIpcType), typeof(KR.ClientLobbyIpcType), typeof(KR.ServerLobbyIpcType), typeof(KR.ClientZoneIpcType), typeof(KR.ServerZoneIpcType) };
+            var ipcListsList = new[] { globalIpcLists, cnIpcLists, krIpcLists };
+            foreach (var ipcLists in ipcListsList)
+            {
+                foreach (var ipcList in ipcLists)
+                {
+                    var ipcValues = (ushort[])Enum.GetValues(ipcList);
+                    if (ipcValues.Distinct().Count() != ipcValues.Length)
+                        throw new ConstraintException($"{ipcList.Name} contains one or more duplicate values!");
+                }
+            }
         }
     }
 }

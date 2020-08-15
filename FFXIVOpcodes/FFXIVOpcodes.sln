@@ -16,8 +16,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{62613B
 	ProjectSection(SolutionItems) = preProject
 		..\constants.json = ..\constants.json
 		..\constants.min.json = ..\constants.min.json
-		..\dynamic-constants.json = ..\dynamic-constants.json
-		..\dynamic-constants.min.json = ..\dynamic-constants.min.json
 		..\opcodes.json = ..\opcodes.json
 		..\opcodes.min.json = ..\opcodes.min.json
 	EndProjectSection
