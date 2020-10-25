@@ -158,7 +158,6 @@ namespace FFXIVDataStructures
             await File.WriteAllTextAsync(path2, JsonConvert.SerializeObject(output));
 
             Console.WriteLine("Done!");
-            Console.ReadLine();
         }
     }
 }

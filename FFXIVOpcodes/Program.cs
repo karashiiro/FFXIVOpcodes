@@ -52,7 +52,6 @@ namespace FFXIVOpcodes
             File.WriteAllText(path2, JsonConvert.SerializeObject(regions));
 
             Console.WriteLine("Done!");
-            Console.ReadKey();
         }
 
         private static void ValidateOpcodes()

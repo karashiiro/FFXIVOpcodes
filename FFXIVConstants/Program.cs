@@ -32,7 +32,6 @@ namespace FFXIVConstants
             File.WriteAllText(path2, JsonConvert.SerializeObject(output));
 
             Console.WriteLine("Done!");
-            Console.ReadLine();
         }
     }
 }
