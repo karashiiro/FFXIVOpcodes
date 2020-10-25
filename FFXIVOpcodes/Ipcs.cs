@@ -9,7 +9,7 @@
     {
         LobbyError = 0x0002,
         LobbyServiceAccountList = 0x000C,
-        LobbyCharList = 0x0001,
+        LobbyCharList = 0x000D,
         LobbyCharCreate = 0x000E,
         LobbyEnterWorld = 0x000F,
         LobbyServerList = 0x0015,
