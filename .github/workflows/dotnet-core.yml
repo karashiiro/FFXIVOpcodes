@@ -22,7 +22,9 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
     - name: Generate stores
-      run: ./FFXIVOpcodes/FFXIVOpcodes/bin/Release/netcoreapp3.1/FFXIVOpcodes.exe
+      run: |
+        cd FFXIVOpcodes/FFXIVOpcodes/bin/Release/netcoreapp3.1/
+        ./FFXIVOpcodes.exe
     - name: Commit new files
       run: git commit -a -m "Generate data stores"
     - name: Push commit
