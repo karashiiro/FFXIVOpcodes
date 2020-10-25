@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -21,5 +21,9 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
+    - name: Generate stores
+      run: ./FFXIVOpcodes/bin/Debug/netcoreapp3.1/FFXIVOpcodes.exe
+    - name: Commit new files
+      run: git commit -a -m "Generate data stores"
+    - name: Push commit
+      run: git push
