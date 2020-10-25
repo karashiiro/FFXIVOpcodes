@@ -216,16 +216,16 @@
       ],
       "ServerLobbyIpcType": [
         {
+          "name": "LobbyCharList",
+          "opcode": 1
+        },
+        {
           "name": "LobbyError",
           "opcode": 2
         },
         {
           "name": "LobbyServiceAccountList",
           "opcode": 12
-        },
-        {
-          "name": "LobbyCharList",
-          "opcode": 13
         },
         {
           "name": "LobbyCharCreate",
