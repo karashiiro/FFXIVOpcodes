@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{62850874-A75F-4155-B168-2CEB3C5F0AED}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{F2E40821-5A33-4968-9B4F-DCB6BCAC494D}"
+	ProjectSection(SolutionItems) = preProject
+		constants.json = constants.json
+		constants.min.json = constants.min.json
+		opcodes.json = opcodes.json
+		opcodes.min.json = opcodes.min.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVConstants", "FFXIVConstants\FFXIVConstants.csproj", "{B740ADA1-80F8-44D9-88C1-D43E702E19E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVDataStructures", "FFXIVDataStructures\FFXIVDataStructures.csproj", "{8720EE41-75E8-410D-A529-DAB07DE6C4D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVOpcodes", "FFXIVOpcodes\FFXIVOpcodes.csproj", "{7FC3E2CB-0A1E-4ABB-873A-8CF363EBECAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B740ADA1-80F8-44D9-88C1-D43E702E19E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B740ADA1-80F8-44D9-88C1-D43E702E19E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B740ADA1-80F8-44D9-88C1-D43E702E19E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B740ADA1-80F8-44D9-88C1-D43E702E19E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8720EE41-75E8-410D-A529-DAB07DE6C4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8720EE41-75E8-410D-A529-DAB07DE6C4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8720EE41-75E8-410D-A529-DAB07DE6C4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8720EE41-75E8-410D-A529-DAB07DE6C4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC3E2CB-0A1E-4ABB-873A-8CF363EBECAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC3E2CB-0A1E-4ABB-873A-8CF363EBECAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC3E2CB-0A1E-4ABB-873A-8CF363EBECAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC3E2CB-0A1E-4ABB-873A-8CF363EBECAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B97F4C2-6C6B-4EF5-8DAB-B214F176D718}
+	EndGlobalSection
+EndGlobal
