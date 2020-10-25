@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace FFXIVOpcodes
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] _)
         {
@@ -16,7 +16,7 @@ namespace FFXIVOpcodes
 
             Console.WriteLine("Exporting...");
 
-            List<RegionSet> regions = new List<RegionSet>{
+            var regions = new List<RegionSet>{
                 new RegionSet { Region = "Global" },
                 new RegionSet { Region = "CN" },
                 new RegionSet { Region = "KR" },
@@ -28,9 +28,9 @@ namespace FFXIVOpcodes
                 new[] { typeof(KR.ServerZoneIpcType), typeof(KR.ClientZoneIpcType), typeof(KR.ServerChatIpcType), typeof(KR.ClientChatIpcType), typeof(KR.ServerLobbyIpcType), typeof(KR.ClientLobbyIpcType), },
             };
 
-            for (int i = 0; i < 3; i++)
+            for (var i = 0; i < 3; i++)
             {
-                for (int j = 0; j < 6; j++)
+                for (var j = 0; j < 6; j++)
                 {
                     foreach (var ipcCommand in Enum.GetValues(enums[i][j]))
                     {

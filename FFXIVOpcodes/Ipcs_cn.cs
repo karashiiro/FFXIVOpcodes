@@ -4,81 +4,80 @@ namespace FFXIVOpcodes.CN
 {
     enum ServerZoneIpcType : ushort
     {
-        ActorCast = 0x029D,
-        ActorControl = 0x03AF,
-        ActorControlSelf = 0x0142,
-        ActorGauge = 0x00F7,
-        ActorMove = 0x0356,
-        ActorSetPos = 0x00D5,
-        AddStatusEffect = 0x00a7,
-        AoeEffect16 = 0x016E,
-        AoeEffect24 = 0x0267,
-        AoeEffect32 = 0x024C,
-        AoeEffect8 = 0x0161,
-        BossStatusEffectList = 0x0129,
-        CFNotify = 0x00FD,
-        CFPreferredRole = 0x013E,
-        Chat = 0x0376,
-        ContainerInfo = 0x00f4,
-        CurrencyCrystalInfo = 0x0159,
-        DirectorStart = 0x01dc,
-        Effect = 0x00EB,
-        EventFinish = 0x00DE,
-        EventPlay = 0x00AE,
-        EventPlay4 = 0x02FF,
-        EventStart = 0x00CD,
-        Examine = 0x0293,
-        ExamineSearchInfo = 0x00E1,
-        GroupMessage = 0x0072,
-        InitZone = 0x033B,
-        InventoryActionAck = 0x0371,
-        InventoryTransaction = 0x020A,
-        ItemInfo = 0x0069,
-        MarketBoardItemListing = 0x025B,
-        MarketBoardItemListingCount = 0x02AF,
-        MarketBoardItemListingHistory = 0x02CE,
-        MarketBoardSearchResult = 0x01F1,
-        MarketTaxRates = 0x0109,
-        NpcSpawn = 0x03D2,
-        NpcSpawn2 = 0x014a,
-        PlayerSetup = 0x0274,
-        PlayerSpawn = 0x03BA,
-        PlayerStats = 0x0276,
-        Playtime = 0x0134,
-        RetainerInformation = 0x0289,
-        SomeDirectorUnk4 = 0x006D,
-        StatusEffectList = 0x021A,
-        UpdateClassInfo = 0x03AA,
-        UpdateHpMpTp = 0x0282,
-        UpdateInventorySlot = 0x00A4,
-        UpdateSearchInfo = 0x014C,
+        ActorCast = 0x0166,
+        ActorControl = 0x038F,
+        ActorControlSelf = 0x028B,
+        ActorGauge = 0x0302,
+        ActorMove = 0x01E5,
+        ActorSetPos = 0x0323,
+        AddStatusEffect = 0x0379,
+        AoeEffect16 = 0x00b1,
+        AoeEffect24 = 0x0382,
+        AoeEffect32 = 0x00d5,
+        AoeEffect8 = 0x02d1,
+        BossStatusEffectList = 0x0133,
+        CFNotify = 0x02A6,
+        CFPreferredRole = 0x0253,
+        Chat = 0x0106,
+        ContainerInfo = 0x013b,
+        CurrencyCrystalInfo = 0x03AD,
+        DirectorStart = 0x0087,
+        Effect = 0x02D6,
+        EventFinish = 0x01BA,
+        EventPlay = 0x0297,
+        EventPlay4 = 0x03B0,
+        EventPlay32 = 0x00a3,
+        EventStart = 0x02E2,
+        Examine = 0x025E,
+        ExamineSearchInfo = 0x01A8,
+        GroupMessage = 0x0065,
+        InitZone = 0x0242,
+        InventoryActionAck = 0x03da,
+        InventoryTransaction = 0x01de,
+        InventoryTransactionFinish = 0x01fe,
+        ItemInfo = 0x028C,
+        MarketBoardItemListing = 0x021F,
+        MarketBoardItemListingCount = 0x00AD,
+        MarketBoardItemListingHistory = 0x03BE,
+        MarketBoardSearchResult = 0x02B9,
+        MarketTaxRates = 0x037A,
+        NpcSpawn = 0x0142,
+        NpcSpawn2 = 0x0342,
+        ObjectSpawn = 0x00FD,
+        PlayerSetup = 0x0066,
+        PlayerSpawn = 0x035E,
+        PlayerStats = 0x02D3,
+        Playtime = 0x0324,
+        RetainerInformation = 0x01D4,
+        SomeDirectorUnk4 = 0x017C,
+        StatusEffectList = 0x0291,
+        UpdateClassInfo = 0x0199,
+        UpdateHpMpTp = 0x016B,
+        UpdateInventorySlot = 0x00A2,
+        UpdateSearchInfo = 0x0185,
     };
 
     enum ClientZoneIpcType : ushort
     {
-        ChatHandler = 0x02B5,
-        ClientTrigger = 0x02A3,
-        InventoryModifyHandler = 0x035e,
-        SetSearchInfoHandler = 0x03E2,
+        ChatHandler = 0x006A,
+        ClientTrigger = 0x01FA,
+        InventoryModifyHandler = 0x02f1,
+        SetSearchInfoHandler = 0x013A,
     };
 
     enum ServerChatIpcType : ushort
     {
-
     };
 
     enum ClientChatIpcType : ushort
     {
-
     };
 
     enum ServerLobbyIpcType : ushort
     {
-
     };
 
     enum ClientLobbyIpcType : ushort
     {
-
     };
 }
