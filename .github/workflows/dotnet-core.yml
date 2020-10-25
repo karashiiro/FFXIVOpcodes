@@ -26,6 +26,8 @@ jobs:
         cd FFXIVOpcodes/bin/Release/netcoreapp3.1/
         ./FFXIVOpcodes.exe
     - name: Commit new files
-      run: git commit -a -m "Generate data stores"
-    - name: Push commit
-      run: git push
+      run: |
+        git config --global user.email "noreply@example.com"
+        git config --global user.name "Automated Data Update"
+        git commit -a -m "Generate data stores"
+        git push
