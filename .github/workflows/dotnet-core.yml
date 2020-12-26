@@ -1,15 +1,14 @@
 name: .NET Core
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  release:
+    types:
+      - published
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -21,5 +20,13 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
+    - name: Generate stores
+      run: |
+        cd FFXIVOpcodes/bin/Release/netcoreapp3.1/
+        ./FFXIVOpcodes.exe
+    - name: Commit new files
+      run: |
+        git config --global user.email "noreply@example.com"
+        git config --global user.name "Automated Data Update"
+        git commit -a -m "Generate data stores"
+        git push
