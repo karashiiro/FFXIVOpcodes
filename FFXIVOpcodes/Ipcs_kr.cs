@@ -33,72 +33,75 @@
     */
     enum ServerZoneIpcType : ushort
     {
-        ActorCast = 0x0310, // updated 5.25
-        ActorControl = 0x03B6, // updated 5.25
-        ActorControlSelf = 0x0200, // updated 5.25
-        ActorControlTarget = 0x01DE, // updated 5.25
-        ActorFreeSpawn = 0x03E0, // updated 5.25
-        ActorGauge = 0x02F9, // updated 5.25
-        ActorMove = 0x0117, // updated 5.25
-        ActorSetPos = 0x01DA, // updated 5.25
-        EffectResult = 0x0280, // updated 5.25
-        AoeEffect16 = 0x0173, // updated 5.25
-        AoeEffect24 = 0x02A1, // updated 5.25
-        AoeEffect32 = 0x0129, // updated 5.25
-        AoeEffect8 = 0x0305, // updated 5.25
-        BossStatusEffectList = 0x0292, // updated 5.25
-        CFNotify = 0x0242, // updated 5.25
-        CFPreferredRole = 0x02F1, // updated 5.25
-        // CraftEfficiencyCalculations = 0x00F5, // updated 5.25
-        CurrencyCrystalInfo = 0x00E6, // updated 5.25
-        Effect = 0x0198, // updated 5.25
-        EventFinish = 0x02C2, // updated 5.25
-        EventPlay = 0x011E, // updated 5.25
-        EventPlay4 = 0x02F3, // updated 5.25
-        EventPlay32 = 0x0157, // updated 5.25
-        EventStart = 0x0272, // updated 5.25
-        Examine = 0x01E4, // updated 5.25
-        ExamineSearchInfo = 0x01A2, // updated 5.25
-        InitZone = 0x00BA, // updated 5.25
-        InventoryActionAck = 0x0344, // updated 5.25
-        InventoryTransaction = 0x02A3, // updated 5.25
-        InventoryTransactionFinish = 0x013F, // updated 5.25
-        ItemInfo = 0x0228, // updated 5.25
-        MarketBoardItemListing = 0x0191, // updated 5.25
-        MarketBoardItemListingCount = 0x00F0, // updated 5.25
-        MarketBoardItemListingHistory = 0x01C3, // updated 5.25
-        MarketBoardSearchResult = 0x0277, // updated 5.25
-        MarketTaxRates = 0x03E4, // updated 5.25
-        MiniCactpotInit = 0x0114, // updated 5.25
-        NpcSpawn = 0x023E, // updated 5.25
-        ObjectSpawn = 0x01F2, // updated 5.25
-        PlaceFieldMarker = 0x03E2, // updated 5.25
-        PlaceFieldMarkerPreset = 0x031B, // updated 5.25
-        PlayerSetup = 0x0269, // updated 5.25
-        PlayerSpawn = 0x019B, // updated 5.25
-        PlayerStats = 0x007D, // updated 5.25
-        Playtime = 0x02EB, // updated 5.25
-        RetainerInformation = 0x0078, // updated 5.25
-        ServerNotice = 0x02A9, // updated 5.25
-        SomeDirectorUnk4 = 0x02DA, // updated 5.25
-        StatusEffectList = 0x013D, // updated 5.25
-        UpdateClassInfo = 0x024E, // updated 5.25
-        UpdateHpMpTp = 0x03BE, // updated 5.25
-        UpdateInventorySlot = 0x00A3, // updated 5.25
-        UpdateSearchInfo = 0x00B2, // updated 5.25
-        WeatherChange = 0x025B, // updated 5.25
+        ActorCast = 0x03B8, // updated v5.3
+        ActorControl = 0x013D, // updated v5.3
+        ActorControlSelf = 0x025F, // updated v5.3
+        ActorControlTarget = 0x0085, // updated v5.3
+        ActorFreeSpawn = 0x0315, // updated v5.3
+        ActorGauge = 0x014B, // updated v5.3
+        ActorMove = 0x02E6, // updated v5.3
+        ActorSetPos = 0x0164, // updated v5.3
+        //AddStatusEffect = 0x0156, // updated v5.3
+        AoeEffect16 = 0x03A7, // updated v5.3
+        AoeEffect24 = 0x016B, // updated v5.3
+        AoeEffect32 = 0x0231, // updated v5.3
+        AoeEffect8 = 0x0167, // updated v5.3
+        //BossStatusEffectList = 0x0292, // updated 5.25
+        CFNotify = 0x022C, // updated v5.3
+        CFPreferredRole = 0x02B9, // updated v5.3
+        //CraftEfficiencyCalculations = 0x018F, // updated v5.3
+        CurrencyCrystalInfo = 0x0335, // updated v5.3
+        DesynthResult = 0x010A, // updated v5.3
+        Effect = 0x0266, // updated v5.3
+        EffectResult = 0x0156, // updated v5.3
+        EventFinish = 0x0147, // updated v5.3
+        EventPlay = 0x03B3, // updated v5.3
+        EventPlay4 = 0x0071, // updated v5.3
+        EventPlay32 = 0x0154, // updated v5.3
+        EventStart = 0x008B, // updated v5.3
+        Examine = 0x017B, // updated v5.3
+        ExamineSearchInfo = 0x01E5, // updated v5.3
+        InitZone = 0x0078, // updated v5.3
+        InventoryActionAck = 0x01D6, // updated v5.3
+        InventoryTransaction = 0x019A, // updated v5.3
+        InventoryTransactionFinish = 0x039F, // updated v5.3
+        ItemInfo = 0x00A6, // updated v5.3
+        MarketBoardItemListing = 0x032C, // updated v5.3
+        MarketBoardItemListingCount = 0x0074, // updated v5.3
+        MarketBoardItemListingHistory = 0x0102, // updated v5.3
+        MarketBoardSearchResult = 0x00AF, // updated v5.3
+        MarketTaxRates = 0x02A6, // updated v5.3
+        MiniCactpotInit = 0x0316, // updated v5.3
+        NpcSpawn = 0x02B2, // updated v5.3
+        ObjectSpawn = 0x019C, // updated v5.3
+        PlaceFieldMarker = 0x0086, // updated v5.3
+        PlaceFieldMarkerPreset = 0x00E9, // updated v5.3
+        PlayerSetup = 0x039E, // updated v5.3
+        PlayerSpawn = 0x038A, // updated v5.3
+        PlayerStats = 0x0230, // updated v5.3
+        Playtime = 0x0212, // updated v5.3
+        PrepareZoning = 0x0166, // updated v5.3
+        RetainerInformation = 0x01F8, // updated v5.3
+        ServerNotice = 0x01B8, // updated v5.3
+        SomeDirectorUnk4 = 0x023E, // updated v5.3
+        StatusEffectList = 0x0314, // updated v5.3
+        UpdateClassInfo = 0x00B3, // updated v5.3
+        UpdateHpMpTp = 0x02A3, // updated v5.3
+        UpdateInventorySlot = 0x0250, // updated v5.3
+        UpdateSearchInfo = 0x0364, // updated v5.3
+        WeatherChange = 0x03D7, // updated v5.3
     };
     /**
     * Client IPC Zone Type Codes.
     */
     enum ClientZoneIpcType : ushort
     {
-        ChatHandler = 0x01E6, // updated 5.25
-        ClientTrigger = 0x01E5, // updated 5.25
-        InventoryModifyHandler = 0x0393, // updated 5.25 (Base offset: 0x039A)
-        SetSearchInfoHandler = 0x01C5, // updated 5.25
-        UpdatePositionHandler = 0x015F, // updated 5.25
-        UpdatePositionInstance = 0x0117, // updated 5.25
+        ChatHandler = 0x00BF, // updated v5.3
+        ClientTrigger = 0x033A, // updated v5.3
+        InventoryModifyHandler = 0x019A, // updated v5.3 (Base offset: 0x01A1)
+        SetSearchInfoHandler = 0x0303, // updated v5.3
+        UpdatePositionHandler = 0x017D, // updated v5.3
+        UpdatePositionInstance = 0x0067, // updated v5.3
     };
     ////////////////////////////////////////////////////////////////////////////////
     /// Chat Connection IPC Codes
