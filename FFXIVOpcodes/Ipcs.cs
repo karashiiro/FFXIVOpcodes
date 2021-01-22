@@ -106,7 +106,10 @@
         MarketBoardItemListingCount = 0x0369, // updated 5.4 hotfix
         MarketBoardItemListingHistory = 0x02A1, // updated 5.4 hotfix
         MarketBoardItemListing = 0x016F, // updated 5.4 hotfix
-        MarketTaxRates = 0x03C0, // updated 5.4 hotfix
+        //MarketTaxRates = 0x03C0, // updated 5.4
+
+        DesynthResult = 0x01B7;
+        ReductionResult = 0x03C0;
 
         //CharaFreeCompanyTag = 0x013B, // updated 4.5
         //FreeCompanyBoardMsg = 0x013C, // updated 4.5
