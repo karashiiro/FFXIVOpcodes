@@ -279,6 +279,8 @@
 
         AirshipStatusList = 0x035C, // updated 5.41
         AirshipExplorationResult = 0x0320, // updated 5.41
+        AirshipStatus = 0x007D, // added 5.41
+        SubmarineProgressionStatus = 0x03B4, // added 5.41
         SubmarineStatusList = 0x02F0, // updated 5.41
         SubmarineExplorationResult = 0x02BB, // updated 5.41
     };
