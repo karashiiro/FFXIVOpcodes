@@ -56,7 +56,7 @@
 
         //ChatBanned = 0x006B,
         Playtime = 0x0142, // updated 5.41
-                           //Logout = 0x194, // updated 5.41
+        Logout = 0x202, // updated 5.41
         CFNotify = 0x01D2, // updated 5.41
                            //CFMemberStatus = 0x0079,
                            //CFDutyInfo = 0x007A,
