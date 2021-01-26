@@ -459,6 +459,10 @@
           "opcode": 608
         },
         {
+          "name": "Logout",
+          "opcode": 643
+        },
+        {
           "name": "MarketTaxRates",
           "opcode": 862
         },
@@ -467,12 +471,12 @@
           "opcode": 157
         },
         {
-          "name": "MarketBoardItemListingHistory",
-          "opcode": 652
-        },
-        {
           "name": "MarketBoardSearchResult",
           "opcode": 662
+        },
+        {
+          "name": "MarketBoardItemListingHistory",
+          "opcode": 652
         },
         {
           "name": "MarketBoardItemListing",

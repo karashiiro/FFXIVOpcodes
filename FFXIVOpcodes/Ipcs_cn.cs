@@ -46,6 +46,7 @@ namespace FFXIVOpcodes.CN
         InventoryTransaction = 0x0197,
         InventoryTransactionFinish = 0x0364,
         ItemInfo = 0x0260,
+        Logout = 0x283,
         MarketBoardItemListing = 0x015E,
         MarketBoardItemListingCount = 0x009D,
         MarketBoardItemListingHistory = 0x028C,
