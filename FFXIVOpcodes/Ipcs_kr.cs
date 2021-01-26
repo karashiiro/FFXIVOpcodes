@@ -66,6 +66,7 @@
         InventoryTransaction = 0x019A, // updated v5.3
         InventoryTransactionFinish = 0x039F, // updated v5.3
         ItemInfo = 0x00A6, // updated v5.3
+        Logout = 0x283, // updated v5.3
         MarketBoardItemListing = 0x032C, // updated v5.3
         MarketBoardItemListingCount = 0x0074, // updated v5.3
         MarketBoardItemListingHistory = 0x0102, // updated v5.3
