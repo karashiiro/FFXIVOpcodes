@@ -277,12 +277,14 @@
         //MahjongEndRoundDraw = 0x02C5, // self explanatory
         //MahjongEndGame = 0x02C6, // finished oorasu(all-last) round; shows a result screen.
 
-        AirshipStatusList = 0x035C, // updated 5.41
         AirshipExplorationResult = 0x0320, // updated 5.41
         AirshipStatus = 0x007D, // added 5.41
+        AirshipStatusList = 0x035C, // updated 5.41
+        AirshipTimers = 0x01D6, // added 5.41
+        SubmarineExplorationResult = 0x02BB, // updated 5.41
         SubmarineProgressionStatus = 0x03B4, // added 5.41
         SubmarineStatusList = 0x02F0, // updated 5.41
-        SubmarineExplorationResult = 0x02BB, // updated 5.41
+        SubmarineTimers = 0x03DA, // added 5.41
     };
 
     /**
