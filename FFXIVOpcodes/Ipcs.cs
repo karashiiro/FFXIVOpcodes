@@ -112,7 +112,7 @@
 
         //CharaFreeCompanyTag = 0x8f, // updated 5.41
         //FreeCompanyBoardMsg = 0x100, // updated 5.41
-        //FreeCompanyInfo = 0x91, // updated 5.41
+        FreeCompanyInfo = 0x03BA, // updated 5.41
         //ExamineFreeCompanyInfo = 0x292, // updated 5.41
 
         //FreeCompanyUpdateShortMessage = 0x0157, // added 5.0
