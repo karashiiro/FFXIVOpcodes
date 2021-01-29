@@ -20,16 +20,16 @@
           "opcode": 632
         },
         {
+          "name": "ActorCast",
+          "opcode": 580
+        },
+        {
           "name": "ActorMove",
           "opcode": 794
         },
         {
           "name": "ActorControlSelf",
           "opcode": 931
-        },
-        {
-          "name": "ActorCast",
-          "opcode": 580
         },
         {
           "name": "AirshipTimers",
@@ -60,14 +60,6 @@
           "opcode": 610
         },
         {
-          "name": "EventPlay64",
-          "opcode": 564
-        },
-        {
-          "name": "EventPlay4",
-          "opcode": 628
-        },
-        {
           "name": "Examine",
           "opcode": 539
         },
@@ -76,16 +68,28 @@
           "opcode": 938
         },
         {
+          "name": "EventPlay128",
+          "opcode": 253
+        },
+        {
+          "name": "EventPlay64",
+          "opcode": 564
+        },
+        {
+          "name": "EventPlay4",
+          "opcode": 628
+        },
+        {
           "name": "EventPlay32",
           "opcode": 487
         },
         {
-          "name": "EffectResult",
-          "opcode": 287
-        },
-        {
           "name": "ExamineSearchInfo",
           "opcode": 472
+        },
+        {
+          "name": "EventStart",
+          "opcode": 309
         },
         {
           "name": "EventPlay255",
@@ -108,12 +112,12 @@
           "opcode": 319
         },
         {
-          "name": "EventStart",
-          "opcode": 309
+          "name": "EffectResult",
+          "opcode": 287
         },
         {
-          "name": "EventPlay128",
-          "opcode": 253
+          "name": "FreeCompanyInfo",
+          "opcode": 954
         },
         {
           "name": "HousingWardInfo",
@@ -132,24 +136,24 @@
           "opcode": 897
         },
         {
-          "name": "InventoryActionAck",
-          "opcode": 671
-        },
-        {
           "name": "InventoryTransaction",
           "opcode": 903
+        },
+        {
+          "name": "InventoryActionAck",
+          "opcode": 671
         },
         {
           "name": "Logout",
           "opcode": 514
         },
         {
-          "name": "MarketBoardItemListingCount",
-          "opcode": 573
-        },
-        {
           "name": "MarketBoardItemListingHistory",
           "opcode": 797
+        },
+        {
+          "name": "MarketBoardItemListing",
+          "opcode": 691
         },
         {
           "name": "MarketBoardSearchResult",
@@ -160,8 +164,8 @@
           "opcode": 608
         },
         {
-          "name": "MarketBoardItemListing",
-          "opcode": 691
+          "name": "MarketBoardItemListingCount",
+          "opcode": 573
         },
         {
           "name": "NpcSpawn",
@@ -200,8 +204,8 @@
           "opcode": 310
         },
         {
-          "name": "SubmarineExplorationResult",
-          "opcode": 699
+          "name": "SubmarineProgressionStatus",
+          "opcode": 948
         },
         {
           "name": "SomeDirectorUnk4",
@@ -212,12 +216,12 @@
           "opcode": 986
         },
         {
-          "name": "SubmarineProgressionStatus",
-          "opcode": 948
-        },
-        {
           "name": "SubmarineStatusList",
           "opcode": 752
+        },
+        {
+          "name": "SubmarineExplorationResult",
+          "opcode": 699
         },
         {
           "name": "StatusEffectList",
