@@ -4,64 +4,84 @@
     "lists": {
       "ServerZoneIpcType": [
         {
-          "name": "ActorCast",
-          "opcode": 690
-        },
-        {
-          "name": "ActorMove",
-          "opcode": 937
-        },
-        {
           "name": "ActorControlTarget",
           "opcode": 666
         },
         {
-          "name": "ActorControl",
-          "opcode": 240
+          "name": "AddStatusEffect",
+          "opcode": 619
         },
         {
           "name": "ActorSetPos",
           "opcode": 643
         },
         {
-          "name": "ActorGauge",
-          "opcode": 632
+          "name": "ActorCast",
+          "opcode": 690
         },
         {
           "name": "ActorControlSelf",
           "opcode": 848
         },
         {
-          "name": "CurrencyCrystalInfo",
-          "opcode": 500
+          "name": "ActorGauge",
+          "opcode": 632
         },
         {
-          "name": "CFPreferredRole",
-          "opcode": 524
+          "name": "ActorControl",
+          "opcode": 240
         },
         {
-          "name": "ClientTrigger",
-          "opcode": 847
-        },
-        {
-          "name": "ChatHandler",
-          "opcode": 754
+          "name": "ActorMove",
+          "opcode": 937
         },
         {
           "name": "CFNotify",
           "opcode": 332
         },
         {
-          "name": "EffectResult",
-          "opcode": 619
+          "name": "ClientTrigger",
+          "opcode": 847
         },
         {
-          "name": "ExamineSearchInfo",
-          "opcode": 715
+          "name": "CFPreferredRole",
+          "opcode": 524
+        },
+        {
+          "name": "CurrencyCrystalInfo",
+          "opcode": 500
+        },
+        {
+          "name": "DesynthResult",
+          "opcode": 843
+        },
+        {
+          "name": "EventStart",
+          "opcode": 620
         },
         {
           "name": "EventPlay8",
           "opcode": 946
+        },
+        {
+          "name": "EventPlay64",
+          "opcode": 610
+        },
+        {
+          "name": "Examine",
+          "opcode": 840
+        },
+        {
+          "name": "Effect",
+          "opcode": 543
+        },
+        {
+          "name": "EventPlay32",
+          "opcode": 285
+        },
+        {
+          "name": "EventPlay4",
+          "opcode": 719
         },
         {
           "name": "EventPlay",
@@ -72,60 +92,48 @@
           "opcode": 689
         },
         {
-          "name": "Examine",
-          "opcode": 840
-        },
-        {
-          "name": "EventPlay4",
-          "opcode": 719
-        },
-        {
           "name": "EventPlay255",
           "opcode": 895
-        },
-        {
-          "name": "Effect",
-          "opcode": 543
-        },
-        {
-          "name": "EventPlay128",
-          "opcode": 792
-        },
-        {
-          "name": "EventPlay64",
-          "opcode": 610
         },
         {
           "name": "EventPlay16",
           "opcode": 430
         },
         {
-          "name": "EventStart",
-          "opcode": 620
+          "name": "ExamineSearchInfo",
+          "opcode": 715
         },
         {
-          "name": "EventPlay32",
-          "opcode": 285
+          "name": "EffectResult",
+          "opcode": 796
         },
         {
-          "name": "InventoryTransactionFinish",
-          "opcode": 877
-        },
-        {
-          "name": "InitZone",
-          "opcode": 454
+          "name": "EventPlay128",
+          "opcode": 792
         },
         {
           "name": "InventoryActionAck",
           "opcode": 517
         },
         {
+          "name": "InventoryTransaction",
+          "opcode": 462
+        },
+        {
+          "name": "InitZone",
+          "opcode": 454
+        },
+        {
           "name": "ItemInfo",
           "opcode": 344
         },
         {
-          "name": "InventoryTransaction",
-          "opcode": 462
+          "name": "InventoryTransactionFinish",
+          "opcode": 877
+        },
+        {
+          "name": "MarketBoardItemListingCount",
+          "opcode": 625
         },
         {
           "name": "MarketBoardItemListingHistory",
@@ -138,10 +146,6 @@
         {
           "name": "MarketBoardItemListing",
           "opcode": 627
-        },
-        {
-          "name": "MarketBoardItemListingCount",
-          "opcode": 625
         },
         {
           "name": "NpcSpawn",

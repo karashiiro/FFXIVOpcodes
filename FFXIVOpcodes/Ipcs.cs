@@ -43,7 +43,6 @@
         ActorControl = 0x00F0, //updated 5.45
         ActorControlSelf = 0x0350, //updated 5.45
         ActorControlTarget = 0x029A, //updated 5.45
-        ChatHandler = 0x02F2, //updated 5.45
         Playtime = 0x033A, //updated 5.45
         SetSearchInfoHandler = 0x01EF, //updated 5.45
         UpdateSearchInfo = 0x012F, //updated 5.45
@@ -64,7 +63,7 @@
         ActorCast = 0x02B2, //updated 5.45
         CurrencyCrystalInfo = 0x01F4, //updated 5.45
         InitZone = 0x01C6, //updated 5.45
-        EffectResult = 0x026B, //updated 5.45
+        EffectResult = 0x031C, //updated 5.45
         EventStart = 0x026C, //updated 5.45
         EventFinish = 0x02B1, //updated 5.45
         SomeDirectorUnk4 = 0x0391, //updated 5.45
@@ -78,9 +77,10 @@
         ActorSetPos = 0x0283, //updated 5.45
         ObjectSpawn = 0x03C8, //updated 5.45
         Effect = 0x021F, //updated 5.45
-        //AddStatusEffect = 0x026B, //updated 5.45
+        AddStatusEffect = 0x026B, //updated 5.45
         StatusEffectList = 0x00C2, //updated 5.45
         ActorGauge = 0x0278, //updated 5.45
+        DesynthResult = 0x034B, //updated 5.45
 
         EventPlay = 0x1D2, // Updated for 5.45
         EventPlay4 = 0x2CF, // Updated for 5.45
