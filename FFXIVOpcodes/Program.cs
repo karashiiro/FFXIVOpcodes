@@ -66,7 +66,18 @@ namespace FFXIVOpcodes
                 {
                     var ipcValues = (ushort[])Enum.GetValues(ipcList);
                     if (ipcValues.Distinct().Count() != ipcValues.Length)
+                    {
+                        Console.WriteLine("##### DUPLICATES");
+                        var duplicates = ipcValues
+                                           .GroupBy(p => p)
+                                           .Where(g => g.Count() > 1)
+                                           .Select(g => $"0x{g.Key:X}");
+                        foreach(var dupe in duplicates)
+                        {
+                            Console.WriteLine(dupe);
+                        }
                         throw new ConstraintException($"{ipcList.Name} contains one or more duplicate values!");
+                    }
                 }
             }
         }
