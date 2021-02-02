@@ -93,6 +93,8 @@
 
         WeatherChange = 0x0240, // updated 5.45
 
+        Logout = 0x0249, // updated 5.45
+
         //HousingWardInfo = 0x0331, // updated 5.41
 
         //AirshipExplorationResult = 0x01A1, // updated 5.41
