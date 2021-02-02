@@ -40,12 +40,12 @@
           "opcode": 332
         },
         {
-          "name": "ClientTrigger",
-          "opcode": 847
-        },
-        {
           "name": "CFPreferredRole",
           "opcode": 524
+        },
+        {
+          "name": "ClientTrigger",
+          "opcode": 847
         },
         {
           "name": "CurrencyCrystalInfo",
@@ -54,10 +54,6 @@
         {
           "name": "DesynthResult",
           "opcode": 843
-        },
-        {
-          "name": "EventStart",
-          "opcode": 620
         },
         {
           "name": "EventPlay8",
@@ -76,16 +72,20 @@
           "opcode": 543
         },
         {
+          "name": "EffectResult",
+          "opcode": 796
+        },
+        {
           "name": "EventPlay32",
           "opcode": 285
         },
         {
-          "name": "EventPlay4",
-          "opcode": 719
-        },
-        {
           "name": "EventPlay",
           "opcode": 466
+        },
+        {
+          "name": "EventStart",
+          "opcode": 620
         },
         {
           "name": "EventFinish",
@@ -104,8 +104,8 @@
           "opcode": 715
         },
         {
-          "name": "EffectResult",
-          "opcode": 796
+          "name": "EventPlay4",
+          "opcode": 719
         },
         {
           "name": "EventPlay128",
@@ -132,8 +132,8 @@
           "opcode": 877
         },
         {
-          "name": "MarketBoardItemListingCount",
-          "opcode": 625
+          "name": "Logout",
+          "opcode": 585
         },
         {
           "name": "MarketBoardItemListingHistory",
@@ -146,6 +146,10 @@
         {
           "name": "MarketBoardItemListing",
           "opcode": 627
+        },
+        {
+          "name": "MarketBoardItemListingCount",
+          "opcode": 625
         },
         {
           "name": "NpcSpawn",
