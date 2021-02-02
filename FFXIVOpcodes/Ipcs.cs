@@ -97,14 +97,16 @@
 
         //HousingWardInfo = 0x0331, // updated 5.41
 
-        //AirshipExplorationResult = 0x01A1, // updated 5.41
-        //AirshipStatus = 0x007D, // added 5.41
-        //AirshipStatusList = 0x014A, // updated 5.41
-        //AirshipTimers = 0x01D6, // added 5.41
-        //SubmarineExplorationResult = 0x034C, // updated 5.41
-        //SubmarineProgressionStatus = 0x03B4, // added 5.41
-        //SubmarineStatusList = 0x03BB, // updated 5.41
-        //SubmarineTimers = 0x03DA, // added 5.41
+        AirshipExplorationResult = 0x035E, // updated 5.45
+        AirshipStatus = 0x0306, // updated 5.45
+        AirshipStatusList = 0x00FA, // updated 5.45
+        AirshipTimers = 0x00A6, // updated 5.45
+        SubmarineExplorationResult = 0x0225, // updated 5.45
+        SubmarineProgressionStatus = 0x0086, // updated 5.45
+        SubmarineStatusList = 0x03BB, // updated 5.45
+        SubmarineTimers = 0x02ED, // updated 5.45
+
+        FreeCompanyInfo = 0x01BA, // updated 5.45
     };
 
     /**
