@@ -1,0 +1,18 @@
+name: Purge jsdeliver cache
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Runs a single command using the runners shell
+      - name: Send purge request
+        run: |
+          curl -X POST https://purge.jsdelivr.net/ \
+          -H 'cache-control: no-cache' \
+          -H 'content-type: application/json' \
+          -d '{ "path": [ "/gh/karashiiro/FFXIVOpcodes/opcodes.min.json", "/gh/karashiiro/FFXIVOpcodes/constants.min.json" ] }'
