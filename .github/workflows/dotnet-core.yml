@@ -31,4 +31,4 @@ jobs:
         git config --global user.email "noreply@example.com"
         git config --global user.name "Automated Data Update"
         git commit -a -m "Generate data stores"
-        git push
+        git push origin master
