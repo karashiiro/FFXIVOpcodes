@@ -12,6 +12,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: master
     - name: Setup Nuget.exe
       uses: NuGet/setup-nuget@v1.0.5
     - name: Install dependencies
@@ -34,6 +36,5 @@ jobs:
       run: |
         git config --global user.email "noreply@example.com"
         git config --global user.name "Automated Data Update"
-        git checkout master
         git commit -a -m "Generate data stores"
-        git push origin master
+        git push
