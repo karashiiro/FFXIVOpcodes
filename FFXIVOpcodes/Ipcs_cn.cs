@@ -25,9 +25,11 @@ namespace FFXIVOpcodes.CN
         AoeEffect24 = 0x0243,
         AoeEffect32 = 0x039F,
         AoeEffect8 = 0x01D4,
+        CEDirector = 0x0144,
         CFNotify = 0x02D0,
         ContainerInfo = 0x01d7,
         CurrencyCrystalInfo = 0x037C,
+        DesynthResult = 0x0087,
         DirectorStart = 0x02f2,
         Effect = 0x02FB,
         EffectResult = 0x0065,
@@ -42,9 +44,10 @@ namespace FFXIVOpcodes.CN
         InventoryTransaction = 0x00A8,
         InventoryTransactionFinish = 0x02F6,
         ItemInfo = 0x031A,
-        MarketBoardHistory = 0x01F3,
-        MarketBoardItemRequestStart = 0x0280,
-        MarketBoardOfferings = 0x0158,
+        Logout = 0x0343,
+        MarketBoardItemListing = 0x0158,
+        MarketBoardItemListingCount = 0x0280,
+        MarketBoardItemListingHistory = 0x01F3,
         MarketBoardSearchResult = 0x0390,
         NpcSpawn = 0x00B3,
         ObjectSpawn = 0x0179,
@@ -63,6 +66,7 @@ namespace FFXIVOpcodes.CN
         UpdateHpMpTp = 0x02B9,
         UpdateInventorySlot = 0x0070,
         UpdateSearchInfo = 0x0121,
+        WardLandInfo = 0x03ad,
     };
 
     enum ClientZoneIpcType : ushort
