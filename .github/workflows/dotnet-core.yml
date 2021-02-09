@@ -22,13 +22,19 @@ jobs:
         dotnet-version: 3.1.301
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    - name: Generate stores
+    - name: Generate opcode store
       run: |
         cd FFXIVOpcodes/bin/Release/netcoreapp3.1/
         ./FFXIVOpcodes.exe
+    - name: Generate constants store
+      run: |
+        cd FFXIVConstants/bin/Release/netcoreapp3.1/
+        ./FFXIVConstants.exe
     - name: Commit new files
       run: |
         git config --global user.email "noreply@example.com"
         git config --global user.name "Automated Data Update"
         git commit -a -m "Generate data stores"
+        git remote
+        git branch
         git push origin master
