@@ -42,6 +42,10 @@
         ActorMove = 0x02E6, // updated v5.3
         ActorSetPos = 0x0164, // updated v5.3
         //AddStatusEffect = 0x0156, // updated v5.3
+        AirshipExplorationResult = 0x0090, // updated v5.3
+        AirshipStatus = 0x02F7, // updated v5.3
+        AirshipStatusList = 0x0333, // updated v5.3
+        AirshipTimers = 0x02DC, // updated v5.3
         AoeEffect16 = 0x03A7, // updated v5.3
         AoeEffect24 = 0x016B, // updated v5.3
         AoeEffect32 = 0x0231, // updated v5.3
@@ -56,10 +60,11 @@
         EffectResult = 0x0156, // updated v5.3
         EventFinish = 0x0147, // updated v5.3
         EventPlay = 0x03B3, // updated v5.3
-        EventPlay4 = 0x0071, // updated v5.3
         EventPlay32 = 0x0154, // updated v5.3
+        EventPlay4 = 0x0071, // updated v5.3
         EventStart = 0x008B, // updated v5.3
         Examine = 0x017B, // updated v5.3
+        ExamineFreeCompanyInfo = 0x01B7, // updated v5.3
         ExamineSearchInfo = 0x01E5, // updated v5.3
         InitZone = 0x0078, // updated v5.3
         InventoryActionAck = 0x01D6, // updated v5.3
@@ -86,6 +91,10 @@
         ServerNotice = 0x01B8, // updated v5.3
         SomeDirectorUnk4 = 0x023E, // updated v5.3
         StatusEffectList = 0x0314, // updated v5.3
+        SubmarineExplorationResult = 0x0097, // updated v5.3
+        SubmarineProgressionStatus = 0x0247, // updated v5.3
+        SubmarineStatusList = 0x034F, // updated v5.3
+        SubmarineTimers = 0x02D7, // updated v5.3
         UpdateClassInfo = 0x00B3, // updated v5.3
         UpdateHpMpTp = 0x02A3, // updated v5.3
         UpdateInventorySlot = 0x0250, // updated v5.3
