@@ -15,4 +15,4 @@ jobs:
           curl -X POST https://purge.jsdelivr.net/ \
           -H 'cache-control: no-cache' \
           -H 'content-type: application/json' \
-          -d '{ "path": [ "/gh/karashiiro/FFXIVOpcodes/opcodes.min.json", "/gh/karashiiro/FFXIVOpcodes/constants.min.json" ] }'
+          -d '{ "path": [ "/gh/karashiiro/FFXIVOpcodes@latest/opcodes.min.json", "/gh/karashiiro/FFXIVOpcodes@latest/constants.min.json" ] }'
