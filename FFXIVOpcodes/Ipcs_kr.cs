@@ -37,7 +37,7 @@
         ActorControl = 0x0347, // updated v5.31
         ActorControlSelf = 0x02FC, // updated v5.31
         ActorControlTarget = 0x0325, // updated v5.31
-        ActorFreeSpawn = 0x0166, // updated v5.31
+        //ActorFreeSpawn = 0x0166, // updated v5.31
         ActorGauge = 0x0192, // updated v5.31
         ActorMove = 0x02DA, // updated v5.31
         ActorSetPos = 0x022B, // updated v5.31
