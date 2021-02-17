@@ -37,7 +37,7 @@
         ActorControl = 0x0347, // updated v5.31
         ActorControlSelf = 0x02FC, // updated v5.31
         ActorControlTarget = 0x0325, // updated v5.31
-        //ActorFreeSpawn = 0x0166, // updated v5.31
+        ActorFreeSpawn = 0x025F, // updated v5.31
         ActorGauge = 0x0192, // updated v5.31
         ActorMove = 0x02DA, // updated v5.31
         ActorSetPos = 0x022B, // updated v5.31
@@ -87,7 +87,7 @@
         Playtime = 0x034A, // updated v5.31
         PrepareZoning = 0x01F2, // updated v5.31
         RetainerInformation = 0x02AC, // updated v5.31
-        //ServerNotice = 0x01B8, // updated v5.3
+        ServerNotice = 0x01EB, // updated v5.31
         SomeDirectorUnk4 = 0x026E, // updated v5.31
         StatusEffectList = 0x012D, // updated v5.31
         SubmarineExplorationResult = 0x0344, // updated v5.31
