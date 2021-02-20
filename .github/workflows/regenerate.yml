@@ -40,8 +40,9 @@ jobs:
         git push
   purge_cache:
     runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
     steps:
-      # Runs a single command using the runners shell
       - name: Send purge request
         run: |
           curl -X POST https://purge.jsdelivr.net/ \
