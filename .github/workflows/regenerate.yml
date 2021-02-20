@@ -8,8 +8,6 @@ on:
 jobs:
   build_and_regenerate:
     runs-on: windows-latest
-    strategy:
-      max-parallel: 1
     steps:
     - uses: actions/checkout@v2
       with:
@@ -38,14 +36,13 @@ jobs:
         git config --global user.name "Automated Data Update"
         git commit -a -m "Generate data stores"
         git push
-  purge_cache:
-    runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 1
-    steps:
-      - name: Send purge request
-        run: |
-          curl -X POST https://purge.jsdelivr.net/ \
-          -H 'cache-control: no-cache' \
-          -H 'content-type: application/json' \
-          -d '{ "path": [ "/gh/karashiiro/FFXIVOpcodes@latest/opcodes.min.json", "/gh/karashiiro/FFXIVOpcodes@latest/constants.min.json" ] }'
+    - name: Purge jsdelivr cache
+      run: |
+        Invoke-RestMethod `
+          -Method 'Post'
+          -Uri https://purge.jsdelivr.net/ `
+          -Headers @{ `
+            "cache-control" = "no-cache"; `
+            "content-type" = "application/json"; `
+          } `
+          -Body "{ "path": [ \"/gh/karashiiro/FFXIVOpcodes@latest/opcodes.min.json\", \"/gh/karashiiro/FFXIVOpcodes@latest/constants.min.json\" ] }"
