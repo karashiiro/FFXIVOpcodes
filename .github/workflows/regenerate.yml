@@ -39,10 +39,10 @@ jobs:
     - name: Purge jsdelivr cache
       run: |
         Invoke-RestMethod `
-          -Method 'Post'
+          -Method 'Post' `
           -Uri https://purge.jsdelivr.net/ `
           -Headers @{ `
             "cache-control" = "no-cache"; `
             "content-type" = "application/json"; `
           } `
-          -Body "{ "path": [ \"/gh/karashiiro/FFXIVOpcodes@latest/opcodes.min.json\", \"/gh/karashiiro/FFXIVOpcodes@latest/constants.min.json\" ] }"
+          -Body '{ "path": [ "/gh/karashiiro/FFXIVOpcodes@latest/opcodes.min.json", "/gh/karashiiro/FFXIVOpcodes@latest/constants.min.json" ] }'
