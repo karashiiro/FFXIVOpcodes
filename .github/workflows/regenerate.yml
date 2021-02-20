@@ -8,6 +8,8 @@ on:
 jobs:
   build_and_regenerate:
     runs-on: windows-latest
+    strategy:
+      max-parallel: 1
     steps:
     - uses: actions/checkout@v2
       with:
