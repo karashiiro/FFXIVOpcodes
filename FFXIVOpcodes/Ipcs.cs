@@ -51,6 +51,7 @@
         MarketBoardItemListingCount = 0x00C0, // updated 5.45 hotfix
         MarketBoardItemListingHistory = 0x01C3, // updated 5.45 hotfix
         MarketBoardItemListing = 0x016B, // updated 5.45 hotfix
+        MarketBoardPurchase = 0x03DF, // updated 5.45 hotfix
         ActorMove = 0x006B, // updated 5.45 hotfix
         ResultDialog = 0x0296, // updated 5.45 hotfix
         RetainerInformation = 0x026B, // updated 5.45 hotfix
@@ -150,6 +151,7 @@
         //MarketBoardRequestItemListingInfo = 0x00A4, // updated 5.45 hotfix
         //MarketBoardRequestItemListings = 0x01A0, // updated 5.45 hotfix
         //MarketBoardSearch = 0x02B8, // updated 5.45 hotfix
+        MarketBoardPurchaseHandler = 0x00BB, //updated 5.45 hotfix
 
         //ReqExamineFcInfo = 0x02A2, // updated 5.45 hotfix
 
