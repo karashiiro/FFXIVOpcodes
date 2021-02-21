@@ -57,13 +57,13 @@
         RetainerInformation = 0x026B, // updated 5.45 hotfix
         NpcSpawn = 0x02C9, // updated 5.45 hotfix
         PlayerSpawn = 0x01AB, // updated 5.45 hotfix
-        //ActorFreeSpawn = 0x019B, // updated 5.45 hotfix
+        ActorFreeSpawn = 0x0185, // updated 5.45 hotfix
         ItemInfo = 0x0175, // updated 5.45 hotfix
         UpdateClassInfo = 0x0179, // updated 5.45 hotfix
         ActorCast = 0x034C, // updated 5.45 hotfix
         CurrencyCrystalInfo = 0x0363, // updated 5.45 hotfix
         InitZone = 0x0233, // updated 5.45 hotfix
-        EffectResult = 0x02B8, // updated 5.45 hotfix
+        EffectResult = 0x01D7, // updated 5.45 hotfix
         EventStart = 0x02DE, // updated 5.45 hotfix
         EventFinish = 0x01A3, // updated 5.45 hotfix
         SomeDirectorUnk4 = 0x0071, // updated 5.45 hotfix
@@ -80,7 +80,7 @@
         PlaceFieldMarkerPreset = 0x01D3, // updated 5.45 hotfix
         ObjectSpawn = 0x0336, // updated 5.45 hotfix
         Effect = 0x027F, // updated 5.45 hotfix
-        AddStatusEffect = 0x01D7, // updated 5.45 hotfix
+        //AddStatusEffect = 0x01D7, // updated 5.45 hotfix
         StatusEffectList = 0x0243, // updated 5.45 hotfix
         ActorGauge = 0x018E, // updated 5.45 hotfix
         DesynthResult = 0x0323, // updated 5.45 hotfix
@@ -117,36 +117,36 @@
     */
     enum ClientZoneIpcType : ushort
     {
-        //PingHandler = 0x006F, // updated 5.45 hotfix
-        //InitHandler = 0x039A, // updated 5.45 hotfix
+        PingHandler = 0x0183, // updated 5.45 hotfix
+        InitHandler = 0x01EA, // updated 5.45 hotfix
 
-        //FinishLoadingHandler = 0x01DD, // updated 5.45 hotfix
+        FinishLoadingHandler = 0x023F, // updated 5.45 hotfix
 
         //CFCommenceHandler = 0x01A0, // updated 5.45 hotfix
 
         //CFRegisterDuty = 0x0398, // updated 5.45 hotfix
         //CFRegisterRoulette = 0x0288, // updated 5.45 hotfix
         //PlayTimeHandler = 0x018E, // updated 5.45 hotfix
-        //LogoutHandler = 0x007C, // updated 5.45 hotfix
+        LogoutHandler = 0x0312, // updated 5.45 hotfix
         //CancelLogout = 0x02B1, // updated 5.45 hotfix
 
         //CFDutyInfoHandler = 0x01A0, // updated 5.45 hotfix
 
-        //SocialReqSendHandler = 0x00EE, // updated 5.45 hotfix
+        SocialReqSendHandler = 0x0288, // updated 5.45 hotfix
         //CreateCrossWorldLS = 0x0174, // updated 5.45 hotfix
 
         ChatHandler = 0x00A4, // updated 5.45 hotfix
 
-        //SocialListHandler = 0x023C, // updated 5.45 hotfix
+        SocialListHandler = 0x02B0, // updated 5.45 hotfix
         SetSearchInfoHandler = 0x0111, // updated 5.45 hotfix
-        //ReqSearchInfoHandler = 0x023C, // updated 5.45 hotfix
+        ReqSearchInfoHandler = 0x03AC, // updated 5.45 hotfix
         //ReqExamineSearchCommentHandler = 0x0335, // updated 5.45 hotfix
 
         //ReqRemovePlayerFromBlacklist = 0x0112, // updated 5.45 hotfix
-        //BlackListHandler = 0x0101, // updated 5.45 hotfix
+        BlackListHandler = 0x02CD, // updated 5.45 hotfix
         //PlayerSearchHandler = 0x03E0, // updated 5.45 hotfix
 
-        //LinkshellListHandler = 0x0165, // updated 5.45 hotfix
+        LinkshellListHandler = 0x0258, // updated 5.45 hotfix
 
         //MarketBoardRequestItemListingInfo = 0x00A4, // updated 5.45 hotfix
         //MarketBoardRequestItemListings = 0x01A0, // updated 5.45 hotfix
@@ -166,16 +166,16 @@
         //ReqCountdownInitiate = 0x0121, // updated 5.45 hotfix
         //ReqCountdownCancel = 0x009E, // updated 5.45 hotfix
 
-        //ZoneLineHandler = 0x0207, // updated 5.45 hotfix
+        ZoneLineHandler = 0x00BA, // updated 5.45 hotfix
         ClientTrigger = 0x0124, // updated 5.45 hotfix
         //DiscoveryHandler = 0x0288, // updated 5.45 hotfix
 
 
         PlaceFieldMarker = 0x0392, // updated 5.45 hotfix
         PlaceFieldMarkerPreset = 0x01D3, // updated 5.45 hotfix
-        //SkillHandler = 0x031E, // updated 5.45 hotfix
-        //GMCommand1 = 0x0381, // updated 5.45 hotfix
-        //GMCommand2 = 0x00EE, // updated 5.45 hotfix
+        SkillHandler = 0x0388, // updated 5.45 hotfix
+        GMCommand1 = 0x01E0, // updated 5.45 hotfix
+        GMCommand2 = 0x0114, // updated 5.45 hotfix
         //AoESkillHandler = 0x030B, // updated 5.45 hotfix
 
         
@@ -188,19 +188,19 @@
         //ReqPlaceHousingItem = 0x01C6, // updated 5.45 hotfix
         //BuildPresetHandler = 0x01D8, // updated 5.45 hotfix
 
-        //TalkEventHandler = 0x0313, // updated 5.45 hotfix
-        //EmoteEventHandler = 0x00B8, // updated 5.45 hotfix
-        //WithinRangeEventHandler = 0x017C, // updated 5.45 hotfix
-        //OutOfRangeEventHandler = 0x02D8, // updated 5.45 hotfix
-        //EnterTeriEventHandler = 0x0347, // updated 5.45 hotfix
+        TalkEventHandler = 0x00C2, // updated 5.45 hotfix
+        EmoteEventHandler = 0x03D5, // updated 5.45 hotfix
+        WithinRangeEventHandler = 0x0171, // updated 5.45 hotfix
+        OutOfRangeEventHandler = 0x019B, // updated 5.45 hotfix
+        EnterTeriEventHandler = 0x027F, // updated 5.45 hotfix
 
-        //ReturnEventHandler = 0x0077, // updated 5.45 hotfix
-        //TradeReturnEventHandler = 0x03DD, // updated 5.45 hotfix
+        ReturnEventHandler = 0x02AD, // updated 5.45 hotfix
+        TradeReturnEventHandler = 0x00A7, // updated 5.45 hotfix
 
         //LinkshellEventHandler = 0x0221, // updated 5.45 hotfix
         //LinkshellEventHandler1 = 0x0221, // updated 5.45 hotfix
 
-        //ReqEquipDisplayFlagsChange = 0x0204, // updated 5.45 hotfix
+        ReqEquipDisplayFlagsChange = 0x03B0, // updated 5.45 hotfix
 
         //LandRenameHandler = 0xF177, // updated 5.0
         //HousingUpdateHouseGreeting = 0x0136, // updated 5.45 hotfix

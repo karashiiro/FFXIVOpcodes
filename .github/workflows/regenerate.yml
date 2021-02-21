@@ -1,18 +1,13 @@
-name: .NET Core
+name: Regenerate resource files
 
 on:
-  release:
-    types:
-      - published
   push:
-    branches:
-      - master
+    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
-  build:
-
+  build_and_regenerate:
     runs-on: windows-latest
-
     steps:
     - uses: actions/checkout@v2
       with:
@@ -41,3 +36,14 @@ jobs:
         git config --global user.name "Automated Data Update"
         git commit -a -m "Generate data stores"
         git push
+    - name: Purge jsdelivr cache
+      run: |
+        Invoke-RestMethod `
+          -Method 'Post' `
+          -Uri https://purge.jsdelivr.net/ `
+          -Headers @{ `
+            "cache-control" = "no-cache"; `
+            "content-type" = "application/json"; `
+          } `
+          -TimeoutSec 10 `
+          -Body '{ "path": [ "/gh/karashiiro/FFXIVOpcodes@latest/opcodes.min.json", "/gh/karashiiro/FFXIVOpcodes@latest/constants.min.json" ] }'
