@@ -74,6 +74,7 @@
         MarketBoardItemListing = 0x0124, // updated v5.31
         MarketBoardItemListingCount = 0x00B3, // updated v5.31
         MarketBoardItemListingHistory = 0x021A, // updated v5.31
+        MarketBoardPurchase = 0x0240, // updated v5.31
         MarketBoardSearchResult = 0x0207, // updated v5.31
         MarketTaxRates = 0x00BF, // updated v5.31
         MiniCactpotInit = 0x020C, // updated v5.31
@@ -108,6 +109,8 @@
         ChatHandler = 0x0287, // updated v5.31
         ClientTrigger = 0x0187, // updated v5.31
         InventoryModifyHandler = 0x00CA, // updated v5.31 (Base offset: 0x00D1)
+        LogoutHandler = 0x022A, // updated v5.31
+        MarketBoardPurchaseHandler = 0x019D, // updated v5.31
         SetSearchInfoHandler = 0x02EA, // updated v5.31
         UpdatePositionHandler = 0x01B7, // updated v5.31
         UpdatePositionInstance = 0x016D, // updated v5.31
