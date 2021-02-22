@@ -109,6 +109,7 @@
         ChatHandler = 0x0287, // updated v5.31
         ClientTrigger = 0x0187, // updated v5.31
         InventoryModifyHandler = 0x00CA, // updated v5.31 (Base offset: 0x00D1)
+        LogoutHandler = 0x022A, // updated v5.31
         MarketBoardPurchaseHandler = 0x019D, // updated v5.31
         SetSearchInfoHandler = 0x02EA, // updated v5.31
         UpdatePositionHandler = 0x01B7, // updated v5.31
