@@ -804,10 +804,6 @@
           "opcode": 102
         },
         {
-          "name": "ExamineFreeCompanyInfo",
-          "opcode": 256
-        },
-        {
           "name": "Examine",
           "opcode": 381
         },
@@ -820,16 +816,20 @@
           "opcode": 337
         },
         {
+          "name": "ExamineFreeCompanyInfo",
+          "opcode": 256
+        },
+        {
           "name": "ItemInfo",
           "opcode": 908
         },
         {
-          "name": "InitZone",
-          "opcode": 166
-        },
-        {
           "name": "InventoryTransaction",
           "opcode": 772
+        },
+        {
+          "name": "InitZone",
+          "opcode": 166
         },
         {
           "name": "InventoryTransactionFinish",
@@ -848,8 +848,20 @@
           "opcode": 292
         },
         {
+          "name": "MarketBoardPurchase",
+          "opcode": 576
+        },
+        {
           "name": "MarketBoardItemListingHistory",
           "opcode": 538
+        },
+        {
+          "name": "MiniCactpotInit",
+          "opcode": 524
+        },
+        {
+          "name": "MarketBoardSearchResult",
+          "opcode": 519
         },
         {
           "name": "MarketTaxRates",
@@ -860,14 +872,6 @@
           "opcode": 179
         },
         {
-          "name": "MarketBoardSearchResult",
-          "opcode": 519
-        },
-        {
-          "name": "MiniCactpotInit",
-          "opcode": 524
-        },
-        {
           "name": "NpcSpawn",
           "opcode": 724
         },
@@ -876,20 +880,12 @@
           "opcode": 440
         },
         {
-          "name": "PlaceFieldMarkerPreset",
-          "opcode": 284
+          "name": "PlayerStats",
+          "opcode": 835
         },
         {
           "name": "Playtime",
           "opcode": 842
-        },
-        {
-          "name": "PrepareZoning",
-          "opcode": 498
-        },
-        {
-          "name": "PlayerStats",
-          "opcode": 835
         },
         {
           "name": "PlaceFieldMarker",
@@ -900,32 +896,40 @@
           "opcode": 639
         },
         {
+          "name": "PlaceFieldMarkerPreset",
+          "opcode": 284
+        },
+        {
           "name": "PlayerSetup",
           "opcode": 304
+        },
+        {
+          "name": "PrepareZoning",
+          "opcode": 498
         },
         {
           "name": "RetainerInformation",
           "opcode": 684
         },
         {
-          "name": "SubmarineProgressionStatus",
-          "opcode": 187
+          "name": "SubmarineTimers",
+          "opcode": 668
         },
         {
           "name": "SomeDirectorUnk4",
           "opcode": 622
         },
         {
-          "name": "SubmarineExplorationResult",
-          "opcode": 836
-        },
-        {
-          "name": "SubmarineTimers",
-          "opcode": 668
+          "name": "SubmarineProgressionStatus",
+          "opcode": 187
         },
         {
           "name": "StatusEffectList",
           "opcode": 301
+        },
+        {
+          "name": "SubmarineExplorationResult",
+          "opcode": 836
         },
         {
           "name": "SubmarineStatusList",
@@ -936,8 +940,8 @@
           "opcode": 491
         },
         {
-          "name": "UpdateSearchInfo",
-          "opcode": 531
+          "name": "UpdateHpMpTp",
+          "opcode": 358
         },
         {
           "name": "UpdateInventorySlot",
@@ -948,8 +952,8 @@
           "opcode": 132
         },
         {
-          "name": "UpdateHpMpTp",
-          "opcode": 358
+          "name": "UpdateSearchInfo",
+          "opcode": 531
         },
         {
           "name": "WeatherChange",
@@ -968,6 +972,14 @@
         {
           "name": "InventoryModifyHandler",
           "opcode": 202
+        },
+        {
+          "name": "LogoutHandler",
+          "opcode": 554
+        },
+        {
+          "name": "MarketBoardPurchaseHandler",
+          "opcode": 413
         },
         {
           "name": "SetSearchInfoHandler",
