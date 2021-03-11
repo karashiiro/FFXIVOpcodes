@@ -65,6 +65,7 @@
         Examine = 0x017D, // updated v5.31
         ExamineFreeCompanyInfo = 0x0100, // updated v5.31
         ExamineSearchInfo = 0x0272, // updated v5.31
+        FreeCompanyInfo = 0x01BE, // updated v5.31
         InitZone = 0x00A6, // updated v5.31
         InventoryActionAck = 0x023C, // updated v5.31
         InventoryTransaction = 0x0304, // updated v5.31
