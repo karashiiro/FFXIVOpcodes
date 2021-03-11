@@ -856,32 +856,36 @@
           "opcode": 102
         },
         {
-          "name": "Examine",
-          "opcode": 381
+          "name": "ExamineFreeCompanyInfo",
+          "opcode": 256
         },
         {
-          "name": "EventStart",
-          "opcode": 386
+          "name": "Examine",
+          "opcode": 381
         },
         {
           "name": "EffectResult",
           "opcode": 337
         },
         {
-          "name": "ExamineFreeCompanyInfo",
-          "opcode": 256
+          "name": "EventStart",
+          "opcode": 386
+        },
+        {
+          "name": "FreeCompanyInfo",
+          "opcode": 446
         },
         {
           "name": "ItemInfo",
           "opcode": 908
         },
         {
-          "name": "InventoryTransaction",
-          "opcode": 772
-        },
-        {
           "name": "InitZone",
           "opcode": 166
+        },
+        {
+          "name": "InventoryTransaction",
+          "opcode": 772
         },
         {
           "name": "InventoryTransactionFinish",
@@ -896,32 +900,32 @@
           "opcode": 615
         },
         {
-          "name": "MarketBoardItemListing",
-          "opcode": 292
-        },
-        {
-          "name": "MarketBoardPurchase",
-          "opcode": 576
-        },
-        {
-          "name": "MarketBoardItemListingHistory",
-          "opcode": 538
-        },
-        {
-          "name": "MiniCactpotInit",
-          "opcode": 524
-        },
-        {
-          "name": "MarketBoardSearchResult",
-          "opcode": 519
+          "name": "MarketBoardItemListingCount",
+          "opcode": 179
         },
         {
           "name": "MarketTaxRates",
           "opcode": 191
         },
         {
-          "name": "MarketBoardItemListingCount",
-          "opcode": 179
+          "name": "MarketBoardItemListing",
+          "opcode": 292
+        },
+        {
+          "name": "MiniCactpotInit",
+          "opcode": 524
+        },
+        {
+          "name": "MarketBoardPurchase",
+          "opcode": 576
+        },
+        {
+          "name": "MarketBoardSearchResult",
+          "opcode": 519
+        },
+        {
+          "name": "MarketBoardItemListingHistory",
+          "opcode": 538
         },
         {
           "name": "NpcSpawn",
@@ -932,20 +936,24 @@
           "opcode": 440
         },
         {
-          "name": "PlayerStats",
-          "opcode": 835
+          "name": "PlayerSpawn",
+          "opcode": 639
         },
         {
           "name": "Playtime",
           "opcode": 842
         },
         {
-          "name": "PlaceFieldMarker",
-          "opcode": 192
+          "name": "PrepareZoning",
+          "opcode": 498
         },
         {
-          "name": "PlayerSpawn",
-          "opcode": 639
+          "name": "PlayerStats",
+          "opcode": 835
+        },
+        {
+          "name": "PlaceFieldMarker",
+          "opcode": 192
         },
         {
           "name": "PlaceFieldMarkerPreset",
@@ -956,24 +964,8 @@
           "opcode": 304
         },
         {
-          "name": "PrepareZoning",
-          "opcode": 498
-        },
-        {
           "name": "RetainerInformation",
           "opcode": 684
-        },
-        {
-          "name": "SubmarineTimers",
-          "opcode": 668
-        },
-        {
-          "name": "SomeDirectorUnk4",
-          "opcode": 622
-        },
-        {
-          "name": "SubmarineProgressionStatus",
-          "opcode": 187
         },
         {
           "name": "StatusEffectList",
@@ -984,12 +976,28 @@
           "opcode": 836
         },
         {
+          "name": "SubmarineTimers",
+          "opcode": 668
+        },
+        {
+          "name": "SomeDirectorUnk4",
+          "opcode": 622
+        },
+        {
           "name": "SubmarineStatusList",
           "opcode": 881
         },
         {
           "name": "ServerNotice",
           "opcode": 491
+        },
+        {
+          "name": "SubmarineProgressionStatus",
+          "opcode": 187
+        },
+        {
+          "name": "UpdateSearchInfo",
+          "opcode": 531
         },
         {
           "name": "UpdateHpMpTp",
@@ -1002,10 +1010,6 @@
         {
           "name": "UpdateClassInfo",
           "opcode": 132
-        },
-        {
-          "name": "UpdateSearchInfo",
-          "opcode": 531
         },
         {
           "name": "WeatherChange",
