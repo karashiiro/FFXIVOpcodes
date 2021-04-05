@@ -58,6 +58,7 @@
         NpcSpawn = 0x02C9, // updated 5.45 hotfix
         PlayerSpawn = 0x01AB, // updated 5.45 hotfix
         ActorFreeSpawn = 0x0185, // updated 5.45 hotfix
+        ContainerInfo = 0x193, // updated 5.45 hotfix
         ItemInfo = 0x0175, // updated 5.45 hotfix
         UpdateClassInfo = 0x0179, // updated 5.45 hotfix
         ActorCast = 0x034C, // updated 5.45 hotfix

@@ -40,6 +40,10 @@
           "opcode": 518
         },
         {
+          "name": "AirshipStatusList",
+          "opcode": 913
+        },
+        {
           "name": "ActorSetPos",
           "opcode": 198
         },
@@ -48,8 +52,12 @@
           "opcode": 194
         },
         {
-          "name": "AirshipStatusList",
-          "opcode": 913
+          "name": "CFNotify",
+          "opcode": 622
+        },
+        {
+          "name": "ContainerInfo",
+          "opcode": 403
         },
         {
           "name": "CFPreferredRole",
@@ -64,48 +72,44 @@
           "opcode": 867
         },
         {
-          "name": "CFNotify",
-          "opcode": 622
-        },
-        {
           "name": "DesynthResult",
           "opcode": 803
-        },
-        {
-          "name": "EventPlay32",
-          "opcode": 949
-        },
-        {
-          "name": "Examine",
-          "opcode": 609
-        },
-        {
-          "name": "EventPlay",
-          "opcode": 630
-        },
-        {
-          "name": "EventPlay4",
-          "opcode": 653
-        },
-        {
-          "name": "EventPlay64",
-          "opcode": 926
-        },
-        {
-          "name": "ExamineSearchInfo",
-          "opcode": 863
-        },
-        {
-          "name": "EventStart",
-          "opcode": 734
         },
         {
           "name": "EventPlay128",
           "opcode": 756
         },
         {
+          "name": "EventStart",
+          "opcode": 734
+        },
+        {
+          "name": "EventPlay4",
+          "opcode": 653
+        },
+        {
+          "name": "ExamineSearchInfo",
+          "opcode": 863
+        },
+        {
+          "name": "EventPlay64",
+          "opcode": 926
+        },
+        {
           "name": "Effect",
           "opcode": 639
+        },
+        {
+          "name": "EventPlay",
+          "opcode": 630
+        },
+        {
+          "name": "Examine",
+          "opcode": 609
+        },
+        {
+          "name": "EventPlay32",
+          "opcode": 949
         },
         {
           "name": "EventPlay8",
