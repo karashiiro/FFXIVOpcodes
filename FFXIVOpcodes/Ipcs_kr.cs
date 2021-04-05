@@ -53,6 +53,7 @@
         //BossStatusEffectList = 0x0292, // updated 5.25
         CFNotify = 0x0088,// updated v5.35
         CFPreferredRole = 0x00EF,// updated v5.35
+        ContainerInfo = 0x021C,// updated v5.35
         CurrencyCrystalInfo = 0x0069,// updated v5.35
         DesynthResult = 0x00D4, // updated v5.35
         Effect = 0x02D0,// updated v5.35
