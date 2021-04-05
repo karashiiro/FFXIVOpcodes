@@ -1,4 +1,4 @@
-﻿namespace FFXIVOpcodes.Global
+namespace FFXIVOpcodes.Global
 {
     ////////////////////////////////////////////////////////////////////////////////
     /// Lobby Connection IPC Codes
@@ -95,11 +95,11 @@
         EventPlay128 = 0x2F4, // updated 5.45 hotfix
         EventPlay255 = 0x9D, // updated 5.45 hotfix
 
-        WeatherChange = 0x02A2, // updated 5.45 hotfix
+        WeatherChange = 0x0167, // updated 5.45 hotfix
 
         Logout = 0x12A, // updated 5.45 hotfix
 
-        //HousingWardInfo = 0x015E, // updated 5.45 hotfix
+        HousingWardInfo = 0x015E, // updated 5.45 hotfix
 
         AirshipExplorationResult = 0x0131, // updated 5.45 hotfix
         AirshipStatus = 0x0253, // updated 5.45 hotfix
@@ -125,11 +125,11 @@
 
         //CFCommenceHandler = 0x01A0, // updated 5.45 hotfix
 
-        //CFRegisterDuty = 0x0398, // updated 5.45 hotfix
-        //CFRegisterRoulette = 0x0288, // updated 5.45 hotfix
-        //PlayTimeHandler = 0x018E, // updated 5.45 hotfix
+        CFRegisterDuty = 0x033C, // updated 5.45 hotfix
+        CFRegisterRoulette = 0x0121, // updated 5.45 hotfix
+        PlayTimeHandler = 0x0096, // updated 5.45 hotfix
         LogoutHandler = 0x0312, // updated 5.45 hotfix
-        //CancelLogout = 0x02B1, // updated 5.45 hotfix
+        CancelLogout = 0x0307, // updated 5.45 hotfix
 
         //CFDutyInfoHandler = 0x01A0, // updated 5.45 hotfix
 
@@ -177,17 +177,17 @@
         SkillHandler = 0x0388, // updated 5.45 hotfix
         GMCommand1 = 0x01E0, // updated 5.45 hotfix
         GMCommand2 = 0x0114, // updated 5.45 hotfix
-        //AoESkillHandler = 0x030B, // updated 5.45 hotfix
+        AoESkillHandler = 0x03A0, // updated 5.45 hotfix
 
         
         UpdatePositionHandler = 0x031A, // updated 5.45 hotfix
 
         InventoryModifyHandler = 0x0110, // updated 5.45 hotfix (Base offset: 0x0117)
 
-        //InventoryEquipRecommendedItems = 0x0398, // updated 5.45 hotfix
+        InventoryEquipRecommendedItems = 0x0186, // updated 5.45 hotfix
 
-        //ReqPlaceHousingItem = 0x01C6, // updated 5.45 hotfix
-        //BuildPresetHandler = 0x01D8, // updated 5.45 hotfix
+        ReqPlaceHousingItem = 0x0360, // updated 5.45 hotfix
+        BuildPresetHandler = 0x01D7, // updated 5.45 hotfix
 
         TalkEventHandler = 0x00C2, // updated 5.45 hotfix
         EmoteEventHandler = 0x03D5, // updated 5.45 hotfix
@@ -203,11 +203,11 @@
 
         ReqEquipDisplayFlagsChange = 0x03B0, // updated 5.45 hotfix
 
-        //LandRenameHandler = 0xF177, // updated 5.0
-        //HousingUpdateHouseGreeting = 0x0136, // updated 5.45 hotfix
-        //HousingUpdateObjectPosition = 0x0151, // updated 5.45 hotfix
+        LandRenameHandler = 0x0187, // updated 5.45 hotfix
+        HousingUpdateHouseGreeting = 0x0367, // updated 5.45 hotfix
+        HousingUpdateObjectPosition = 0x0265, // updated 5.45 hotfix
 
-        //SetSharedEstateSettings = 0x035D, // updated 5.45 hotfix
+        SetSharedEstateSettings = 0x0146, // updated 5.45 hotfix
 
         UpdatePositionInstance = 0x034E, // updated 5.45 hotfix
 
