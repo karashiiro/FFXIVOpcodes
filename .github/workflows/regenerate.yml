@@ -38,7 +38,12 @@ jobs:
         git push
     - name: Purge jsdelivr cache
       run: |
-          curl -X POST https://purge.jsdelivr.net/ \
-          -H 'cache-control: no-cache' \
-          -H 'content-type: application/json' \
-          -d '{ "path": [ "/gh/karashiiro/FFXIVOpcodes@latest/opcodes.min.json", "/gh/karashiiro/FFXIVOpcodes@latest/constants.min.json" ] }'
+        Invoke-RestMethod `
+          -Method 'Post' `
+          -Uri https://purge.jsdelivr.net/ `
+          -Headers @{ `
+            "cache-control" = "no-cache"; `
+            "content-type" = "application/json"; `
+          } `
+          -TimeoutSec 10 `
+          -Body '{ "path": [ "/gh/karashiiro/FFXIVOpcodes@latest/opcodes.min.json", "/gh/karashiiro/FFXIVOpcodes@latest/constants.min.json" ] }'
