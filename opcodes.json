@@ -40,6 +40,10 @@
           "opcode": 117
         },
         {
+          "name": "CFPreferredRole",
+          "opcode": 348
+        },
+        {
           "name": "CFNotify",
           "opcode": 372
         },
@@ -48,16 +52,20 @@
           "opcode": 870
         },
         {
-          "name": "CFPreferredRole",
-          "opcode": 348
-        },
-        {
           "name": "DesynthResult",
           "opcode": 521
         },
         {
+          "name": "EventPlay16",
+          "opcode": 512
+        },
+        {
           "name": "EventPlay64",
           "opcode": 506
+        },
+        {
+          "name": "ExamineSearchInfo",
+          "opcode": 505
         },
         {
           "name": "EventFinish",
@@ -72,28 +80,16 @@
           "opcode": 718
         },
         {
-          "name": "ExamineSearchInfo",
-          "opcode": 505
-        },
-        {
-          "name": "EventPlay16",
-          "opcode": 512
-        },
-        {
-          "name": "EventPlay",
-          "opcode": 347
-        },
-        {
-          "name": "EventPlay255",
-          "opcode": 566
+          "name": "EventPlay128e",
+          "opcode": 776
         },
         {
           "name": "Examine",
           "opcode": 399
         },
         {
-          "name": "EventPlay128e",
-          "opcode": 776
+          "name": "EventPlay",
+          "opcode": 347
         },
         {
           "name": "EffectResult",
@@ -112,6 +108,10 @@
           "opcode": 427
         },
         {
+          "name": "EventPlay255",
+          "opcode": 566
+        },
+        {
           "name": "FreeCompanyInfo",
           "opcode": 843
         },
@@ -128,12 +128,12 @@
           "opcode": 110
         },
         {
-          "name": "InitZone",
-          "opcode": 983
-        },
-        {
           "name": "InventoryTransactionFinish",
           "opcode": 270
+        },
+        {
+          "name": "InitZone",
+          "opcode": 983
         },
         {
           "name": "Logout",
@@ -148,16 +148,16 @@
           "opcode": 139
         },
         {
+          "name": "MarketBoardItemListingCount",
+          "opcode": 794
+        },
+        {
           "name": "MarketBoardItemListing",
           "opcode": 767
         },
         {
           "name": "MarketBoardSearchResult",
           "opcode": 330
-        },
-        {
-          "name": "MarketBoardItemListingCount",
-          "opcode": 794
         },
         {
           "name": "NpcSpawn",
@@ -168,12 +168,24 @@
           "opcode": 856
         },
         {
+          "name": "PlayerSpawn",
+          "opcode": 751
+        },
+        {
+          "name": "PlayerStats",
+          "opcode": 517
+        },
+        {
           "name": "Playtime",
           "opcode": 187
         },
         {
           "name": "PrepareZoning",
           "opcode": 210
+        },
+        {
+          "name": "PlaceFieldMarker",
+          "opcode": 731
         },
         {
           "name": "PlaceFieldMarkerPreset",
@@ -184,48 +196,40 @@
           "opcode": 267
         },
         {
-          "name": "PlayerStats",
-          "opcode": 517
-        },
-        {
-          "name": "PlayerSpawn",
-          "opcode": 751
-        },
-        {
-          "name": "PlaceFieldMarker",
-          "opcode": 731
+          "name": "RetainerInformation",
+          "opcode": 850
         },
         {
           "name": "ResultDialog",
           "opcode": 785
         },
         {
-          "name": "RetainerInformation",
-          "opcode": 850
+          "name": "SomeDirectorUnk4",
+          "opcode": 550
         },
         {
           "name": "StatusEffectList",
           "opcode": 835
         },
         {
-          "name": "SomeDirectorUnk4",
-          "opcode": 550
-        },
-        {
           "name": "UpdateClassInfo",
           "opcode": 269
         },
         {
-          "name": "UpdateInventorySlot",
-          "opcode": 919
+          "name": "UpdateHpMpTp",
+          "opcode": 239
         },
         {
           "name": "UpdateSearchInfo",
           "opcode": 831
         },
         {
-          "name": "UpdateHpMpTp",
-          "opcode": 239
+          "name": "UpdateInventorySlot",
+          "opcode": 919
+        },
+        {
+          "name": "WeatherChange",
+          "opcode": 946
         }
       ],
       "ClientZoneIpcType": [
