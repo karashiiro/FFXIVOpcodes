@@ -32,10 +32,6 @@
           "opcode": 514
         },
         {
-          "name": "AddStatusEffect",
-          "opcode": 323
-        },
-        {
           "name": "CurrencyCrystalInfo",
           "opcode": 117
         },
@@ -54,6 +50,10 @@
         {
           "name": "DesynthResult",
           "opcode": 521
+        },
+        {
+          "name": "ExamineSearchInfo",
+          "opcode": 505
         },
         {
           "name": "EventPlay64",
@@ -76,20 +76,20 @@
           "opcode": 512
         },
         {
-          "name": "ExamineSearchInfo",
-          "opcode": 505
+          "name": "EventStart",
+          "opcode": 427
         },
         {
           "name": "EventPlay128e",
           "opcode": 776
         },
         {
-          "name": "Examine",
-          "opcode": 399
-        },
-        {
           "name": "EventPlay",
           "opcode": 347
+        },
+        {
+          "name": "EffectResult",
+          "opcode": 323
         },
         {
           "name": "EventPlay8",
@@ -100,8 +100,8 @@
           "opcode": 126
         },
         {
-          "name": "EventStart",
-          "opcode": 427
+          "name": "Examine",
+          "opcode": 399
         },
         {
           "name": "EventPlay255",

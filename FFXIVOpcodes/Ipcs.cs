@@ -64,7 +64,7 @@ namespace FFXIVOpcodes.Global
         ActorCast = 0x00B6, //updated 5.5
         CurrencyCrystalInfo = 0x0075, //updated 5.5
         InitZone = 0x03D7, //updated 5.5
-        //EffectResult = 0x0143, //updated 5.5
+        EffectResult = 0x0143, //updated 5.5
         EventStart = 0x01AB, //updated 5.5
         EventPlay = 0x015B, //updated 5.5
         EventFinish = 0x0299, //updated 5.5
@@ -81,7 +81,6 @@ namespace FFXIVOpcodes.Global
         PlaceFieldMarkerPreset = 0x03A4, //updated 5.5
         ObjectSpawn = 0x0358, //updated 5.5
         Effect = 0x0204, //updated 5.5
-        AddStatusEffect = 0x0143, //updated 5.5
         StatusEffectList = 0x0343, //updated 5.5
         ActorGauge = 0x03A7, //updated 5.5
         FreeCompanyInfo = 0x034B, //updated 5.5
