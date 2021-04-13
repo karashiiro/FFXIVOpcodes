@@ -102,7 +102,7 @@ namespace FFXIVOpcodes.Global
         //EventPlay128 = 0x2F4, // updated 5.45 hotfix
         //EventPlay255 = 0x9D, // updated 5.45 hotfix
 
-        //WeatherChange = 0x0167, // updated 5.45 hotfix
+        WeatherChange = 0x03B2, // updated 5.5
 
         Logout = 0x028C, // updated 5.5
 
