@@ -108,14 +108,14 @@ namespace FFXIVOpcodes.Global
 
         //HousingWardInfo = 0x015E, // updated 5.45 hotfix
 
-        //AirshipExplorationResult = 0x0131, // updated 5.45 hotfix
-        //AirshipStatus = 0x0253, // updated 5.45 hotfix
-        //AirshipStatusList = 0x0391, // updated 5.45 hotfix
-        //AirshipTimers = 0x0206, // updated 5.45 hotfix
-        //SubmarineExplorationResult = 0x00EB, // updated 5.45 hotfix
-        //SubmarineProgressionStatus = 0x0333, // updated 5.45 hotfix
-        //SubmarineStatusList = 0x01F2, // updated 5.45 hotfix
-        //SubmarineTimers = 0x013B, // updated 5.45 hotfix
+        AirshipExplorationResult = 0x028D, // Updated 5.5
+        AirshipStatus = 0x0188, // Updated 5.5
+        AirshipStatusList = 0x030E, // Updated 5.5
+        AirshipTimers = 0x0329, // Updated 5.5
+        SubmarineExplorationResult = 0x0161, // Updated 5.5
+        SubmarineProgressionStatus = 0x0153, // Updated 5.5
+        SubmarineStatusList = 0x0331, // Updated 5.5
+        SubmarineTimers = 0x0163, // Updated 5.5
     };
 
     /**
