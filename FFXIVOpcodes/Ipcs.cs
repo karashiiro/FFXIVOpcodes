@@ -105,7 +105,7 @@ namespace FFXIVOpcodes.Global
 
         //WeatherChange = 0x0167, // updated 5.45 hotfix
 
-        Logout = 0x00FB, // updated 5.5
+        Logout = 0x028C, // updated 5.5
 
         //HousingWardInfo = 0x015E, // updated 5.45 hotfix
 
@@ -132,18 +132,18 @@ namespace FFXIVOpcodes.Global
         InventoryModifyHandler = 0x018A, //updated 5.5 (Base offset: 0x0191)
         UpdatePositionInstance = 0x03AE, //updated 5.5
 
-        PingHandler = 0x0183, // updated 5.45 hotfix
-        InitHandler = 0x01EA, // updated 5.45 hotfix
+        //PingHandler = 0x0183, // updated 5.45 hotfix
+        //InitHandler = 0x01EA, // updated 5.45 hotfix
 
-        FinishLoadingHandler = 0x023F, // updated 5.45 hotfix
+        //FinishLoadingHandler = 0x023F, // updated 5.45 hotfix
 
         //CFCommenceHandler = 0x01A0, // updated 5.45 hotfix
 
-        CFRegisterDuty = 0x033C, // updated 5.45 hotfix
-        CFRegisterRoulette = 0x0121, // updated 5.45 hotfix
-        PlayTimeHandler = 0x0096, // updated 5.45 hotfix
-        LogoutHandler = 0x0312, // updated 5.45 hotfix
-        CancelLogout = 0x0307, // updated 5.45 hotfix
+        //CFRegisterDuty = 0x033C, // updated 5.45 hotfix
+        //CFRegisterRoulette = 0x0121, // updated 5.45 hotfix
+        //PlayTimeHandler = 0x0096, // updated 5.45 hotfix
+        //LogoutHandler = 0x0312, // updated 5.45 hotfix
+        //CancelLogout = 0x0307, // updated 5.45 hotfix
 
         //CFDutyInfoHandler = 0x01A0, // updated 5.45 hotfix
 
