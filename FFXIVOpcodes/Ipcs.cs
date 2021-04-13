@@ -85,7 +85,7 @@ namespace FFXIVOpcodes.Global
         ActorGauge = 0x03A7, //updated 5.5
         FreeCompanyInfo = 0x034B, //updated 5.5
 
-        //ActorSetPos = 0x00C6, // updated 5.45 hotfix
+        ActorSetPos = 0x0328, // updated 5.5
 
         DesynthResult = 0x0209, // updated 5.5
         EventPlay8 = 0x124, // Updated 5.5
