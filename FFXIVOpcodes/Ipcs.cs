@@ -84,6 +84,7 @@ namespace FFXIVOpcodes.Global
         StatusEffectList = 0x0343, //updated 5.5
         ActorGauge = 0x03A7, //updated 5.5
         FreeCompanyInfo = 0x034B, //updated 5.5
+        FreeCompanyDialog = 0x0118, //updated 5.5
 
         ActorSetPos = 0x01DC, // updated 5.5
 
@@ -92,15 +93,8 @@ namespace FFXIVOpcodes.Global
         EventPlay16 = 0x200, // Updated 5.5
         EventPlay32 = 0x2CE, // Updated 5.5
         EventPlay64 = 0x1FA, // Updated 5.5
-        EventPlay128e = 0x308, // Updated 5.5
+        EventPlay128 = 0x308, // Updated 5.5
         EventPlay255 = 0x236, // Updated 5.5
-
-        //EventPlay8 = 0x318, // updated 5.45 hotfix
-        //EventPlay16 = 0x20D, // updated 5.45 hotfix
-        //EventPlay32 = 0x3B5, // updated 5.45 hotfix
-        //EventPlay64 = 0x39E, // updated 5.45 hotfix
-        //EventPlay128 = 0x2F4, // updated 5.45 hotfix
-        //EventPlay255 = 0x9D, // updated 5.45 hotfix
 
         WeatherChange = 0x03B2, // updated 5.5
 
