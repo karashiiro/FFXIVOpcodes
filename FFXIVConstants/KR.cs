@@ -6,7 +6,7 @@ namespace FFXIVConstants
     {
         public static Dictionary<string, object> Constants = new Dictionary<string, object>
         {
-            { "InventoryOperationBaseValue", 0x008D },
+            { "InventoryOperationBaseValue", 0x028A },
         };
     }
 }
