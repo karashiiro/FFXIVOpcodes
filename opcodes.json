@@ -188,8 +188,8 @@
           "opcode": 519
         },
         {
-          "name": "Playtime",
-          "opcode": 994
+          "name": "PlayerStats",
+          "opcode": 179
         },
         {
           "name": "PlayerSetup",
@@ -204,16 +204,16 @@
           "opcode": 539
         },
         {
-          "name": "PlaceFieldMarker",
-          "opcode": 766
-        },
-        {
           "name": "PlaceFieldMarkerPreset",
           "opcode": 228
         },
         {
-          "name": "PlayerStats",
-          "opcode": 179
+          "name": "Playtime",
+          "opcode": 994
+        },
+        {
+          "name": "PlaceFieldMarker",
+          "opcode": 766
         },
         {
           "name": "ResultDialog",
@@ -226,10 +226,6 @@
         {
           "name": "SubmarineExplorationResult",
           "opcode": 872
-        },
-        {
-          "name": "StatusEffectList",
-          "opcode": 279
         },
         {
           "name": "SubmarineProgressionStatus",
@@ -248,20 +244,28 @@
           "opcode": 688
         },
         {
+          "name": "StatusEffectList",
+          "opcode": 279
+        },
+        {
           "name": "UpdateSearchInfo",
           "opcode": 662
         },
         {
-          "name": "UpdateHpMpTp",
-          "opcode": 488
+          "name": "UpdateInventorySlot",
+          "opcode": 843
         },
         {
           "name": "UpdateClassInfo",
           "opcode": 318
         },
         {
-          "name": "UpdateInventorySlot",
-          "opcode": 843
+          "name": "UpdateHpMpTp",
+          "opcode": 488
+        },
+        {
+          "name": "WeatherChange",
+          "opcode": 767
         }
       ],
       "ClientZoneIpcType": [
