@@ -34,7 +34,6 @@ namespace FFXIVOpcodes.CN
         ContainerInfo = 0x016C,
         CurrencyCrystalInfo = 0x0117,
         DesynthResult = 0x0360,
-        DirectorStart = 0x0203,
         Effect = 0x0240,
         EffectResult = 0x0212,
         EventFinish = 0x02EA,
