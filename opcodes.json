@@ -476,7 +476,7 @@
         },
         {
           "name": "HousingWardInfo",
-          "opcode": 894
+          "opcode": 999
         },
         {
           "name": "InitZone",

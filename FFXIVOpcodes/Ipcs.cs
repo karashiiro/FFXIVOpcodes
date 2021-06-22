@@ -97,7 +97,7 @@ namespace FFXIVOpcodes.Global
 
         Logout = 0x0360, // updated 5.57
 
-        //HousingWardInfo = 0x0146, // updated 5.55 hotfix
+        //HousingWardInfo = 0x03E7, // updated 5.57
 
         AirshipExplorationResult = 0x007C, // updated 5.55 hotfix
         AirshipStatus = 0x00AB, // updated 5.55 hotfix
