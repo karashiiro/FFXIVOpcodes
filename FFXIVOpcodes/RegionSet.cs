@@ -3,8 +3,11 @@ using System.Collections.Generic;
 
 namespace FFXIVOpcodes
 {
-    class RegionSet
+    internal class RegionSet
     {
+        [JsonProperty("version")]
+        public string Version { get; set; }
+
         [JsonProperty("region")]
         public string Region { get; set; }
 
