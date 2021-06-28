@@ -1,5 +1,6 @@
 [
   {
+    "version": "5.57",
     "region": "Global",
     "lists": {
       "ServerZoneIpcType": [
@@ -355,6 +356,7 @@
     }
   },
   {
+    "version": "5.45",
     "region": "CN",
     "lists": {
       "ServerZoneIpcType": [
@@ -648,6 +650,7 @@
     }
   },
   {
+    "version": "5.41",
     "region": "KR",
     "lists": {
       "ServerZoneIpcType": [

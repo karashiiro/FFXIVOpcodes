@@ -10,16 +10,16 @@ namespace FFXIVOpcodes
 {
     public static class Program
     {
-        public static void Main(string[] _)
+        public static void Main()
         {
             ValidateOpcodes();
 
             Console.WriteLine("Exporting...");
 
             var regions = new List<RegionSet>{
-                new RegionSet { Region = "Global" },
-                new RegionSet { Region = "CN" },
-                new RegionSet { Region = "KR" },
+                new RegionSet { Region = "Global", Version = "5.57"},
+                new RegionSet { Region = "CN", Version = FFXIVConstants.CN.Version }, // <3
+                new RegionSet { Region = "KR", Version = "5.41" },
             };
 
             Type[][] enums = {
