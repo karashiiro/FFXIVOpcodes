@@ -97,16 +97,16 @@ namespace FFXIVOpcodes.Global
 
         Logout = 0x0360, // updated 5.57
 
-        //HousingWardInfo = 0x03E7, // updated 5.57
+        HousingWardInfo = 0x03E7, // updated 5.57
 
-        AirshipExplorationResult = 0x007C, // updated 5.55 hotfix
-        AirshipStatus = 0x00AB, // updated 5.55 hotfix
-        AirshipStatusList = 0x027B, // updated 5.55 hotfix
-        AirshipTimers = 0x02A5, // updated 5.55 hotfix
+        AirshipExplorationResult = 0x0099, // updated 5.57
+        AirshipStatus = 0x01DC, // updated 5.57
+        AirshipStatusList = 0x0088, // updated 5.57
+        AirshipTimers = 0x013A, // updated 5.57
         SubmarineProgressionStatus = 0x0368,// updated 5.57
         SubmarineStatusList = 0x0345,// updated 5.57
         SubmarineExplorationResult = 0x027A,// updated 5.57
-        SubmarineTimers = 0x037A, // updated 5.55 hotfix
+        SubmarineTimers = 0x01AA, // updated 5.57
     };
 
     /**
