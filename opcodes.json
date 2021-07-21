@@ -711,10 +711,6 @@
           "opcode": 412
         },
         {
-          "name": "ContainerInfo",
-          "opcode": 194
-        },
-        {
           "name": "CFNotify",
           "opcode": 296
         },
@@ -727,8 +723,16 @@
           "opcode": 990
         },
         {
+          "name": "ContainerInfo",
+          "opcode": 194
+        },
+        {
           "name": "DesynthResult",
           "opcode": 833
+        },
+        {
+          "name": "Examine",
+          "opcode": 701
         },
         {
           "name": "EventFinish",
@@ -741,10 +745,6 @@
         {
           "name": "ExamineFreeCompanyInfo",
           "opcode": 604
-        },
-        {
-          "name": "Examine",
-          "opcode": 701
         },
         {
           "name": "EventPlay",
@@ -804,7 +804,7 @@
         },
         {
           "name": "Logout",
-          "opcode": 202
+          "opcode": 133
         },
         {
           "name": "MarketBoardItemListing",
@@ -843,12 +843,12 @@
           "opcode": 524
         },
         {
-          "name": "PrepareZoning",
-          "opcode": 956
-        },
-        {
           "name": "PlaceFieldMarker",
           "opcode": 189
+        },
+        {
+          "name": "PrepareZoning",
+          "opcode": 956
         },
         {
           "name": "PlayerStats",
