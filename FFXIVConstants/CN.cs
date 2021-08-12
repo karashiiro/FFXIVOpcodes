@@ -3,8 +3,10 @@ using System.Collections.Generic;
 
 namespace FFXIVConstants
 {
-    static class CN
+    public static class CN
     {
+        public const string Version = "5.5";
+
         public static Dictionary<string, object> Constants = new Dictionary<string, object>
         {
             { "InventoryOperationBaseValue", 0x01B8 },
