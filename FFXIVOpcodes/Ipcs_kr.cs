@@ -76,6 +76,7 @@
         InventoryTransaction = 0x017A, // 5.5
         InventoryTransactionFinish = 0x03DA, // 5.5
         ItemInfo = 0x0280, // 5.5
+        ItemMarketBoardInfo = 0x016E, // 5.5
         Logout = 0x0278, // 5.5
         MarketBoardItemListing = 0x0248, // 5.5
         MarketBoardItemListingCount = 0x0215, // 5.5
