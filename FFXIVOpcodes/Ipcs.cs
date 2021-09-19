@@ -54,6 +54,7 @@ namespace FFXIVOpcodes.Global
         ActorMove = 0x00F8, // updated 5.58 hotfix
         ResultDialog = 0x0273, // updated 5.58 hotfix
         RetainerInformation = 0x022F, // updated 5.58 hotfix
+        ItemMarketBoardInfo = 0x0364, // updated 5.58 hotfix
         NpcSpawn = 0x00D2, // updated 5.58 hotfix
         PlayerSpawn = 0x01D8, // updated 5.58 hotfix
         ContainerInfo = 0x025C, // updated 5.58 hotfix
