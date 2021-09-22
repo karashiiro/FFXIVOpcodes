@@ -493,6 +493,10 @@
           "opcode": 910
         },
         {
+          "name": "ItemMarketBoardInfo",
+          "opcode": 566
+        },
+        {
           "name": "InventoryTransactionFinish",
           "opcode": 201
         },
