@@ -104,7 +104,7 @@ namespace FFXIVOpcodes.Global
         AirshipStatusList = 0x02FE, // updated 5.58 hotfix
         AirshipTimers = 0x0166, // updated 5.58 hotfix
 
-        SubmarineProgressionStatus = 0x007C // updated 5.58 hotfix
+        SubmarineProgressionStatus = 0x007C, // updated 5.58 hotfix
         SubmarineStatusList = 0x01EF, // updated 5.58 hotfix
         SubmarineExplorationResult = 0x00AA, // updated 5.58 hotfix
         SubmarineTimers = 0x0247, // updated 5.58 hotfix
