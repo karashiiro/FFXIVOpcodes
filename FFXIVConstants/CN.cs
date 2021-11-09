@@ -5,7 +5,7 @@ namespace FFXIVConstants
 {
     public static class CN
     {
-        public const string Version = "5.55";
+        public const string Version = "5.57";
 
         public static Dictionary<string, object> Constants = new Dictionary<string, object>
         {
