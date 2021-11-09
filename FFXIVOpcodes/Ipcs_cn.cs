@@ -77,7 +77,6 @@ namespace FFXIVOpcodes.CN
         SubmarineExplorationResult = 0x026A,
         SubmarineProgressionStatus = 0x00A5,
         SubmarineStatusList = 0x0176,
-        SystemLogMessage = 0x0202,
         TripleTriadGameData = 0x030E,
         TripleTriadGameDesc = 0x0169,
         TripleTriadPlaceCardRecv = 0x0101,
