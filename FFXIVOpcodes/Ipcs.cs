@@ -61,7 +61,8 @@ namespace FFXIVOpcodes.Global
         ActorCast = 0x0108,// updated 6.0
         CurrencyCrystalInfo = 0x0258,// updated 6.0
         InitZone = 0x02C4,// updated 6.0
-        EffectResult = 0x0196,// updated 6.0
+        EffectResult = 0x0196, // updated 6.0
+        EffectResultBasic = 0x02D8, // updated 6.0
         EventStart = 0x0334,// updated 6.0
         EventFinish = 0x01B8,// updated 6.0
         SomeDirectorUnk4 = 0x0164,// updated 6.0
@@ -76,6 +77,7 @@ namespace FFXIVOpcodes.Global
         PlaceFieldMarker = 0x037D,// updated 6.0
         PlaceFieldMarkerPreset = 0x01CF,// updated 6.0
         ObjectSpawn = 0x0319,// updated 6.0
+        ObjectDespawn = 0x018A, // updated 6.0
         Effect = 0x035A,// updated 6.0
         StatusEffectList = 0x02C5,// updated 6.0
         ActorGauge = 0x0283,// updated 6.0
@@ -98,6 +100,12 @@ namespace FFXIVOpcodes.Global
         EventPlay64 = 0x3A8, // Updated 6.0
         EventPlay128 = 0x16E, // Updated 6.0
         EventPlay255 = 0x366, // Updated 6.0
+        
+        ActionEffect1 = 0x035A, // updated 6.0
+        ActionEffect8 = 0x01BA, // updated 6.0
+        ActionEffect16 = 0x02CE, // updated 6.0
+        ActionEffect24 = 0x02ED, // updated 6.0
+        ActionEffect32 = 0x023A, // updated 6.0
 
         WeatherChange = 0x01FD, // Updated 6.0
 
