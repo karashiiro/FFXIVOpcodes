@@ -79,6 +79,10 @@ namespace FFXIVOpcodes.Global
         ObjectSpawn = 0x0319,// updated 6.0
         ObjectDespawn = 0x018A, // updated 6.0
         Effect = 0x035A,// updated 6.0
+        AoeEffect8 = 0x01BA, // updated 6.0
+        AoeEffect16 = 0x02CE, // updated 6.0
+        AoeEffect24 = 0x02ED, // updated 6.0
+        AoeEffect32 = 0x023A, // updated 6.0
         StatusEffectList = 0x02C5,// updated 6.0
         ActorGauge = 0x0283,// updated 6.0
         FreeCompanyInfo = 0x031C,// updated 6.0
@@ -101,12 +105,6 @@ namespace FFXIVOpcodes.Global
         EventPlay128 = 0x16E, // Updated 6.0
         EventPlay255 = 0x366, // Updated 6.0
         
-        ActionEffect1 = 0x035A, // updated 6.0
-        ActionEffect8 = 0x01BA, // updated 6.0
-        ActionEffect16 = 0x02CE, // updated 6.0
-        ActionEffect24 = 0x02ED, // updated 6.0
-        ActionEffect32 = 0x023A, // updated 6.0
-
         WeatherChange = 0x01FD, // Updated 6.0
 
         Logout = 0x02EC, // updated 6.0 hotfix
