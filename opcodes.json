@@ -150,19 +150,7 @@
         },
         {
           "name": "Logout",
-          "opcode": 748
-        },
-        {
-          "name": "MarketBoardItemListingCount",
-          "opcode": 271
-        },
-        {
-          "name": "MarketBoardItemListingHistory",
-          "opcode": 439
-        },
-        {
-          "name": "MarketBoardPurchase",
-          "opcode": 976
+          "opcode": 982
         },
         {
           "name": "MarketBoardSearchResult",
@@ -173,6 +161,18 @@
           "opcode": 471
         },
         {
+          "name": "MarketBoardPurchase",
+          "opcode": 976
+        },
+        {
+          "name": "MarketBoardItemListingCount",
+          "opcode": 271
+        },
+        {
+          "name": "MarketBoardItemListingHistory",
+          "opcode": 439
+        },
+        {
           "name": "NpcSpawn",
           "opcode": 926
         },
@@ -181,12 +181,16 @@
           "opcode": 617
         },
         {
-          "name": "PrepareZoning",
-          "opcode": 684
+          "name": "PlayerSetup",
+          "opcode": 197
         },
         {
           "name": "PlaceFieldMarkerPreset",
           "opcode": 118
+        },
+        {
+          "name": "PrepareZoning",
+          "opcode": 684
         },
         {
           "name": "PlaceFieldMarker",
@@ -205,40 +209,40 @@
           "opcode": 247
         },
         {
-          "name": "PlayerSetup",
-          "opcode": 197
+          "name": "RetainerInformation",
+          "opcode": 937
         },
         {
           "name": "ResultDialog",
           "opcode": 816
         },
         {
-          "name": "RetainerInformation",
-          "opcode": 937
-        },
-        {
-          "name": "SubmarineExplorationResult",
-          "opcode": 959
+          "name": "SomeDirectorUnk4",
+          "opcode": 345
         },
         {
           "name": "SubmarineProgressionStatus",
           "opcode": 156
         },
         {
-          "name": "SubmarineTimers",
-          "opcode": 108
+          "name": "StatusEffectList",
+          "opcode": 722
+        },
+        {
+          "name": "SubmarineExplorationResult",
+          "opcode": 959
         },
         {
           "name": "SubmarineStatusList",
           "opcode": 270
         },
         {
-          "name": "SomeDirectorUnk4",
-          "opcode": 345
+          "name": "SubmarineTimers",
+          "opcode": 108
         },
         {
-          "name": "StatusEffectList",
-          "opcode": 722
+          "name": "UpdateSearchInfo",
+          "opcode": 241
         },
         {
           "name": "UpdateInventorySlot",
@@ -247,10 +251,6 @@
         {
           "name": "UpdateHpMpTp",
           "opcode": 689
-        },
-        {
-          "name": "UpdateSearchInfo",
-          "opcode": 241
         },
         {
           "name": "UpdateClassInfo",

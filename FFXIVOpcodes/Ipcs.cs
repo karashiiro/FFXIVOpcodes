@@ -102,9 +102,7 @@ namespace FFXIVOpcodes.Global
 
         WeatherChange = 0x01FD, // Updated 6.0
 
-        Logout = 0x02EC, // updated 6.0 hotfix
-
-        //HousingWardInfo = 0x012A, // updated 5.58 hotfix
+        Logout = 0x3D6, // updated 6.0 hotfix
     };
 
     /**
