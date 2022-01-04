@@ -36,73 +36,83 @@ namespace FFXIVOpcodes.Global
     */
     enum ServerZoneIpcType : ushort
     {
-        PlayerSetup = 0x00C5,// Updated 6.01
-        UpdateHpMpTp = 0x02B1,// Updated 6.01
-        PlayerStats = 0x024B,// Updated 6.01
-        ActorControl = 0x01FB,// Updated 6.01
-        ActorControlSelf = 0x02C2,// Updated 6.01
-        ActorControlTarget = 0x0143,// Updated 6.01
-        Playtime = 0x03B6,// Updated 6.01
-        UpdateSearchInfo = 0x00F1,// Updated 6.01
-        ExamineSearchInfo = 0x02A0,// Updated 6.01
-        Examine = 0x00A9,// Updated 6.01
-        MarketBoardSearchResult = 0x01E4,// Updated 6.01
-        MarketBoardItemListingCount = 0x010F,// Updated 6.01
-        MarketBoardItemListingHistory = 0x01B7,// Updated 6.01
-        MarketBoardItemListing = 0x01D7,// Updated 6.01
-        MarketBoardPurchase = 0x03D0,// Updated 6.01
-        ActorMove = 0x0189,// Updated 6.01
-        ResultDialog = 0x0330,// Updated 6.01
-        RetainerInformation = 0x03A9,// Updated 6.01
-        NpcSpawn = 0x039E,// Updated 6.01
-        ItemMarketBoardInfo = 0x016B,// Updated 6.01
-        PlayerSpawn = 0x00F7,// Updated 6.01
-        ContainerInfo = 0x0358,// Updated 6.01
-        ItemInfo = 0x0363,// Updated 6.01
-        UpdateClassInfo = 0x01B9,// Updated 6.01
-        ActorCast = 0x02F2,// Updated 6.01
-        CurrencyCrystalInfo = 0x0107,// Updated 6.01
-        InitZone = 0x0309,// Updated 6.01
-        EffectResult = 0x011C,// Updated 6.01
-        EventStart = 0x0200,// Updated 6.01
-        EventFinish = 0x01A6,// Updated 6.01
-        SomeDirectorUnk4 = 0x0159,// Updated 6.01
-        UpdateInventorySlot = 0x0131,// Updated 6.01
-        DesynthResult = 0x014D,// Updated 6.01
-        InventoryActionAck = 0x0260,// Updated 6.01
-        InventoryTransaction = 0x03E2,// Updated 6.01
-        InventoryTransactionFinish = 0x014F,// Updated 6.01
-        CFNotify = 0x039B,// Updated 6.01
-        PrepareZoning = 0x02AC,// Updated 6.01
-        ActorSetPos = 0x011F,// Updated 6.01
-        PlaceFieldMarker = 0x01CD,// Updated 6.01
-        PlaceFieldMarkerPreset = 0x0076,// Updated 6.01
-        ObjectSpawn = 0x0269,// Updated 6.01
-        StatusEffectList = 0x02D2,// Updated 6.01
-        ActorGauge = 0x0208,// Updated 6.01
-        FreeCompanyInfo = 0x0122,// Updated 6.01
-        FreeCompanyDialog = 0x01EF,// Updated 6.01
-        AirshipTimers = 0x0202,// Updated 6.01
-        SubmarineTimers = 0x006C,// Updated 6.01
-        AirshipStatusList = 0x02F6,// Updated 6.01
-        AirshipStatus = 0x0375,// Updated 6.01
-        AirshipExplorationResult = 0x03C8,// Updated 6.01
-        SubmarineProgressionStatus = 0x009C,// Updated 6.01
-        SubmarineStatusList = 0x010E,// Updated 6.01
-        SubmarineExplorationResult = 0x03BF,// Updated 6.01
+        PlayerSetup = 0x03DD, // updated 6.05
+        UpdateHpMpTp = 0x00F4, // updated 6.05
+        PlayerStats = 0x018C, // updated 6.05
+        ActorControl = 0x02CF, // updated 6.05
+        ActorControlSelf = 0x0096, // updated 6.05
+        ActorControlTarget = 0x0272, // updated 6.05
+        Playtime = 0x039F, // updated 6.05
+        UpdateSearchInfo = 0x01E3, // updated 6.05
+        ExamineSearchInfo = 0x0222, // updated 6.05
+        Examine = 0x02AB, // updated 6.05
+        MarketBoardSearchResult = 0x0213, // updated 6.05
+        MarketBoardItemListingCount = 0x02A3, // updated 6.05
+        MarketBoardItemListingHistory = 0x02DB, // updated 6.05
+        MarketBoardItemListing = 0x01F2, // updated 6.05
+        MarketBoardPurchase = 0x03DB, // updated 6.05
+        ActorMove = 0x00DB, // updated 6.05
+        ResultDialog = 0x03D0, // updated 6.05
+        RetainerInformation = 0x0318, // updated 6.05
+        NpcSpawn = 0x01D2, // updated 6.05
+        ItemMarketBoardInfo = 0x029A, // updated 6.05
+        PlayerSpawn = 0x0338, // updated 6.05
+        ContainerInfo = 0x0130, // updated 6.05
+        ItemInfo = 0x0280, // updated 6.05
+        UpdateClassInfo = 0x0202, // updated 6.05
+        ActorCast = 0x0307, // updated 6.05
+        CurrencyCrystalInfo = 0x0126, // updated 6.05
+        InitZone = 0x0137, // updated 6.05
+        EffectResult = 0x01DF, // updated 6.05
+        EventStart = 0x01D6, // updated 6.05
+        EventFinish = 0x0206, // updated 6.05
+        SomeDirectorUnk4 = 0x027A, // updated 6.05
+        UpdateInventorySlot = 0x027E, // updated 6.05
+        DesynthResult = 0x0273, // updated 6.05
+        InventoryActionAck = 0x02EA, // updated 6.05
+        InventoryTransaction = 0x02BC, // updated 6.05
+        InventoryTransactionFinish = 0x0269, // updated 6.05
+        CFNotify = 0x0183, // updated 6.05
+        PrepareZoning = 0x01DD, // updated 6.05
+        ActorSetPos = 0x0081, // updated 6.05
+        PlaceFieldMarker = 0x00FD, // updated 6.05
+        PlaceFieldMarkerPreset = 0x0067, // updated 6.05
+        ObjectSpawn = 0x01FD, // updated 6.05
+        StatusEffectList = 0x0188, // updated 6.05
+        StatusEffectList2 = 0x0293, // updated 6.05
+        StatusEffectList3 = 0x0353, // updated 6.05
+        ActorGauge = 0x022D, // updated 6.05
+        FreeCompanyInfo = 0x013D, // updated 6.05
+        FreeCompanyDialog = 0x0261, // updated 6.05
+        AirshipTimers = 0x01C7, // updated 6.05
+        SubmarineTimers = 0x0211, // updated 6.05
+        AirshipStatusList = 0x0182, // updated 6.05
+        AirshipStatus = 0x01AD, // updated 6.05
+        AirshipExplorationResult = 0x02BB, // updated 6.05
+        SubmarineProgressionStatus = 0x0121, // updated 6.05
+        SubmarineStatusList = 0x03A9, // updated 6.05
+        SubmarineExplorationResult = 0x0128, // updated 6.05
 
-        EventPlay = 0x396, // Updated for 6.01
-        EventPlay4 = 0xA6,  // Updated for 6.01
-        EventPlay8 = 0x1AE, // Updated for 6.01
-        EventPlay16 = 0x175, // Updated for 6.01
-        EventPlay32 = 0x24A, // Updated for 6.01
-        EventPlay64 = 0x3AB, // Updated for 6.01
-        EventPlay128 = 0x34E, // Updated for 6.01
-        EventPlay255 = 0x109, // Updated for 6.01
+        EffectResultBasic = 0x0330, // updated 6.05
 
-        WeatherChange = 0x01FD, // Updated 6.0
+        ActionEffect = 0x033E, // updated 6.05
+        ActionEffect8 = 0x01F4, // updated 6.05
+        ActionEffect16 = 0x01FA, // updated 6.05
+        ActionEffect24 = 0x0300, // updated 6.05
+        ActionEffect32 = 0x03CD, // updated 6.05
 
-        Logout = 0x3D6, // updated 6.0 hotfix
+        EventPlay = 0x13F, // updated 6.05
+        EventPlay4 = 0x212, // updated 6.05
+        EventPlay8 = 0x10B, // updated 6.05
+        EventPlay16 = 0xD0, // updated 6.05
+        EventPlay32 = 0xC5, // updated 6.05
+        EventPlay64 = 0xC6, // updated 6.05
+        EventPlay128 = 0x32C, // updated 6.05
+        EventPlay255 = 0x295, // updated 6.05
+
+        WeatherChange = 0x028A, // updated 6.05
+
+        Logout = 0x008A, // updated 6.05
     };
 
     /**
@@ -110,96 +120,96 @@ namespace FFXIVOpcodes.Global
     */
     enum ClientZoneIpcType : ushort
     {
-        UpdatePositionHandler = 0x03CA,// Updated 6.01
-        ClientTrigger = 0x0204,// Updated 6.01
-        ChatHandler = 0x02F8,// Updated 6.01
-        SetSearchInfoHandler = 0x01A1,// Updated 6.01
-        MarketBoardPurchaseHandler = 0x00FD,// Updated 6.01
-        InventoryModifyHandler = 0x0097,// Updated 6.01 (Base offset: 0x009E)
-        UpdatePositionInstance = 0x038D,// Updated 6.01
+        UpdatePositionHandler = 0x021B, // Updated 6.05
+        ClientTrigger = 0x00E7, // Updated 6.05
+        ChatHandler = 0x0276, // Updated 6.05
+        SetSearchInfoHandler = 0x031A, // Updated 6.05
+        MarketBoardPurchaseHandler = 0x0387, // Updated 6.05
+        InventoryModifyHandler = 0x01B9, // Updated 6.05 (Base offset: 0x01C0)
+        UpdatePositionInstance = 0x00A3, // Updated 6.05
 
-        //PingHandler = 0x02CD, // updated 5.58 hotfix
-        //InitHandler = 0x01AA, // updated 5.58 hotfix
+        //PingHandler = 0x02C6, // updated 6.05
+        //InitHandler = 0x006C, // updated 6.05
 
-        //FinishLoadingHandler = 0x02DA, // updated 5.58 hotfix
+        //FinishLoadingHandler = 0x02C9, // updated 6.05
 
-        //CFCommenceHandler = 0x0092, // updated 5.58 hotfix
+        //CFCommenceHandler = 0x0099, // updated 6.05
 
-        //CFRegisterDuty = 0x03C7, // updated 5.58 hotfix
-        //CFRegisterRoulette = 0x00C2, // updated 5.58 hotfix
-        //PlayTimeHandler = 0x00B0, // updated 5.58 hotfix
-        //LogoutHandler = 0x0178, // updated 5.58 hotfix
-        //CancelLogout = 0x01F9, // updated 5.58 hotfix
+        //CFRegisterDuty = 0x0391, // updated 6.05
+        //CFRegisterRoulette = 0x00F1, // updated 6.05
+        //PlayTimeHandler = 0x00C0, // updated 6.05
+        //LogoutHandler = 0x0189, // updated 6.05
+        //CancelLogout = 0x00C4, // updated 6.05
 
-        //CFDutyInfoHandler = 0x0092, // updated 5.58 hotfix
+        //CFDutyInfoHandler = 0x0099, // updated 6.05
 
-        //SocialReqSendHandler = 0x023A, // updated 5.58 hotfix
-        //CreateCrossWorldLS = 0x0336, // updated 5.58 hotfix
+        //SocialReqSendHandler = 0x02C3, // updated 6.05
+        //CreateCrossWorldLS = 0x035E, // updated 6.05
 
-        //SocialListHandler = 0x0187, // updated 5.58 hotfix
-        //ReqSearchInfoHandler = 0x022C, // updated 5.58 hotfix
-        //ReqExamineSearchCommentHandler = 0x0315, // updated 5.58 hotfix
+        //SocialListHandler = 0x01B3, // updated 6.05
+        //ReqSearchInfoHandler = 0x02C5, // updated 6.05
+        //ReqExamineSearchCommentHandler = 0x0316, // updated 6.05
 
-        //ReqRemovePlayerFromBlacklist = 0x0145, // updated 5.58 hotfix
-        //BlackListHandler = 0x0161, // updated 5.58 hotfix
-        //PlayerSearchHandler = 0x02FF, // updated 5.58 hotfix
+        //ReqRemovePlayerFromBlacklist = 0x01E0, // updated 6.05
+        //BlackListHandler = 0x0161, // updated 6.05
+        //PlayerSearchHandler = 0x02FD, // updated 6.05
 
-        //LinkshellListHandler = 0x023B, // updated 5.58 hotfix
+        //LinkshellListHandler = 0x023F, // updated 6.05
 
-        //MarketBoardRequestItemListingInfo = 0x0189, // updated 5.58 hotfix
-        //MarketBoardRequestItemListings = 0x0092, // updated 5.58 hotfix
-        //MarketBoardSearch = 0x02F9, // updated 5.58 hotfix
+        //MarketBoardRequestItemListingInfo = 0x00DB, // updated 6.05
+        //MarketBoardRequestItemListings = 0x0099, // updated 6.05
+        //MarketBoardSearch = 0x02F8, // updated 6.05
 
-        //ReqExamineFcInfo = 0x0136, // updated 5.58 hotfix
+        //ReqExamineFcInfo = 0x0152, // updated 6.05
 
-        //FcInfoReqHandler = 0x0234, // updated 5.58 hotfix
+        //FcInfoReqHandler = 0x0231, // updated 6.05
 
         //FreeCompanyUpdateShortMessageHandler = 0x0123, // added 5.0
 
-        //ReqMarketWishList = 0x0306, // updated 5.58 hotfix
+        //ReqMarketWishList = 0x0389, // updated 6.05
 
-        //ReqJoinNoviceNetwork = 0x01D5, // updated 5.58 hotfix
+        //ReqJoinNoviceNetwork = 0x01DA, // updated 6.05
 
-        //ReqCountdownInitiate = 0x00C2, // updated 5.58 hotfix
-        //ReqCountdownCancel = 0x00E6, // updated 5.58 hotfix
+        //ReqCountdownInitiate = 0x00F1, // updated 6.05
+        //ReqCountdownCancel = 0x00F2, // updated 6.05
 
-        //ZoneLineHandler = 0x03CC, // updated 5.58 hotfix
-        //DiscoveryHandler = 0x023A, // updated 5.58 hotfix
+        //ZoneLineHandler = 0x01F8, // updated 6.05
+        //DiscoveryHandler = 0x02C3, // updated 6.05
 
 
-        //PlaceFieldMarker = 0x02AF, // updated 5.58 hotfix
-        //PlaceFieldMarkerPreset = 0x018E, // updated 5.58 hotfix
-        //SkillHandler = 0x0244, // updated 5.58 hotfix
-        //GMCommand1 = 0x018A, // updated 5.58 hotfix
-        //GMCommand2 = 0x02FD, // updated 5.58 hotfix
-        //AoESkillHandler = 0x01F1, // updated 5.58 hotfix
+        //PlaceFieldMarker = 0x03B9, // updated 6.05
+        //PlaceFieldMarkerPreset = 0x0242, // updated 6.05
+        //SkillHandler = 0x0259, // updated 6.05
+        //GMCommand1 = 0x0089, // updated 6.05
+        //GMCommand2 = 0x034C, // updated 6.05
+        //AoESkillHandler = 0x020E, // updated 6.05
 
-        //InventoryEquipRecommendedItems = 0x0109, // updated 5.58 hotfix
+        //InventoryEquipRecommendedItems = 0x00C6, // updated 6.05
 
-        //ReqPlaceHousingItem = 0x0352, // updated 5.58 hotfix
-        //BuildPresetHandler = 0x024E, // updated 5.58 hotfix
+        //ReqPlaceHousingItem = 0x02AF, // updated 6.05
+        //BuildPresetHandler = 0x0238, // updated 6.05
 
-        //TalkEventHandler = 0x0305, // updated 5.58 hotfix
-        //EmoteEventHandler = 0x03A7, // updated 5.58 hotfix
-        //WithinRangeEventHandler = 0x02EE, // updated 5.58 hotfix
-        //OutOfRangeEventHandler = 0x00EE, // updated 5.58 hotfix
-        //EnterTeriEventHandler = 0x0389, // updated 5.58 hotfix
+        //TalkEventHandler = 0x0309, // updated 6.05
+        //EmoteEventHandler = 0x015B, // updated 6.05
+        //WithinRangeEventHandler = 0x02F1, // updated 6.05
+        //OutOfRangeEventHandler = 0x01A0, // updated 6.05
+        //EnterTeriEventHandler = 0x039B, // updated 6.05
 
-        //ReturnEventHandler = 0x03B4, // updated 5.58 hotfix
-        //TradeReturnEventHandler = 0x0216, // updated 5.58 hotfix
+        //ReturnEventHandler = 0x02DA, // updated 6.05
+        //TradeReturnEventHandler = 0x0219, // updated 6.05
 
-        //LinkshellEventHandler = 0x0239, // updated 5.58 hotfix
-        //LinkshellEventHandler1 = 0x0239, // updated 5.58 hotfix
+        //LinkshellEventHandler = 0x023A, // updated 6.05
+        //LinkshellEventHandler1 = 0x023A, // updated 6.05
 
-        //ReqEquipDisplayFlagsChange = 0x01F6, // updated 5.58 hotfix
+        //ReqEquipDisplayFlagsChange = 0x0158, // updated 6.05
 
-        //LandRenameHandler = 0x018C, // updated 5.58 hotfix
-        //HousingUpdateHouseGreeting = 0x02F4, // updated 5.58 hotfix
-        //HousingUpdateObjectPosition = 0x02CB, // updated 5.58 hotfix
+        //LandRenameHandler = 0x029D, // updated 6.05
+        //HousingUpdateHouseGreeting = 0x02F6, // updated 6.05
+        //HousingUpdateObjectPosition = 0x02C4, // updated 6.05
 
-        //SetSharedEstateSettings = 0x0179, // updated 5.58 hotfix
+        //SetSharedEstateSettings = 0x015A, // updated 6.05
 
-        //PerformNoteHandler = 0x016E, // updated 5.58 hotfix
+        //PerformNoteHandler = 0x0175, // updated 6.05
     };
 
     ////////////////////////////////////////////////////////////////////////////////
