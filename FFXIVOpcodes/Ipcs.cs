@@ -63,7 +63,7 @@ namespace FFXIVOpcodes.Global
         ActorCast = 0x0307, // updated 6.05
         CurrencyCrystalInfo = 0x0130, // updated 6.05
         InitZone = 0x0137, // updated 6.05
-        EffectResult = 0x01DF, // updated 6.05
+        EffectResult = 0x0203, // updated 6.05
         EventStart = 0x01D6, // updated 6.05
         EventFinish = 0x0206, // updated 6.05
         SomeDirectorUnk4 = 0x027A, // updated 6.05
@@ -113,6 +113,8 @@ namespace FFXIVOpcodes.Global
         WeatherChange = 0x028A, // updated 6.05
 
         Logout = 0x008A, // updated 6.05
+        
+        ObjectDespawn = 0x0227, // updated 6.05
     };
 
     /**
