@@ -70,8 +70,7 @@ namespace FFXIVOpcodes.Global
         UpdateInventorySlot = 0x027E, // updated 6.05
         DesynthResult = 0x031B, // updated 6.05
         InventoryActionAck = 0x02EA, // updated 6.05
-        InventoryTransaction = 0x02BC, // updated 6.05
-        InventoryTransactionFinish = 0x0269, // updated 6.05
+        InventoryTransaction = 0x0269, // updated 6.05
         CFNotify = 0x0183, // updated 6.05
         PrepareZoning = 0x01DD, // updated 6.05
         ActorSetPos = 0x0081, // updated 6.05
