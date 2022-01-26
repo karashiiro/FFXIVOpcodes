@@ -79,7 +79,11 @@ namespace FFXIVOpcodes.Global
         PlaceFieldMarker = 0x0067, // updated 6.08
         PlaceFieldMarkerPreset = 0x01FE, // updated 6.08
         ObjectSpawn = 0x03A3, // updated 6.08
+        
         StatusEffectList = 0x00BC, // updated 6.08
+        StatusEffectList2 = 0x01FF, // updated 6.08
+        StatusEffectList3 = 0x02AF, // updated 6.08
+        
         ActorGauge = 0x03B5, // updated 6.08
         FreeCompanyInfo = 0x01A2, // updated 6.08
         FreeCompanyDialog = 0x0288, // updated 6.08
@@ -92,7 +96,7 @@ namespace FFXIVOpcodes.Global
         SubmarineStatusList = 0x019D, // updated 6.08
         SubmarineExplorationResult = 0x00C9, // updated 6.08
 
-        EffectResultBasic = 0x034E, // updated 6.08
+        EffectResultBasic = 0x02D9, // updated 6.08
 
         ActionEffect = 0x03C7, // updated 6.08
         ActionEffect8 = 0x0149, // updated 6.08
