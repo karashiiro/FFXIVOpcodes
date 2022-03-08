@@ -9,48 +9,44 @@
           "opcode": 769
         },
         {
+          "name": "AirshipExplorationResult",
+          "opcode": 111
+        },
+        {
           "name": "ActorCast",
           "opcode": 500
-        },
-        {
-          "name": "ActorControl",
-          "opcode": 514
-        },
-        {
-          "name": "ActorGauge",
-          "opcode": 884
-        },
-        {
-          "name": "ActorSetPos",
-          "opcode": 828
-        },
-        {
-          "name": "AirshipTimers",
-          "opcode": 322
-        },
-        {
-          "name": "AirshipStatusList",
-          "opcode": 285
-        },
-        {
-          "name": "ActorControlTarget",
-          "opcode": 819
-        },
-        {
-          "name": "ActorMove",
-          "opcode": 971
         },
         {
           "name": "AirshipStatus",
           "opcode": 941
         },
         {
-          "name": "AirshipExplorationResult",
-          "opcode": 111
+          "name": "ActorControlTarget",
+          "opcode": 819
         },
         {
-          "name": "CFNotify",
-          "opcode": 366
+          "name": "AirshipStatusList",
+          "opcode": 285
+        },
+        {
+          "name": "ActorControl",
+          "opcode": 514
+        },
+        {
+          "name": "AirshipTimers",
+          "opcode": 322
+        },
+        {
+          "name": "ActorMove",
+          "opcode": 971
+        },
+        {
+          "name": "ActorSetPos",
+          "opcode": 828
+        },
+        {
+          "name": "ActorGauge",
+          "opcode": 884
         },
         {
           "name": "ContainerInfo",
@@ -61,64 +57,68 @@
           "opcode": 415
         },
         {
+          "name": "CFNotify",
+          "opcode": 366
+        },
+        {
           "name": "DesynthResult",
           "opcode": 178
-        },
-        {
-          "name": "EventPlay128",
-          "opcode": 827
-        },
-        {
-          "name": "EventPlay255",
-          "opcode": 845
-        },
-        {
-          "name": "ExamineSearchInfo",
-          "opcode": 659
-        },
-        {
-          "name": "EffectResult",
-          "opcode": 538
-        },
-        {
-          "name": "EventPlay8",
-          "opcode": 742
         },
         {
           "name": "EventPlay32",
           "opcode": 505
         },
         {
+          "name": "EventPlay16",
+          "opcode": 542
+        },
+        {
+          "name": "EventPlay128",
+          "opcode": 827
+        },
+        {
           "name": "EventPlay",
           "opcode": 634
+        },
+        {
+          "name": "ExamineSearchInfo",
+          "opcode": 659
+        },
+        {
+          "name": "EventPlay8",
+          "opcode": 742
+        },
+        {
+          "name": "EventPlay255",
+          "opcode": 845
         },
         {
           "name": "Effect",
           "opcode": 862
         },
         {
-          "name": "EventStart",
-          "opcode": 878
+          "name": "EffectResult",
+          "opcode": 538
         },
         {
-          "name": "EventPlay16",
-          "opcode": 542
+          "name": "EventStart",
+          "opcode": 878
         },
         {
           "name": "EventFinish",
           "opcode": 133
         },
         {
-          "name": "EventPlay4",
-          "opcode": 302
+          "name": "Examine",
+          "opcode": 942
         },
         {
           "name": "EventPlay64",
           "opcode": 864
         },
         {
-          "name": "Examine",
-          "opcode": 942
+          "name": "EventPlay4",
+          "opcode": 302
         },
         {
           "name": "FreeCompanyInfo",
@@ -127,10 +127,6 @@
         {
           "name": "FreeCompanyDialog",
           "opcode": 781
-        },
-        {
-          "name": "InitZone",
-          "opcode": 383
         },
         {
           "name": "InventoryActionAck",
@@ -153,8 +149,16 @@
           "opcode": 657
         },
         {
+          "name": "InitZone",
+          "opcode": 383
+        },
+        {
           "name": "Logout",
-          "opcode": 728
+          "opcode": 385
+        },
+        {
+          "name": "MarketBoardItemListing",
+          "opcode": 331
         },
         {
           "name": "MarketBoardSearchResult",
@@ -165,16 +169,12 @@
           "opcode": 259
         },
         {
-          "name": "MarketBoardItemListing",
-          "opcode": 331
+          "name": "MarketBoardPurchase",
+          "opcode": 755
         },
         {
           "name": "MarketBoardItemListingCount",
           "opcode": 880
-        },
-        {
-          "name": "MarketBoardPurchase",
-          "opcode": 755
         },
         {
           "name": "NpcSpawn",
