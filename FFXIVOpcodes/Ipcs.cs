@@ -103,7 +103,7 @@ namespace FFXIVOpcodes.Global
 
         // WeatherChange = 0x017D, // updated 6.08
 
-        Logout = 0x02D8, // updated 6.08 hotfix
+        Logout = 0x0181, // updated 6.08 hotfix
     };
 
     /**
