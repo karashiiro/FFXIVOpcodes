@@ -59,10 +59,8 @@ namespace FFXIVOpcodes.Global
         PlaceFieldMarkerPreset = 0x0075,// Updated 6.1
         EffectResult = 0x030B,// Updated 6.1
         EventStart = 0x008D,// Updated 6.1
-        EventPlay = 0x00F3,// Updated 6.1
         EventFinish = 0x02CA,// Updated 6.1
         SomeDirectorUnk4 = 0x0191,// Updated 6.1
-        EventPlay4 = 0x02DB,// Updated 6.1
         DesynthResult = 0x0354,// Updated 6.1
         FreeCompanyInfo = 0x0079,// Updated 6.1
         FreeCompanyDialog = 0x016C,// Updated 6.1
@@ -86,14 +84,23 @@ namespace FFXIVOpcodes.Global
         CFNotify = 0x01A3,// Updated 6.1
         // SystemLogMessage = 0x0191,// Updated 6.1
         AirshipTimers = 0x03B4,// Updated 6.1
-        SubmarineTimers = 0x0172,// Updated 6.1
         AirshipStatusList = 0x02A8,// Updated 6.1
         AirshipStatus = 0x010C,// Updated 6.1
         AirshipExplorationResult = 0x0320,// Updated 6.1
+
+        SubmarineTimers = 0x0172,// Updated 6.1
+        SubmarineStatusList = 0x02D0,// Updated 6.1
+        SubmarineProgressionStatus = 0x204,// Updated 6.1
         SubmarineExplorationResult = 0x014D,// Updated 6.1
 
-        // WeatherChange = 0x017D, // updated 6.08
-
+        EventPlay = 0xF3, // Updated for 6.1
+        EventPlay4 = 0x2DB, // Updated for 6.1
+        EventPlay8 = 0x17B, // Updated for 6.1
+        EventPlay16 = 0x369, // Updated for 6.1
+        EventPlay32 = 0x131, // Updated for 6.1
+        EventPlay64 = 0x256, // Updated for 6.1
+        EventPlay128 = 0x337, // Updated for 6.1
+        EventPlay255 = 0x17F, // Updated for 6.1
         Logout = 0x0295, // updated 6.1 hotfix
     };
 
