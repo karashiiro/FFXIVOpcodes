@@ -101,9 +101,6 @@ namespace FFXIVOpcodes.Global
         EventPlay64 = 0x256, // Updated for 6.1
         EventPlay128 = 0x337, // Updated for 6.1
         EventPlay255 = 0x17F, // Updated for 6.1
-
-        // WeatherChange = 0x2C9, // Updated for 6.1
-
         Logout = 0x0295, // updated 6.1 hotfix
     };
 
