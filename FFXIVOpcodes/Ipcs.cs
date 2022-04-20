@@ -58,6 +58,7 @@ namespace FFXIVOpcodes.Global
         PlaceFieldMarker = 0x015D,// Updated 6.1
         PlaceFieldMarkerPreset = 0x0075,// Updated 6.1
         EffectResult = 0x030B,// Updated 6.1
+        EffectResultBasic = 0x03A3, // updated 6.1
         EventStart = 0x008D,// Updated 6.1
         EventFinish = 0x02CA,// Updated 6.1
         SomeDirectorUnk4 = 0x0191,// Updated 6.1
