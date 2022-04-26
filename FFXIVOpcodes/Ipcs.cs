@@ -58,6 +58,7 @@ namespace FFXIVOpcodes.Global
         PlaceFieldMarker = 0x028F, // Updated 6.11
         PlaceFieldMarkerPreset = 0x0068, // Updated 6.11
         EffectResult = 0x0309, // Updated 6.11
+        EffectResultBasic = 0x00A8, // updated 6.11
         EventStart = 0x0217, // Updated 6.11
         EventFinish = 0x0096, // Updated 6.11
         SomeDirectorUnk4 = 0x01AD, // Updated 6.11
@@ -76,14 +77,19 @@ namespace FFXIVOpcodes.Global
         ResultDialog = 0x0361, // Updated 6.11
         RetainerInformation = 0x029B, // Updated 6.11
         NpcSpawn = 0x02B1, // Updated 6.11
+        NpcSpawn2 = 0x0083, // updated 6.11
         ItemMarketBoardInfo = 0x01CC, // Updated 6.11
         ObjectSpawn = 0x02D3, // Updated 6.11
         Effect = 0x0398, // Updated 6.11
         StatusEffectList = 0x00D2, // Updated 6.11
+        StatusEffectList2 = 0x0182, // updated 6.11
+        StatusEffectList3 = 0x0299, // updated 6.11
         ActorGauge = 0x02A7, // Updated 6.11
         CFNotify = 0x0188, // Updated 6.11
         AoeEffect8 = 0x0359, // Updated 6.11
         AoeEffect16 = 0x0260, // Updated 6.11
+        AoeEffect24 = 0x0209, // updated 6.11
+        AoeEffect32 = 0x039F, // updated 6.11
         //SystemLogMessage = 0x01AD, // Updated 6.11
         AirshipTimers = 0x024B, // Updated 6.11
         SubmarineTimers = 0x0254, // Updated 6.11
