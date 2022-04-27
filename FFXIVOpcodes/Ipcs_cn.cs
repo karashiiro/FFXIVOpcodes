@@ -2,17 +2,17 @@
 
 namespace FFXIVOpcodes.CN
 {
-    enum ServerLobbyIpcType : ushort
+    public enum ServerLobbyIpcType : ushort
     {
 
     };
 
-    enum ClientLobbyIpcType : ushort
+    public enum ClientLobbyIpcType : ushort
     {
 
     };
 
-    enum ServerZoneIpcType : ushort
+    public enum ServerZoneIpcType : ushort
     {
         ActorCast = 0x0155,
         ActorControl = 0x00FF,
@@ -85,7 +85,7 @@ namespace FFXIVOpcodes.CN
         UpdateSearchInfo = 0x0140,
     };
 
-    enum ClientZoneIpcType : ushort
+    public enum ClientZoneIpcType : ushort
     {
         ChatHandler = 0x01E9,
         ClientTrigger = 0x033D,
@@ -96,12 +96,12 @@ namespace FFXIVOpcodes.CN
         UpdatePositionInstance = 0x032C,
     };
 
-    enum ServerChatIpcType : ushort
+    public enum ServerChatIpcType : ushort
     {
 
     };
 
-    enum ClientChatIpcType : ushort
+    public enum ClientChatIpcType : ushort
     {
 
     };
