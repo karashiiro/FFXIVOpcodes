@@ -77,7 +77,7 @@
         InventoryTransactionFinish = 0x00E7, // 6.0
         ItemInfo = 0x01DB, // 6.0
         ItemMarketBoardInfo = 0x01C1, // 6.0
-        Logout = 0x0289, // 6.0
+        Logout = 0x030D, // 6.0
         MarketBoardItemListing = 0x0292, // 6.0
         MarketBoardItemListingCount = 0x02C0, // 6.0
         MarketBoardItemListingHistory = 0x03A4, // 6.0
