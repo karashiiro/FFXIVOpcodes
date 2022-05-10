@@ -856,15 +856,15 @@
         },
         {
           "name": "Logout",
-          "opcode": 649
-        },
-        {
-          "name": "MarketBoardItemListing",
-          "opcode": 658
+          "opcode": 781
         },
         {
           "name": "MarketBoardItemListingCount",
           "opcode": 704
+        },
+        {
+          "name": "MarketBoardItemListing",
+          "opcode": 658
         },
         {
           "name": "MarketBoardPurchase",
@@ -895,12 +895,12 @@
           "opcode": 764
         },
         {
-          "name": "PrepareZoning",
-          "opcode": 737
-        },
-        {
           "name": "PlayerSetup",
           "opcode": 992
+        },
+        {
+          "name": "PlaceFieldMarkerPreset",
+          "opcode": 731
         },
         {
           "name": "PlayerStats",
@@ -915,16 +915,16 @@
           "opcode": 262
         },
         {
-          "name": "PlaceFieldMarkerPreset",
-          "opcode": 731
-        },
-        {
-          "name": "RetainerInformation",
-          "opcode": 355
+          "name": "PrepareZoning",
+          "opcode": 737
         },
         {
           "name": "ResultDialog",
           "opcode": 496
+        },
+        {
+          "name": "RetainerInformation",
+          "opcode": 355
         },
         {
           "name": "SubmarineTimers",
@@ -939,12 +939,8 @@
           "opcode": 900
         },
         {
-          "name": "StatusEffectList",
-          "opcode": 712
-        },
-        {
-          "name": "StatusEffectList3",
-          "opcode": 877
+          "name": "SomeDirectorUnk4",
+          "opcode": 572
         },
         {
           "name": "SubmarineProgressionStatus",
@@ -955,16 +951,20 @@
           "opcode": 624
         },
         {
-          "name": "SomeDirectorUnk4",
-          "opcode": 572
+          "name": "StatusEffectList",
+          "opcode": 712
         },
         {
-          "name": "UpdateClassInfo",
-          "opcode": 338
+          "name": "StatusEffectList3",
+          "opcode": 877
         },
         {
           "name": "UpdateHpMpTp",
           "opcode": 373
+        },
+        {
+          "name": "UpdateClassInfo",
+          "opcode": 338
         },
         {
           "name": "UpdateInventorySlot",
