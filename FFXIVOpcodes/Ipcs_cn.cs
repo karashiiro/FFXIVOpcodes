@@ -2,105 +2,106 @@
 
 namespace FFXIVOpcodes.CN
 {
-    enum ServerLobbyIpcType : ushort
+    public enum ServerLobbyIpcType : ushort
     {
 
     };
 
-    enum ClientLobbyIpcType : ushort
+    public enum ClientLobbyIpcType : ushort
     {
 
     };
 
-    enum ServerZoneIpcType : ushort
+    public enum ServerZoneIpcType : ushort
     {
-        ActorCast = 0x0329,
-        ActorControl = 0x0282,
-        ActorControlSelf = 0x0205,
-        ActorControlTarget = 0x0227,
-        ActorGauge = 0x039E,
-        ActorMove = 0x00D2,
-        ActorSetPos = 0x011E,
-        AirshipExplorationResult = 0x0315,
-        AirshipStatus = 0x0390,
-        AirshipStatusList = 0x03D0,
-        AoeEffect16 = 0x0103,
-        AoeEffect24 = 0x0238,
-        AoeEffect32 = 0x0231,
-        AoeEffect8 = 0x01A6,
-        BossStatusEffectList = 0x011A,
-        CEDirector = 0x00EA,
-        CFNotify = 0x02A0,
-        CFPreferredRole = 0x00F3,
-        ContainerInfo = 0x00DB,
-        CurrencyCrystalInfo = 0x016D,
-        DesynthResult = 0x03E4,
-        Effect = 0x0258,
-        EffectResult = 0x0207,
-        EventFinish = 0x02BB,
-        EventPlay = 0x0310,
-        EventPlay4 = 0x02B8,
-        EventStart = 0x0162,
-        Examine = 0x0299,
-        ExamineSearchInfo = 0x00BD,
-        FreeCompanyDialog = 0x0181,
-        FreeCompanyInfo = 0x0220,
-        HousingWardInfo = 0x0208,
-        InitZone = 0x0286,
-        InventoryActionAck = 0x0399,
-        InventoryTransaction = 0x02FE,
-        InventoryTransactionFinish = 0x01AB,
-        ItemInfo = 0x0115,
-        ItemMarketBoardInfo = 0x025C,
-        Logout = 0x0219,
-        MarketBoardItemListing = 0x0255,
-        MarketBoardItemListingCount = 0x030F,
-        MarketBoardItemListingHistory = 0x006B,
-        MarketBoardPurchase = 0x0257,
-        MarketBoardSearchResult = 0x0277,
-        MiniCactpotInit = 0x01c7,
-        NpcSpawn = 0x0318,
-        NpcSpawn2 = 0x0137,
-        ObjectSpawn = 0x0247,
-        PlaceFieldMarker = 0x0322,
-        PlaceFieldMarkerPreset = 0x0371,
-        PlayerSetup = 0x03B2,
-        PlayerSpawn = 0x03B3,
-        PlayerStats = 0x009E,
-        Playtime = 0x00D8,
-        PrepareZoning = 0x00A6,
-        ResultDialog = 0x03D8,
-        RetainerInformation = 0x03A4,
-        SomeDirectorUnk4 = 0x008F,
-        StatusEffectList = 0x01CF,
-        StatusEffectList2 = 0x0341,
-        StatusEffectList3 = 0x02B2,
-        SubmarineExplorationResult = 0x00B6,
-        SubmarineProgressionStatus = 0x020E,
-        SubmarineStatusList = 0x0104,
-        UpdateClassInfo = 0x0201,
-        UpdateHpMpTp = 0x01E1,
-        UpdateInventorySlot = 0x0203,
-        UpdateSearchInfo = 0x030E,
+        ActorCast = 0x0155,
+        ActorControl = 0x00FF,
+        ActorControlSelf = 0x03B7,
+        ActorControlTarget = 0x00C1,
+        ActorGauge = 0x0113,
+        ActorMove = 0x01C7,
+        ActorSetPos = 0x012A,
+        AirshipExplorationResult = 0x02B5,
+        AirshipStatus = 0x00B6,
+        AirshipStatusList = 0x00DA,
+        AoeEffect16 = 0x0242,
+        AoeEffect24 = 0x0103,
+        AoeEffect32 = 0x0076,
+        AoeEffect8 = 0x0314,
+        BossStatusEffectList = 0x032F,
+        CEDirector = 0x01AD,
+        CFNotify = 0x0230,
+        CFPreferredRole = 0x03AC,
+        ContainerInfo = 0x00B0,
+        CurrencyCrystalInfo = 0x00A7,
+        DesynthResult = 0x0153,
+        Effect = 0x0100,
+        EffectResult = 0x037B,
+        EventFinish = 0x033B,
+        EventPlay = 0x02E5,
+        EventPlay4 = 0x0199,
+        EventStart = 0x022C,
+        Examine = 0x009C,
+        ExamineSearchInfo = 0x02C9,
+        FateInfo = 0x035B,
+        FreeCompanyDialog = 0x01D1,
+        FreeCompanyInfo = 0x03B1,
+        HousingWardInfo = 0x0249,
+        InitZone = 0x0163,
+        InventoryActionAck = 0x03CD,
+        InventoryTransaction = 0x02EF,
+        InventoryTransactionFinish = 0x01FE,
+        ItemInfo = 0x02DD,
+        ItemMarketBoardInfo = 0x02A2,
+        Logout = 0x037A,
+        MarketBoardItemListing = 0x024D,
+        MarketBoardItemListingCount = 0x00BD,
+        MarketBoardItemListingHistory = 0x00B2,
+        MarketBoardPurchase = 0x01C5,
+        MarketBoardSearchResult = 0x010A,
+        MiniCactpotInit = 0x027C,
+        NpcSpawn = 0x007B,
+        NpcSpawn2 = 0x01A7,
+        ObjectSpawn = 0x01BD,
+        PlaceFieldMarker = 0x012E,
+        PlaceFieldMarkerPreset = 0x0299,
+        PlayerSetup = 0x01BB,
+        PlayerSpawn = 0x0208,
+        PlayerStats = 0x02CE,
+        Playtime = 0x01C1,
+        PrepareZoning = 0x008C,
+        ResultDialog = 0x0347,
+        RetainerInformation = 0x0071,
+        SomeDirectorUnk4 = 0x0281,
+        StatusEffectList = 0x028F,
+        StatusEffectList2 = 0x0158,
+        StatusEffectList3 = 0x02D9,
+        SubmarineExplorationResult = 0x00B5,
+        SubmarineProgressionStatus = 0x0233,
+        SubmarineStatusList = 0x0216,
+        UpdateClassInfo = 0x034F,
+        UpdateHpMpTp = 0x0236,
+        UpdateInventorySlot = 0x009B,
+        UpdateSearchInfo = 0x0140,
     };
 
-    enum ClientZoneIpcType : ushort
+    public enum ClientZoneIpcType : ushort
     {
-        ChatHandler = 0x02D0,
-        ClientTrigger = 0x021E,
-        InventoryModifyHandler = 0x021B,
-        MarketBoardPurchaseHandler = 0x00D7,
-        SetSearchInfoHandler = 0x034F,
-        UpdatePositionHandler = 0x0323,
-        UpdatePositionInstance = 0x00B4,
+        ChatHandler = 0x01E9,
+        ClientTrigger = 0x033D,
+        InventoryModifyHandler = 0x02AC,
+        MarketBoardPurchaseHandler = 0x01EF,
+        SetSearchInfoHandler = 0x0203,
+        UpdatePositionHandler = 0x0324,
+        UpdatePositionInstance = 0x032C,
     };
 
-    enum ServerChatIpcType : ushort
+    public enum ServerChatIpcType : ushort
     {
 
     };
 
-    enum ClientChatIpcType : ushort
+    public enum ClientChatIpcType : ushort
     {
 
     };
