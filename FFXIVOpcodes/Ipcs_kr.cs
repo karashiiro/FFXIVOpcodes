@@ -89,7 +89,7 @@
         ObjectSpawn = 0x009C, // 6.01
         PlaceFieldMarker = 0x02EC, // 6.01
         PlaceFieldMarkerPreset = 0x0341, // 6.01
-        PlayerSetup = 0x0065, // 6.01
+        PlayerSetup = 0x014A, // 6.01
         PlayerSpawn = 0x0195, // 6.01
         PlayerStats = 0x02AD, // 6.01
         Playtime = 0x03A2, // 6.01
