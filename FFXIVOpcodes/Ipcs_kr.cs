@@ -60,7 +60,7 @@
         DesynthResult = 0x02B8, // 6.01
         Effect = 0x019F, // 6.01
         EffectResult = 0x02CB, // 6.01
-        EffectResultBasic = 0x02CB, // 6.01
+        EffectResultBasic = 0x007A, // 6.01
         EventFinish = 0x0248, // 6.01
         EventPlay = 0x017D, // 6.01
         EventPlay32 = 0x0398, // 6.01
