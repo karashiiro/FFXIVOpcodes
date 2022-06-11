@@ -61,7 +61,6 @@ namespace FFXIVOpcodes.Global
         EventStart = 0x01CB, // updated 6.15
         EventPlay = 0x0072, // updated 6.15
         EventFinish = 0x02F8, // updated 6.15
-        SomeDirectorUnk4 = 0x0107, // updated 6.15
         EventPlay4 = 0x01AF, // updated 6.15
         FreeCompanyInfo = 0x02FC, // updated 6.15
         FreeCompanyDialog = 0x0300, // updated 6.15
