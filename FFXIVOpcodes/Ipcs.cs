@@ -53,11 +53,13 @@ namespace FFXIVOpcodes.Global
         ActorMove = 0x01F1, // updated 6.15
         PlayerSpawn = 0x02DD, // updated 6.15
         ActorSetPos = 0x03C8, // updated 6.15
+        HousingWardInfo = 0x0382, // updated 6.15
         PrepareZoning = 0x01D0, // updated 6.15
         ContainerInfo = 0x0102, // updated 6.15
         ItemInfo = 0x0359, // updated 6.15
         PlaceFieldMarker = 0x02FE, // updated 6.15
         PlaceFieldMarkerPreset = 0x03AC, // updated 6.15
+        EffectResult = 0x024A, // updated 6.15
         EventStart = 0x01CB, // updated 6.15
         EventPlay = 0x0072, // updated 6.15
         EventFinish = 0x02F8, // updated 6.15
@@ -78,10 +80,25 @@ namespace FFXIVOpcodes.Global
         NpcSpawn = 0x0331, // updated 6.15
         ItemMarketBoardInfo = 0x0195, // updated 6.15
         ObjectSpawn = 0x01B7, // updated 6.15
+        EventPlay32 = 0x034F, // updated 6.15
+        EffectResultBasic = 0x1002, // updated 6.15
+        Effect = 0x014C, // updated 6.15
+        StatusEffectList = 0x03B9, // updated 6.15
+        ActorGauge = 0x01FC, // updated 6.15
         CFPreferredRole = 0x02DE, // updated 6.15
         CFNotify = 0x00A7, // updated 6.15
+        AoeEffect8 = 0x00F4, // updated 6.15
+        AoeEffect16 = 0x02B0, // updated 6.15
+        AoeEffect24 = 0x02F9, // updated 6.15
         SystemLogMessage = 0x0107, // updated 6.15
+        AirshipTimers = 0x031D, // updated 6.15
         SubmarineTimers = 0x0237, // updated 6.15
+        AirshipStatusList = 0x021F, // updated 6.15
+        AirshipStatus = 0x01B0, // updated 6.15
+        AirshipExplorationResult = 0x025B, // updated 6.15
+        SubmarineProgressionStatus = 0x02C8, // updated 6.15
+        SubmarineStatusList = 0x0391, // updated 6.15
+        SubmarineExplorationResult = 0x0207, // updated 6.15
     };
 
     /**
