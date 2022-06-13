@@ -99,6 +99,8 @@ namespace FFXIVOpcodes.Global
         SubmarineProgressionStatus = 0x02C8, // updated 6.15
         SubmarineStatusList = 0x0391, // updated 6.15
         SubmarineExplorationResult = 0x0207, // updated 6.15
+        
+        Logout = 0x0160, // updated 6.15
     };
 
     /**
