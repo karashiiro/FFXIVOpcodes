@@ -96,7 +96,6 @@
         PrepareZoning = 0x01CE, // 6.01
         ResultDialog = 0x0382, // 6.01
         RetainerInformation = 0x031A, // 6.01
-        SomeDirectorUnk4 = 0x02A0, // (SystemLogMessage) 6.01
         StatusEffectList = 0x0211, // 6.01
         StatusEffectList2 = 0x0179, // 6.01
         StatusEffectList3 = 0x013A, // 6.01
@@ -104,6 +103,7 @@
         SubmarineProgressionStatus = 0x011E, // 6.01
         SubmarineStatusList = 0x02CA, // 6.01
         SubmarineTimers = 0x03A5, // 6.01
+        SystemLogMessage = 0x02A0, // 6.01
         UpdateClassInfo = 0x03D6, // 6.01
         UpdateHpMpTp = 0x02B2, // 6.01
         UpdateInventorySlot = 0x02E8, // 6.01
