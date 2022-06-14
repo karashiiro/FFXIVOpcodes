@@ -93,6 +93,7 @@ namespace FFXIVOpcodes.Global
         SystemLogMessage = 0x0107, // updated 6.15
         AirshipTimers = 0x031D, // updated 6.15
         SubmarineTimers = 0x0237, // updated 6.15
+        EventPlay8 = 0x035D, // updated 6.15
         AirshipStatusList = 0x021F, // updated 6.15
         AirshipStatus = 0x01B0, // updated 6.15
         AirshipExplorationResult = 0x025B, // updated 6.15
