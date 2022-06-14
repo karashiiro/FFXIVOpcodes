@@ -605,7 +605,7 @@
           "opcode": 655
         },
         {
-          "name": "SomeDirectorUnk4",
+          "name": "SystemLogMessage",
           "opcode": 641
         },
         {
@@ -935,7 +935,7 @@
           "opcode": 714
         },
         {
-          "name": "SomeDirectorUnk4",
+          "name": "SystemLogMessage",
           "opcode": 672
         },
         {
