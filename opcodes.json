@@ -5,24 +5,12 @@
     "lists": {
       "ServerZoneIpcType": [
         {
-          "name": "ActorCast",
-          "opcode": 839
-        },
-        {
-          "name": "ActorControlTarget",
-          "opcode": 112
+          "name": "AoeEffect16",
+          "opcode": 688
         },
         {
           "name": "ActorControl",
           "opcode": 646
-        },
-        {
-          "name": "AirshipExplorationResult",
-          "opcode": 603
-        },
-        {
-          "name": "AoeEffect16",
-          "opcode": 688
         },
         {
           "name": "AirshipStatus",
@@ -33,60 +21,72 @@
           "opcode": 497
         },
         {
-          "name": "AoeEffect8",
-          "opcode": 244
-        },
-        {
           "name": "ActorGauge",
           "opcode": 508
-        },
-        {
-          "name": "ActorSetPos",
-          "opcode": 968
-        },
-        {
-          "name": "AoeEffect24",
-          "opcode": 761
         },
         {
           "name": "ActorControlSelf",
           "opcode": 776
         },
         {
-          "name": "AirshipStatusList",
-          "opcode": 543
-        },
-        {
           "name": "AirshipTimers",
           "opcode": 797
         },
         {
-          "name": "CFPreferredRole",
-          "opcode": 734
+          "name": "AirshipStatusList",
+          "opcode": 543
+        },
+        {
+          "name": "AoeEffect24",
+          "opcode": 761
+        },
+        {
+          "name": "ActorCast",
+          "opcode": 839
+        },
+        {
+          "name": "AoeEffect8",
+          "opcode": 244
+        },
+        {
+          "name": "AirshipExplorationResult",
+          "opcode": 603
+        },
+        {
+          "name": "ActorControlTarget",
+          "opcode": 112
+        },
+        {
+          "name": "ActorSetPos",
+          "opcode": 968
         },
         {
           "name": "ContainerInfo",
           "opcode": 258
         },
         {
-          "name": "CFNotify",
-          "opcode": 167
-        },
-        {
           "name": "CurrencyCrystalInfo",
           "opcode": 546
+        },
+        {
+          "name": "CFPreferredRole",
+          "opcode": 734
+        },
+        {
+          "name": "CFNotify",
+          "opcode": 167
         },
         {
           "name": "EventFinish",
           "opcode": 760
         },
         {
-          "name": "EnvironmentControl",
-          "opcode": 736
-        },
-        {
           "name": "EffectResult",
           "opcode": 586
+        },
+        {
+          "name": "EnvironmentControl",
+          "opcode": 635
         },
         {
           "name": "ExamineSearchInfo",
@@ -189,6 +189,10 @@
           "opcode": 439
         },
         {
+          "name": "PlayerSpawn",
+          "opcode": 733
+        },
+        {
           "name": "PlayerStats",
           "opcode": 870
         },
@@ -203,10 +207,6 @@
         {
           "name": "PlaceFieldMarker",
           "opcode": 766
-        },
-        {
-          "name": "PlayerSpawn",
-          "opcode": 733
         },
         {
           "name": "Playtime",
@@ -225,12 +225,12 @@
           "opcode": 148
         },
         {
-          "name": "SubmarineProgressionStatus",
-          "opcode": 712
-        },
-        {
           "name": "StatusEffectList",
           "opcode": 953
+        },
+        {
+          "name": "SubmarineProgressionStatus",
+          "opcode": 712
         },
         {
           "name": "SubmarineExplorationResult",
