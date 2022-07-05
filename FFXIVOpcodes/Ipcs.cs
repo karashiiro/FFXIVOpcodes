@@ -102,7 +102,7 @@ namespace FFXIVOpcodes.Global
         SubmarineExplorationResult = 0x0207, // updated 6.15
         
         Logout = 0x0160, // updated 6.15
-        EnvironmentControl = 0x02E0,// updated 6.15
+        EnvironmentControl = 0x027B,// updated 6.18
     };
 
     /**
