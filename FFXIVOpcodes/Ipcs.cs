@@ -63,7 +63,7 @@ namespace FFXIVOpcodes.Global
         EventStart = 0x022D, // updated 6.18
         EventPlay = 0x0348, // updated 6.18
         EventFinish = 0x0069, // updated 6.18
-        //EventPlay4 = 0x01AF, // updated 6.15
+        EventPlay4 = 0x0108, // updated 6.18
         DesynthResult = 0x02B1, // updated 6.18
         FreeCompanyInfo = 0x02E0, // updated 6.18
         FreeCompanyDialog = 0x0284, // updated 6.18
@@ -94,7 +94,7 @@ namespace FFXIVOpcodes.Global
         SystemLogMessage = 0x0246, // updated 6.18
         AirshipTimers = 0x026D, // updated 6.18
         SubmarineTimers = 0x0138, // updated 6.18
-        EventPlay8 = 0x0108, // updated 6.18
+        EventPlay8 = 0x010F, // updated 6.18
         AirshipStatusList = 0x02D1, // updated 6.18
         AirshipStatus = 0x01C3, // updated 6.18
         AirshipExplorationResult = 0x031B, // updated 6.18
