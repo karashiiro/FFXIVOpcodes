@@ -72,17 +72,18 @@ namespace FFXIVOpcodes.CN
         PrepareZoning = 0x008C,
         ResultDialog = 0x0347,
         RetainerInformation = 0x0071,
-        SomeDirectorUnk4 = 0x0281,
         StatusEffectList = 0x028F,
         StatusEffectList2 = 0x0158,
         StatusEffectList3 = 0x02D9,
         SubmarineExplorationResult = 0x00B5,
         SubmarineProgressionStatus = 0x0233,
         SubmarineStatusList = 0x0216,
+        SystemLogMessage = 0x0281,
         UpdateClassInfo = 0x034F,
         UpdateHpMpTp = 0x0236,
         UpdateInventorySlot = 0x009B,
         UpdateSearchInfo = 0x0140,
+        EnvironmentControl = 0x03D7,
     };
 
     public enum ClientZoneIpcType : ushort
