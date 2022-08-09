@@ -83,7 +83,7 @@ namespace FFXIVOpcodes.CN
         UpdateHpMpTp = 0x0236,
         UpdateInventorySlot = 0x009B,
         UpdateSearchInfo = 0x0140,
-        EnvironmentControl = 0x03D7,
+        EnvironmentControl = 0x0339,
     };
 
     public enum ClientZoneIpcType : ushort
