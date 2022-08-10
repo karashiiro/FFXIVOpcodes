@@ -80,6 +80,10 @@ namespace FFXIVOpcodes.Global
         ObjectSpawn = 0x0313, // Updated 6.18 hotfix
         EffectResultBasic = 0x1078, // Updated 6.18 hotfix
         Effect = 0x0353, // Updated 6.18 hotfix
+        AoeEffect08: 0x02e0,
+        AoeEffect16: 0x014D,
+        AoeEffect24: 0x0065,
+        AoeEffect32: 0x012D,
         StatusEffectList = 0x01D0, // Updated 6.18 hotfix
         ActorGauge = 0x03A3, // Updated 6.18 hotfix
         CFPreferredRole = 0x037D, // Updated 6.18 hotfix
