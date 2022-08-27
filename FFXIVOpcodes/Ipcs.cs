@@ -98,7 +98,7 @@ namespace FFXIVOpcodes.Global
         EventPlay64 = 0x00aa, // Updated 6.2
         EventPlay128 = 0x0213, // Updated 6.2
         EventPlay255 = 0x0298, // Updated 6.2
-        EnvironmentControl = 0x195, // updated 6.2
+        EnvironmentControl = 0x195, // Updated 6.2
         Logout = 0x00C9 // Updated 6.2
     };
 
