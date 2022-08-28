@@ -109,6 +109,10 @@
           "opcode": 424
         },
         {
+          "name": "EnvironmentControl",
+          "opcode": 405
+        },
+        {
           "name": "EventFinish",
           "opcode": 369
         },
@@ -117,16 +121,16 @@
           "opcode": 848
         },
         {
-          "name": "FreeCompanyInfo",
-          "opcode": 680
-        },
-        {
           "name": "FreeCompanyDialog",
           "opcode": 182
         },
         {
-          "name": "ItemInfo",
-          "opcode": 933
+          "name": "FreeCompanyInfo",
+          "opcode": 680
+        },
+        {
+          "name": "InventoryActionAck",
+          "opcode": 479
         },
         {
           "name": "InventoryTransactionFinish",
@@ -137,8 +141,8 @@
           "opcode": 209
         },
         {
-          "name": "InventoryActionAck",
-          "opcode": 479
+          "name": "ItemInfo",
+          "opcode": 933
         },
         {
           "name": "ItemMarketBoardInfo",
