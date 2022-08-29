@@ -101,7 +101,7 @@ namespace FFXIVOpcodes.Global
         EventPlay64 = 0x2fb, // Updated for 6.2 Hotfix
         EventPlay128 = 0x129, // Updated for 6.2 Hotfix
         EventPlay255 = 0x2cd, // Updated for 6.2 Hotfix
-        // EnvironmentControl = 0x195, // Updated 6.2
+        EnvironmentControl = 0x24A, // Updated for 6.2 Hotfix
         Logout = 0x006F // Updated 6.2 hotfix
     };
 
