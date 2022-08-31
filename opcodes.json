@@ -5,6 +5,10 @@
     "lists": {
       "ServerZoneIpcType": [
         {
+          "name": "ActorControlTarget",
+          "opcode": 280
+        },
+        {
           "name": "ActorControlSelf",
           "opcode": 572
         },
@@ -19,10 +23,6 @@
         {
           "name": "ActorControl",
           "opcode": 679
-        },
-        {
-          "name": "ActorControlTarget",
-          "opcode": 280
         },
         {
           "name": "ActorGauge",
@@ -81,16 +81,16 @@
           "opcode": 896
         },
         {
-          "name": "EventFinish",
-          "opcode": 956
-        },
-        {
           "name": "EffectResult",
           "opcode": 611
         },
         {
           "name": "EnvironmentControl",
           "opcode": 586
+        },
+        {
+          "name": "EventFinish",
+          "opcode": 956
         },
         {
           "name": "Examine",
@@ -133,6 +133,10 @@
           "opcode": 191
         },
         {
+          "name": "IslandWorkshopSupplyDemand",
+          "opcode": 467
+        },
+        {
           "name": "InventoryTransactionFinish",
           "opcode": 176
         },
@@ -161,16 +165,16 @@
           "opcode": 560
         },
         {
-          "name": "MarketBoardPurchase",
-          "opcode": 350
-        },
-        {
           "name": "MarketBoardItemListing",
           "opcode": 513
         },
         {
           "name": "MarketBoardItemListingHistory",
           "opcode": 404
+        },
+        {
+          "name": "MarketBoardPurchase",
+          "opcode": 350
         },
         {
           "name": "MarketBoardSearchResult",
