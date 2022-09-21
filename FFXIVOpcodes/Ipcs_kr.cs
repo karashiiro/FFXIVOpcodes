@@ -50,6 +50,7 @@
         AoeEffect24 = 0x03DB, // 6.051
         AoeEffect32 = 0x02EA, // 6.051
         AoeEffect8 = 0x00C7, // 6.051
+        CEDirector = 0x01A7, // 6.051
         CFNotify = 0x015A, // 6.051
         CFPreferredRole = 0x00D8, // 6.051
         ContainerInfo = 0x0251, // 6.051
