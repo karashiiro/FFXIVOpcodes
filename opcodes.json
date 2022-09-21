@@ -843,16 +843,20 @@
           "opcode": 589
         },
         {
-          "name": "InventoryActionAck",
-          "opcode": 551
-        },
-        {
           "name": "InitZone",
           "opcode": 541
         },
         {
+          "name": "InventoryActionAck",
+          "opcode": 551
+        },
+        {
           "name": "Logout",
           "opcode": 861
+        },
+        {
+          "name": "MarketBoardPurchase",
+          "opcode": 405
         },
         {
           "name": "MarketBoardSearchResult",
@@ -863,6 +867,14 @@
           "opcode": 157
         },
         {
+          "name": "MapEffect",
+          "opcode": 404
+        },
+        {
+          "name": "MarketBoardItemListingCount",
+          "opcode": 637
+        },
+        {
           "name": "MarketBoardItemListingHistory",
           "opcode": 563
         },
@@ -871,20 +883,16 @@
           "opcode": 508
         },
         {
-          "name": "MarketBoardPurchase",
-          "opcode": 405
-        },
-        {
-          "name": "MarketBoardItemListingCount",
-          "opcode": 637
-        },
-        {
           "name": "NpcSpawn",
           "opcode": 373
         },
         {
           "name": "ObjectSpawn",
           "opcode": 402
+        },
+        {
+          "name": "PrepareZoning",
+          "opcode": 470
         },
         {
           "name": "PlayerSetup",
@@ -899,28 +907,28 @@
           "opcode": 921
         },
         {
-          "name": "PrepareZoning",
-          "opcode": 470
-        },
-        {
           "name": "PlaceFieldMarker",
           "opcode": 917
-        },
-        {
-          "name": "Playtime",
-          "opcode": 915
         },
         {
           "name": "PlaceFieldMarkerPreset",
           "opcode": 880
         },
         {
-          "name": "ResultDialog",
-          "opcode": 858
+          "name": "Playtime",
+          "opcode": 915
         },
         {
           "name": "RetainerInformation",
           "opcode": 275
+        },
+        {
+          "name": "ResultDialog",
+          "opcode": 858
+        },
+        {
+          "name": "SystemLogMessage",
+          "opcode": 261
         },
         {
           "name": "StatusEffectList2",
@@ -931,28 +939,32 @@
           "opcode": 352
         },
         {
-          "name": "SubmarineStatusList",
-          "opcode": 183
+          "name": "StatusEffectList",
+          "opcode": 305
         },
         {
           "name": "SubmarineExplorationResult",
           "opcode": 297
         },
         {
-          "name": "StatusEffectList",
-          "opcode": 305
-        },
-        {
           "name": "SubmarineProgressionStatus",
           "opcode": 185
         },
         {
-          "name": "SystemLogMessage",
-          "opcode": 261
+          "name": "SubmarineStatusList",
+          "opcode": 183
         },
         {
           "name": "SubmarineTimers",
           "opcode": 219
+        },
+        {
+          "name": "UpdateHpMpTp",
+          "opcode": 893
+        },
+        {
+          "name": "UpdateSearchInfo",
+          "opcode": 707
         },
         {
           "name": "UpdateInventorySlot",
@@ -961,14 +973,6 @@
         {
           "name": "UpdateClassInfo",
           "opcode": 229
-        },
-        {
-          "name": "UpdateSearchInfo",
-          "opcode": 707
-        },
-        {
-          "name": "UpdateHpMpTp",
-          "opcode": 893
         },
         {
           "name": "WeatherChange",
