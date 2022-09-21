@@ -50,6 +50,7 @@
         AoeEffect24 = 0x03DB, // 6.051
         AoeEffect32 = 0x02EA, // 6.051
         AoeEffect8 = 0x00C7, // 6.051
+        CEDirector = 0x01A7, // 6.051
         CFNotify = 0x015A, // 6.051
         CFPreferredRole = 0x00D8, // 6.051
         ContainerInfo = 0x0251, // 6.051
@@ -76,6 +77,7 @@
         ItemInfo = 0x0108, // 6.051
         ItemMarketBoardInfo = 0x024D, // 6.051
         Logout = 0x035D, // 6.051
+        MapEffect = 0x0194, // 6.051
         MarketBoardItemListing = 0x01FC, // 6.051
         MarketBoardItemListingCount = 0x027D, // 6.051
         MarketBoardItemListingHistory = 0x0233, // 6.051
