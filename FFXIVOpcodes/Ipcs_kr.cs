@@ -76,6 +76,7 @@
         ItemInfo = 0x0108, // 6.051
         ItemMarketBoardInfo = 0x024D, // 6.051
         Logout = 0x035D, // 6.051
+        MapEffect = 0x0194, // 6.051
         MarketBoardItemListing = 0x01FC, // 6.051
         MarketBoardItemListingCount = 0x027D, // 6.051
         MarketBoardItemListingHistory = 0x0233, // 6.051
