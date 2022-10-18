@@ -96,7 +96,6 @@ namespace FFXIVOpcodes.Global
         SubmarineStatusList = 0x0151, // Updated 6.25
         SubmarineExplorationResult = 0x0084, // Updated 6.25
 
-
         EventPlay = 0x162, // Updated for 6.25
         EventPlay4 = 0x232, // Updated for 6.25
         EventPlay8 = 0xe3, // Updated for 6.25
