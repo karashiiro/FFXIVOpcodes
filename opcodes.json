@@ -105,6 +105,10 @@
           "opcode": 4208
         },
         {
+          "name": "EnvironmentControl",
+          "opcode": 403
+        },
+        {
           "name": "Examine",
           "opcode": 216
         },
@@ -117,16 +121,12 @@
           "opcode": 457
         },
         {
-          "name": "EnvironmentControl",
-          "opcode": 421
+          "name": "EventPlay4",
+          "opcode": 562
         },
         {
           "name": "EventPlay",
           "opcode": 354
-        },
-        {
-          "name": "EventPlay4",
-          "opcode": 562
         },
         {
           "name": "FreeCompanyDialog",
@@ -137,16 +137,16 @@
           "opcode": 875
         },
         {
-          "name": "ItemMarketBoardInfo",
-          "opcode": 959
-        },
-        {
           "name": "InventoryTransactionFinish",
           "opcode": 861
         },
         {
           "name": "InitZone",
           "opcode": 324
+        },
+        {
+          "name": "ItemMarketBoardInfo",
+          "opcode": 959
         },
         {
           "name": "InventoryActionAck",
