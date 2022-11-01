@@ -105,7 +105,7 @@ namespace FFXIVOpcodes.Global
         EventPlay128 = 0x38c, // Updated for 6.25
         EventPlay255 = 0x257, // Updated for 6.25
 
-        EnvironmentControl = 0x1A5, // Updated for 6.25
+        EnvironmentControl = 0x193, // Updated for 6.28
         IslandWorkshopSupplyDemand = 0x01E2, // Updated 6.25
         Logout = 0x02C5 // Updated 6.25
     };
