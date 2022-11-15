@@ -9,12 +9,12 @@
           "opcode": 545
         },
         {
-          "name": "ActorSetPos",
-          "opcode": 558
-        },
-        {
           "name": "ActorGauge",
           "opcode": 286
+        },
+        {
+          "name": "ActorSetPos",
+          "opcode": 558
         },
         {
           "name": "ActorControlTarget",
@@ -97,8 +97,8 @@
           "opcode": 512
         },
         {
-          "name": "EnvironmentControl",
-          "opcode": 403
+          "name": "EventFinish",
+          "opcode": 354
         },
         {
           "name": "EffectResultBasic",
@@ -117,8 +117,8 @@
           "opcode": 218
         },
         {
-          "name": "EventFinish",
-          "opcode": 354
+          "name": "EnvironmentControl",
+          "opcode": 268
         },
         {
           "name": "Effect",
@@ -129,40 +129,40 @@
           "opcode": 155
         },
         {
-          "name": "FreeCompanyInfo",
-          "opcode": 630
-        },
-        {
           "name": "FreeCompanyDialog",
           "opcode": 360
         },
         {
-          "name": "InventoryActionAck",
-          "opcode": 657
-        },
-        {
-          "name": "IslandWorkshopSupplyDemand",
-          "opcode": 327
+          "name": "FreeCompanyInfo",
+          "opcode": 630
         },
         {
           "name": "InventoryTransactionFinish",
           "opcode": 740
         },
         {
-          "name": "InventoryTransaction",
-          "opcode": 897
-        },
-        {
-          "name": "ItemInfo",
-          "opcode": 333
+          "name": "InitZone",
+          "opcode": 997
         },
         {
           "name": "ItemMarketBoardInfo",
           "opcode": 145
         },
         {
-          "name": "InitZone",
-          "opcode": 997
+          "name": "InventoryTransaction",
+          "opcode": 897
+        },
+        {
+          "name": "IslandWorkshopSupplyDemand",
+          "opcode": 327
+        },
+        {
+          "name": "InventoryActionAck",
+          "opcode": 657
+        },
+        {
+          "name": "ItemInfo",
+          "opcode": 333
         },
         {
           "name": "Logout",
@@ -197,16 +197,16 @@
           "opcode": 190
         },
         {
-          "name": "PlaceFieldMarkerPreset",
-          "opcode": 271
-        },
-        {
           "name": "PlayerSetup",
           "opcode": 376
         },
         {
           "name": "PlayerStats",
           "opcode": 787
+        },
+        {
+          "name": "PlaceFieldMarkerPreset",
+          "opcode": 271
         },
         {
           "name": "Playtime",
@@ -237,20 +237,20 @@
           "opcode": 662
         },
         {
-          "name": "SubmarineExplorationResult",
-          "opcode": 348
+          "name": "SystemLogMessage",
+          "opcode": 497
         },
         {
           "name": "StatusEffectList",
           "opcode": 144
         },
         {
-          "name": "SystemLogMessage",
-          "opcode": 497
-        },
-        {
           "name": "SubmarineProgressionStatus",
           "opcode": 317
+        },
+        {
+          "name": "SubmarineExplorationResult",
+          "opcode": 348
         },
         {
           "name": "SubmarineTimers",
