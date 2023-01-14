@@ -47,23 +47,22 @@ namespace FFXIVOpcodes.Global
         Playtime = 0x0326, // updated 6.3h
         UpdateSearchInfo = 0x034A, // updated 6.3h
         ExamineSearchInfo = 0x030E, // updated 6.3h
-        Examine = 0x0326, // updated 6.3h
+        Examine = 0x01BC, // updated 6.3h
         ActorCast = 0x029C, // updated 6.3h
-        //CurrencyCrystalInfo = 0x023F, // Updated 6.28 hotfix
+        CurrencyCrystalInfo = 0x02BB, // updated 6.3h
         InitZone = 0x0222, // updated 6.3h
         WeatherChange = 0x00C7, // updated 6.3h
-        ActorMove = 0x01DB, // updated 6.3h
         PlayerSpawn = 0x007F, // updated 6.3h
         ActorSetPos = 0x018C, // updated 6.3h
         PrepareZoning = 0x0195, // updated 6.3h
-        //ContainerInfo = 0x00D9, // Updated 6.28 hotfix
-        ItemInfo = 0x03E3, // Updated 6.28 hotfix
+        ContainerInfo = 0x0255, // updated 6.3h
+        ItemInfo = 0x0302, // updated 6.3h
         PlaceFieldMarker = 0x038E, // updated 6.3h
         PlaceFieldMarkerPreset = 0x0204, // updated 6.3h
         EffectResult = 0x022C, // updated 6.3h
         EventStart = 0x01A1, // updated 6.3h
         EventFinish = 0x0194, // updated 6.3h
-        //DesynthResult = 0x0111, // Updated 6.28 hotfix
+        DesynthResult = 0x0270, // updated 6.3h
         FreeCompanyInfo = 0x01DD, // updated 6.3h
         FreeCompanyDialog = 0x00E6, // updated 6.3h
         MarketBoardSearchResult = 0x021E, // updated 6.3h
@@ -73,19 +72,19 @@ namespace FFXIVOpcodes.Global
         MarketBoardPurchase = 0x032F, // updated 6.3h
         UpdateInventorySlot = 0x010E, // updated 6.3h
         InventoryActionAck = 0x01EB, // updated 6.3h
-        //InventoryTransaction = 0x02E2, // Updated 6.28 hotfix
-        InventoryTransactionFinish = 0x0109, // updated 6.3h
-        ResultDialog = 0x028F, // Updated 6.28 hotfix
-        RetainerInformation = 0x024F, // Updated 6.28 hotfix
+        InventoryTransaction = 0x0077, // updated 6.3h
+        InventoryTransactionFinish = 0x01BE, // updated 6.3h
+        ResultDialog = 0x03BB, // updated 6.3h
+        RetainerInformation = 0x039C, // updated 6.3h
         NpcSpawn = 0x039E, // updated 6.3h
-        ItemMarketBoardInfo = 0x03DA, // updated 6.3h
+        ItemMarketBoardInfo = 0x00DF, // updated 6.3h
         ObjectSpawn = 0x031B, // updated 6.3h
-        EffectResultBasic = 0x0384, // updated 6.3h
+        EffectResultBasic = 0x1069, // updated 6.3h
         Effect = 0x01C9, // updated 6.3h
         StatusEffectList = 0x02BC, // updated 6.3h
         ActorGauge = 0x0171, // updated 6.3h
         CFNotify = 0x038B, // updated 6.3h
-        SystemLogMessage = 0x0343, // updated 6.3h
+        SystemLogMessage = 0x009A, // updated 6.3h
         AirshipTimers = 0x026B, // updated 6.3h
         SubmarineTimers = 0x0103, // updated 6.3h
         AirshipStatusList = 0x0070, // updated 6.3h
@@ -116,14 +115,14 @@ namespace FFXIVOpcodes.Global
     enum ClientZoneIpcType : ushort
     {
         // Client Zone
-        ClientTrigger = 0x174, // updated 6.30h
-        ChatHandler = 0x2C6, // updated 6.30h
-        UpdatePositionHandler = 0x10F, // Updated for 6.30h
-        UpdatePositionInstance = 0xDB, // Updated for 6.30h
+        ClientTrigger = 0x0174, // updated 6.30h
+        ChatHandler = 0x02C6, // updated 6.30h
+        UpdatePositionHandler = 0x0010F, // Updated for 6.30h
+        UpdatePositionInstance = 0x00DB, // Updated for 6.30h
 
-        //SetSearchInfoHandler = 0x01A7, // Updated 6.28 hotfix
-        //MarketBoardPurchaseHandler = 0x0336, // Updated 6.28 hotfix
-        //InventoryModifyHandler = 0x01E1, // Updated 6.28 hotfix (Base offset: 0x01E8)
+        SetSearchInfoHandler = 0x0227, // updated 6.3h
+        MarketBoardPurchaseHandler = 0x0095, // updated 6.3h
+        InventoryModifyHandler = 0x008F, // updated 6.3h (Base offset: 0x0096)
 
         //PingHandler = 0x02B9, // updated 6.08
         //InitHandler = 0x01A9, // updated 6.08
