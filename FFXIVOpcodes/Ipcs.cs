@@ -49,7 +49,6 @@ namespace FFXIVOpcodes.Global
         ExamineSearchInfo = 0x033E, // updated 6.3a
         Examine = 0x0121, // updated 6.3a
         ActorCast = 0x0207, // updated 6.3a
-        CurrencyCrystalInfo = 0x037B, // updated 6.3a
         InitZone = 0x0094, // updated 6.3a
         WeatherChange = 0x0163, // updated 6.3a
         PlayerSpawn = 0x0187, // updated 6.3a
@@ -115,14 +114,13 @@ namespace FFXIVOpcodes.Global
     enum ClientZoneIpcType : ushort
     {
         // Client Zone
-        ClientTrigger = 0x0174, // updated 6.30h
-        ChatHandler = 0x02C6, // updated 6.30h
-        UpdatePositionHandler = 0x0010F, // Updated for 6.30h
-        UpdatePositionInstance = 0x00DB, // Updated for 6.30h
-
-        SetSearchInfoHandler = 0x0227, // updated 6.3h
-        MarketBoardPurchaseHandler = 0x0095, // updated 6.3h
-        InventoryModifyHandler = 0x008F, // updated 6.3h (Base offset: 0x0096)
+        UpdatePositionHandler = 0x00EE, // updated 6.3a
+        ClientTrigger = 0x0165, // updated 6.3a
+        ChatHandler = 0x0206, // updated 6.3a
+        SetSearchInfoHandler = 0x035C, // updated 6.3a
+        MarketBoardPurchaseHandler = 0x018C, // updated 6.3a
+        InventoryModifyHandler = 0x01D3, // updated 6.3a (Base offset: 0x01DA)
+        UpdatePositionInstance = 0x00E8, // updated 6.3a
 
         //PingHandler = 0x02B9, // updated 6.08
         //InitHandler = 0x01A9, // updated 6.08
