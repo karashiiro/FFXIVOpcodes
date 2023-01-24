@@ -49,6 +49,7 @@ namespace FFXIVOpcodes.Global
         ExamineSearchInfo = 0x033E, // updated 6.3a
         Examine = 0x0121, // updated 6.3a
         ActorCast = 0x0207, // updated 6.3a
+        CurrencyCrystalInfo = 0x037B, // updated 6.3a
         InitZone = 0x0094, // updated 6.3a
         WeatherChange = 0x0163, // updated 6.3a
         PlayerSpawn = 0x0187, // updated 6.3a
