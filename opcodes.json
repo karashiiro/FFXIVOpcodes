@@ -279,16 +279,20 @@
           "opcode": 241
         },
         {
+          "name": "ClientTrigger",
+          "opcode": 580
+        },
+        {
           "name": "InventoryModifyHandler",
           "opcode": 418
         },
         {
           "name": "MarketBoardPurchaseHandler",
-          "opcode": 396
+          "opcode": 707
         },
         {
           "name": "SetSearchInfoHandler",
-          "opcode": 860
+          "opcode": 872
         },
         {
           "name": "UpdatePositionHandler",
