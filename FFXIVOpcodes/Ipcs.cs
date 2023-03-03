@@ -82,6 +82,8 @@ namespace FFXIVOpcodes.Global
         EffectResultBasic = 0x0205, // updated 6.31h
         Effect = 0x0100, // updated 6.31h
         StatusEffectList = 0x0305, // updated 6.31h
+        StatusEffectList2 = 0x0197, // updated 6.31h
+        StatusEffectList3 = 0x02A7, // updated 6.31h
         ActorGauge = 0x0238, // updated 6.31h
         CFNotify = 0x02A1, // updated 6.31h
         SystemLogMessage = 0x01A6, // updated 6.31h
@@ -94,6 +96,11 @@ namespace FFXIVOpcodes.Global
         SubmarineStatusList = 0x00AC, // updated 6.31h
         SubmarineExplorationResult = 0x0194, // updated 6.31h
 
+        ActorMove = 0x0155, // updated 6.31h
+        ActionEffect8 = 0x02B9, // updated 6.31h
+        ActionEffect16 = 0x0390, // updated 6.31h
+        ActionEffect24 = 0x022A, // updated 6.31h
+        ActionEffect32 = 0x0120, // updated 6.31h
 
         EventPlay = 0x03B8, // updated 6.31h
         EventPlay4 = 0x01EC, // updated 6.31h
