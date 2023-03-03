@@ -5,44 +5,68 @@
     "lists": {
       "ServerZoneIpcType": [
         {
-          "name": "ActorControlSelf",
-          "opcode": 515
+          "name": "AirshipStatus",
+          "opcode": 753
         },
         {
-          "name": "AirshipTimers",
-          "opcode": 218
-        },
-        {
-          "name": "AirshipStatusList",
-          "opcode": 925
-        },
-        {
-          "name": "ActorSetPos",
-          "opcode": 153
+          "name": "ActionEffect24",
+          "opcode": 554
         },
         {
           "name": "ActorGauge",
           "opcode": 568
         },
         {
+          "name": "ActorControl",
+          "opcode": 420
+        },
+        {
           "name": "ActorCast",
           "opcode": 389
         },
         {
-          "name": "ActorControlTarget",
-          "opcode": 126
+          "name": "ActorMove",
+          "opcode": 341
+        },
+        {
+          "name": "ActionEffect8",
+          "opcode": 697
+        },
+        {
+          "name": "ActionEffect32",
+          "opcode": 288
+        },
+        {
+          "name": "AirshipTimers",
+          "opcode": 218
+        },
+        {
+          "name": "ActionEffect16",
+          "opcode": 912
+        },
+        {
+          "name": "ActorControlSelf",
+          "opcode": 515
         },
         {
           "name": "AirshipExplorationResult",
           "opcode": 964
         },
         {
-          "name": "ActorControl",
-          "opcode": 420
+          "name": "ActorControlTarget",
+          "opcode": 126
         },
         {
-          "name": "AirshipStatus",
-          "opcode": 753
+          "name": "ActorSetPos",
+          "opcode": 153
+        },
+        {
+          "name": "AirshipStatusList",
+          "opcode": 925
+        },
+        {
+          "name": "CurrencyCrystalInfo",
+          "opcode": 901
         },
         {
           "name": "ContainerInfo",
@@ -53,20 +77,28 @@
           "opcode": 673
         },
         {
-          "name": "CurrencyCrystalInfo",
-          "opcode": 901
-        },
-        {
           "name": "DesynthResult",
           "opcode": 362
+        },
+        {
+          "name": "EventPlay16",
+          "opcode": 942
         },
         {
           "name": "EffectResult",
           "opcode": 532
         },
         {
+          "name": "EventPlay128",
+          "opcode": 139
+        },
+        {
           "name": "Examine",
           "opcode": 582
+        },
+        {
+          "name": "EventFinish",
+          "opcode": 140
         },
         {
           "name": "EventPlay32",
@@ -77,28 +109,28 @@
           "opcode": 342
         },
         {
-          "name": "EventPlay255",
-          "opcode": 267
-        },
-        {
           "name": "EffectResultBasic",
           "opcode": 517
         },
         {
-          "name": "Effect",
-          "opcode": 256
+          "name": "EventPlay64",
+          "opcode": 754
         },
         {
           "name": "EventPlay8",
           "opcode": 819
         },
         {
-          "name": "EnvironmentControl",
-          "opcode": 239
+          "name": "EventPlay255",
+          "opcode": 267
         },
         {
-          "name": "EventPlay16",
-          "opcode": 942
+          "name": "Effect",
+          "opcode": 256
+        },
+        {
+          "name": "EnvironmentControl",
+          "opcode": 239
         },
         {
           "name": "EventPlay",
@@ -107,18 +139,6 @@
         {
           "name": "EventStart",
           "opcode": 146
-        },
-        {
-          "name": "EventFinish",
-          "opcode": 140
-        },
-        {
-          "name": "EventPlay128",
-          "opcode": 139
-        },
-        {
-          "name": "EventPlay64",
-          "opcode": 754
         },
         {
           "name": "EventPlay4",
@@ -153,16 +173,20 @@
           "opcode": 208
         },
         {
-          "name": "IslandWorkshopSupplyDemand",
-          "opcode": 400
-        },
-        {
           "name": "InitZone",
           "opcode": 280
         },
         {
+          "name": "IslandWorkshopSupplyDemand",
+          "opcode": 400
+        },
+        {
           "name": "Logout",
           "opcode": 114
+        },
+        {
+          "name": "MarketBoardSearchResult",
+          "opcode": 277
         },
         {
           "name": "MarketBoardItemListingCount",
@@ -173,16 +197,12 @@
           "opcode": 779
         },
         {
-          "name": "MarketBoardSearchResult",
-          "opcode": 277
+          "name": "MarketBoardItemListing",
+          "opcode": 493
         },
         {
           "name": "MarketBoardItemListingHistory",
           "opcode": 374
-        },
-        {
-          "name": "MarketBoardItemListing",
-          "opcode": 493
         },
         {
           "name": "NpcSpawn",
@@ -205,10 +225,6 @@
           "opcode": 973
         },
         {
-          "name": "PlaceFieldMarkerPreset",
-          "opcode": 384
-        },
-        {
           "name": "PlayerSetup",
           "opcode": 647
         },
@@ -219,6 +235,10 @@
         {
           "name": "Playtime",
           "opcode": 620
+        },
+        {
+          "name": "PlaceFieldMarkerPreset",
+          "opcode": 384
         },
         {
           "name": "RetainerInformation",
@@ -233,24 +253,32 @@
           "opcode": 422
         },
         {
-          "name": "StatusEffectList",
-          "opcode": 773
+          "name": "SubmarineStatusList",
+          "opcode": 172
         },
         {
-          "name": "SubmarineTimers",
-          "opcode": 611
-        },
-        {
-          "name": "SubmarineProgressionStatus",
-          "opcode": 602
+          "name": "StatusEffectList2",
+          "opcode": 407
         },
         {
           "name": "SubmarineExplorationResult",
           "opcode": 404
         },
         {
-          "name": "SubmarineStatusList",
-          "opcode": 172
+          "name": "SubmarineTimers",
+          "opcode": 611
+        },
+        {
+          "name": "StatusEffectList",
+          "opcode": 773
+        },
+        {
+          "name": "StatusEffectList3",
+          "opcode": 679
+        },
+        {
+          "name": "SubmarineProgressionStatus",
+          "opcode": 602
         },
         {
           "name": "UpdateHpMpTp",
@@ -261,12 +289,12 @@
           "opcode": 200
         },
         {
-          "name": "UpdateClassInfo",
-          "opcode": 709
-        },
-        {
           "name": "UpdateInventorySlot",
           "opcode": 194
+        },
+        {
+          "name": "UpdateClassInfo",
+          "opcode": 709
         },
         {
           "name": "WeatherChange",
