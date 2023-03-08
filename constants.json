@@ -4,9 +4,9 @@
     "RECV": "49 8B 40 10 4C 8B 50 38"
   },
   "CN": {
-    "InventoryOperationBaseValue": 606
+    "InventoryOperationBaseValue": 769
   },
   "KR": {
-    "InventoryOperationBaseValue": 571
+    "InventoryOperationBaseValue": 385
   }
 }
