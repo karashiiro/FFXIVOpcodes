@@ -82,7 +82,7 @@
         MarketBoardItemListing = 0x022A, // 6.3
         MarketBoardItemListingCount = 0x0117, // 6.3
         MarketBoardItemListingHistory = 0x0134, // 6.3
-        MarketBoardPurchase = 0x0365, // 6.3
+        MarketBoardPurchase = 0x0105, // 6.3
         MarketBoardSearchResult = 0x020B, // 6.3
         MiniCactpotInit = 0x01EB, // 6.3
         NpcSpawn = 0x022B, // 6.3
