@@ -6,7 +6,8 @@ namespace FFXIVConstants
     {
         public static Dictionary<string, object> Constants = new Dictionary<string, object>
         {
-            { "InventoryOperationBaseValue", 0x0329 }
+            // This is InventoryModifyHandler + 7
+            { "InventoryOperationBaseValue", 0x0147 }
         };
     }
 }
