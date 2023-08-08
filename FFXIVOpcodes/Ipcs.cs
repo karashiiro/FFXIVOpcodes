@@ -37,79 +37,79 @@ namespace FFXIVOpcodes.Global
     enum ServerZoneIpcType : ushort
     {
         // Server Zone
-        PlayerSetup = 0x02C5, // updated 6.45
-        UpdateHpMpTp = 0x02FA, // updated 6.45
-        UpdateClassInfo = 0x03A5, // updated 6.45
-        PlayerStats = 0x030C, // updated 6.45
-        ActorControl = 0x0088, // updated 6.45
-        ActorControlSelf = 0x02F7, // updated 6.45
-        ActorControlTarget = 0x00A1, // updated 6.45
-        Playtime = 0x02E5, // updated 6.45
-        UpdateSearchInfo = 0x02CE, // updated 6.45
-        ExamineSearchInfo = 0x006B, // updated 6.45
-        Examine = 0x00ED, // updated 6.45
-        ActorCast = 0x0330, // updated 6.45
-        CurrencyCrystalInfo = 0x026A, // updated 6.45
-        InitZone = 0x00D8, // updated 6.45
-        WeatherChange = 0x00F0, // updated 6.45
-        PlayerSpawn = 0x02D3, // updated 6.45
-        ActorSetPos = 0x0196, // updated 6.45
-        PrepareZoning = 0x03A8, // updated 6.45
-        ContainerInfo = 0x0343, // updated 6.45
-        ItemInfo = 0x0333, // updated 6.45
-        PlaceFieldMarker = 0x0172, // updated 6.45
-        PlaceFieldMarkerPreset = 0x00D3, // updated 6.45
-        EffectResult = 0x00D2, // updated 6.45
-        EventStart = 0x0133, // updated 6.45
-        EventFinish = 0x0125, // updated 6.45
-        DesynthResult = 0x01DF, // updated 6.45
-        FreeCompanyInfo = 0x0231, // updated 6.45
-        FreeCompanyDialog = 0x023E, // updated 6.45
-        MarketBoardSearchResult = 0x02FD, // updated 6.45
-        MarketBoardItemListingCount = 0x026B, // updated 6.45
-        MarketBoardItemListingHistory = 0x03CB, // updated 6.45
-        MarketBoardItemListing = 0x00EB, // updated 6.45
-        MarketBoardPurchase = 0x017B, // updated 6.45
-        UpdateInventorySlot = 0x013F, // updated 6.45
-        InventoryActionAck = 0x00BD, // updated 6.45
-        InventoryTransaction = 0x01D2, // updated 6.45
-        InventoryTransactionFinish = 0x02EE, // updated 6.45
-        ResultDialog = 0x00C2, // updated 6.45
-        RetainerInformation = 0x02F8, // updated 6.45
-        NpcSpawn = 0x0179, // updated 6.45
-        ItemMarketBoardInfo = 0x0143, // updated 6.45
-        ObjectSpawn = 0x0240, // updated 6.45
-        EffectResultBasic = 0x034F, // updated 6.45
-        Effect = 0x01E1, // updated 6.45
-        StatusEffectList = 0x03CE, // updated 6.45
-        StatusEffectList2 = 0x02B7, // updated 6.45
-        StatusEffectList3 = 0x00EE, // updated 6.45
-        ActorGauge = 0x0080, // updated 6.45
-        CFNotify = 0x0126, // updated 6.45
-        SystemLogMessage = 0x0100, // updated 6.45
-        AirshipTimers = 0x0075, // updated 6.45
-        SubmarineTimers = 0x00CD, // updated 6.45
-        AirshipStatusList = 0x0391, // updated 6.45
-        AirshipStatus = 0x007B, // updated 6.45
-        AirshipExplorationResult = 0x0304, // updated 6.45
-        SubmarineProgressionStatus = 0x022D, // updated 6.45
-        SubmarineStatusList = 0x01BC, // updated 6.45
-        SubmarineExplorationResult = 0x034A, // updated 6.45
+        PlayerSetup = 0x020E, // updated 6.48
+        UpdateHpMpTp = 0x01FB, // updated 6.48
+        UpdateClassInfo = 0x03E3, // updated 6.48
+        PlayerStats = 0x02F3, // updated 6.48
+        ActorControl = 0x00D4, // updated 6.48
+        ActorControlSelf = 0x03C1, // updated 6.48
+        ActorControlTarget = 0x00EF, // updated 6.48
+        Playtime = 0x0313, // updated 6.48
+        UpdateSearchInfo = 0x0115, // updated 6.48
+        ExamineSearchInfo = 0x0357, // updated 6.48
+        Examine = 0x0200, // updated 6.48
+        ActorCast = 0x00C8, // updated 6.48
+        CurrencyCrystalInfo = 0x0389, // updated 6.48
+        InitZone = 0x0071, // updated 6.48
+        WeatherChange = 0x021C, // updated 6.48
+        PlayerSpawn = 0x010E, // updated 6.48
+        ActorSetPos = 0x032C, // updated 6.48
+        PrepareZoning = 0x0188, // updated 6.48
+        ContainerInfo = 0x0208, // updated 6.48
+        ItemInfo = 0x03A4, // updated 6.48
+        PlaceFieldMarker = 0x0194, // updated 6.48
+        PlaceFieldMarkerPreset = 0x0221, // updated 6.48
+        EffectResult = 0x02A3, // updated 6.48
+        EventStart = 0x02BE, // updated 6.48
+        EventFinish = 0x0289, // updated 6.48
+        DesynthResult = 0x0296, // updated 6.48
+        FreeCompanyInfo = 0x030F, // updated 6.48
+        FreeCompanyDialog = 0x01B4, // updated 6.48
+        MarketBoardSearchResult = 0x03D6, // updated 6.48
+        MarketBoardItemListingCount = 0x0306, // updated 6.48
+        MarketBoardItemListingHistory = 0x02F4, // updated 6.48
+        MarketBoardItemListing = 0x01DB, // updated 6.48
+        MarketBoardPurchase = 0x01F0, // updated 6.48
+        UpdateInventorySlot = 0x00A4, // updated 6.48
+        InventoryActionAck = 0x0134, // updated 6.48
+        InventoryTransaction = 0x03DB, // updated 6.48
+        InventoryTransactionFinish = 0x0298, // updated 6.48
+        ResultDialog = 0x021F, // updated 6.48
+        RetainerInformation = 0x02FE, // updated 6.48
+        NpcSpawn = 0x0091, // updated 6.48
+        ItemMarketBoardInfo = 0x011B, // updated 6.48
+        ObjectSpawn = 0x0190, // updated 6.48
+        EffectResultBasic = 0x00FA, // updated 6.48
+        Effect = 0x0354, // updated 6.48
+        StatusEffectList = 0x01DD, // updated 6.48
+        StatusEffectList2 = 0x0166, // updated 6.48
+        StatusEffectList3 = 0x031F, // updated 6.48
+        ActorGauge = 0x02A4, // updated 6.48
+        CFNotify = 0x0069, // updated 6.48
+        SystemLogMessage = 0x03C8, // updated 6.48
+        AirshipTimers = 0x034F, // updated 6.48
+        SubmarineTimers = 0x03AF, // updated 6.48
+        AirshipStatusList = 0x02E4, // updated 6.48
+        AirshipStatus = 0x016B, // updated 6.48
+        AirshipExplorationResult = 0x0359, // updated 6.48
+        SubmarineProgressionStatus = 0x0152, // updated 6.48
+        SubmarineStatusList = 0x00C4, // updated 6.48
+        SubmarineExplorationResult = 0x0376, // updated 6.48
 
-        ActorMove = 0x01F1, // updated 6.45
+        ActorMove = 0x01AA, // updated 6.48
 
-        EventPlay = 0x014A, // updated 6.45
-        EventPlay4 = 0x01A5, // updated 6.45
-        EventPlay8 = 0x03B7, // updated 6.45
-        EventPlay16 = 0x03C4, // updated 6.45
-        EventPlay32 = 0x0108, // updated 6.45
-        EventPlay64 = 0x03E4, // updated 6.45
-        EventPlay128 = 0x0320, // updated 6.45
-        EventPlay255 = 0x0151, // updated 6.45
+        EventPlay = 0x02DB, // updated 6.48
+        EventPlay4 = 0x00E8, // updated 6.48
+        EventPlay8 = 0x00FE, // updated 6.48
+        EventPlay16 = 0x008F, // updated 6.48
+        EventPlay32 = 0x0374, // updated 6.48
+        EventPlay64 = 0x027F, // updated 6.48
+        EventPlay128 = 0x0365, // updated 6.48
+        EventPlay255 = 0x00DB, // updated 6.48
 
-        EnvironmentControl = 0x029F, // updated 6.45
-        IslandWorkshopSupplyDemand = 0x01F4, // updated 6.45
-        Logout = 0x0132, // updated 6.45
+        EnvironmentControl = 0x0137, // updated 6.48
+        IslandWorkshopSupplyDemand = 0x00F9, // updated 6.48
+        Logout = 0x0116, // updated 6.48
     };
 
     /**
@@ -117,13 +117,13 @@ namespace FFXIVOpcodes.Global
     */
     enum ClientZoneIpcType : ushort
     {
-        UpdatePositionHandler = 0x00A5, // updated 6.45
-        ClientTrigger = 0x00DF, // updated 6.45
-        ChatHandler = 0x031F, // updated 6.45
-        SetSearchInfoHandler = 0x0129, // updated 6.45
-        MarketBoardPurchaseHandler = 0x0066, // updated 6.45
-        InventoryModifyHandler = 0x0140, // updated 6.45
-        UpdatePositionInstance = 0x0095, // updated 6.45
+        UpdatePositionHandler = 0x03B5, // updated 6.48
+        ClientTrigger = 0x0186, // updated 6.48
+        ChatHandler = 0x01DF, // updated 6.48
+        SetSearchInfoHandler = 0x0230, // updated 6.48
+        MarketBoardPurchaseHandler = 0x015B, // updated 6.48
+        InventoryModifyHandler = 0x02DA, // updated 6.48
+        UpdatePositionInstance = 0x00A5, // updated 6.48
     };
 
     ////////////////////////////////////////////////////////////////////////////////
