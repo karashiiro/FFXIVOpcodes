@@ -52,7 +52,7 @@ namespace FFXIVOpcodes.Global
         CurrencyCrystalInfo = 0x02AD, // updated 6.5
         InitZone = 0x038F, // updated 6.5
         WeatherChange = 0x03DA, // updated 6.5
-        PlayerSpawn = 0x0379, // updated 6.5
+        PlayerSpawn = 0x03E2, // updated 6.5
         ActorSetPos = 0x0280, // updated 6.5
         PrepareZoning = 0x01F3, // updated 6.5
         ContainerInfo = 0x01B5, // updated 6.5
@@ -76,7 +76,7 @@ namespace FFXIVOpcodes.Global
         InventoryTransactionFinish = 0x029A, // updated 6.5
         ResultDialog = 0x01C3, // updated 6.5
         RetainerInformation = 0x03D5, // updated 6.5
-        NpcSpawn = 0x03E2, // updated 6.5
+        NpcSpawn = 0x0379, // updated 6.5
         ItemMarketBoardInfo = 0x033A, // updated 6.5
         ObjectSpawn = 0x02C2, // updated 6.5
         EffectResultBasic = 0x01AF, // updated 6.5
