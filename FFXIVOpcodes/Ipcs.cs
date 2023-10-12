@@ -67,7 +67,7 @@ namespace FFXIVOpcodes.Global
         FreeCompanyDialog = 0x0391, // updated 6.5
         MarketBoardSearchResult = 0x0169, // updated 6.5
         MarketBoardItemListingCount = 0x0168, // updated 6.5
-        MarketBoardItemListingHistory = 0x039F, // updated 6.5
+        MarketBoardItemListingHistory = 0x0347, // updated 6.5
         MarketBoardItemListing = 0x0233, // updated 6.5
         MarketBoardPurchase = 0x0133, // updated 6.5
         UpdateInventorySlot = 0x0369, // updated 6.5
