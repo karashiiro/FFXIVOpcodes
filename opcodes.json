@@ -291,10 +291,6 @@
           "opcode": 143
         },
         {
-          "name": "ChatHandler",
-          "opcode": 449
-        },
-        {
           "name": "InventoryModifyHandler",
           "opcode": 926
         },

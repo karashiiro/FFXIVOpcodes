@@ -119,7 +119,7 @@ namespace FFXIVOpcodes.Global
     {
         UpdatePositionHandler = 0x0374, // updated 6.51
         ClientTrigger = 0x008F, // updated 6.51
-        ChatHandler = 0x01C1, // updated 6.5
+        //ChatHandler = 0x01C1, // updated 6.5
         SetSearchInfoHandler = 0x02AE, // updated 6.51
         MarketBoardPurchaseHandler = 0x01BF, // updated 6.51
         InventoryModifyHandler = 0x039E, // updated 6.51 (Base offset: 0x03A5)
