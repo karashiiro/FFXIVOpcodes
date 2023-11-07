@@ -84,7 +84,7 @@
         DirectorVars = 0x0148, // 6.401
         Discovery = 0x032A, // 6.401
         EffectResult = 0x013A, // 6.401
-        EffectResult16 = 0x02A2, // 6.401
+        EffectResult16 = 0x00A2, // 6.401
         EffectResult4 = 0x0133, // 6.401
         EffectResult8 = 0x02A2, // 6.401
         EffectResultBasic = 0x03A1, // 6.401
@@ -115,7 +115,7 @@
         FateInfo = 0x02ED, // 6.401
         FellowshipList = 0x016B, // 6.401
         FirstAttack = 0x0297, // 6.401
-        FreeCompanyDialog = 0x01FC, // 6.401
+        FreeCompanyDialog = 0x0132, // 6.401
         FreeCompanyInfo = 0x03AE, // 6.401
         GCAffiliation = 0x024E, // 6.401
         HousingEstateGreeting = 0x0292, // 6.401
@@ -168,6 +168,7 @@
         Mount = 0x01C5, // 6.401
         MSQTrackerComplete = 0x0267, // 6.401
         NpcSpawn = 0x03C8, // 6.401
+        NpcSpawn2 = 0x02D1, // 6.401
         NpcYell = 0x02BE, // 6.401
         ObjectSpawn = 0x0128, // 6.401
         OpenTreasure = 0x01CC, // 6.401
@@ -206,10 +207,6 @@
         SocialMessage = 0x0359, // 6.401
         SocialMessage2 = 0x031F, // 6.401
         SocialRequestResponse = 0x02AF, // 6.401
-        SpawnBoss = 0x02D1, // 6.401
-        SpawnNPC = 0x03C8, // 6.401
-        SpawnObject = 0x0128, // 6.401
-        SpawnPlayer = 0x032F, // 6.401
         StatusEffectList = 0x03AA, // 6.401
         StatusEffectListBozja = 0x02D5, // 6.401
         StatusEffectListDouble = 0x022A, // 6.401
