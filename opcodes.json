@@ -975,12 +975,12 @@
           "opcode": 888
         },
         {
-          "name": "EffectResultBasic16",
-          "opcode": 265
-        },
-        {
           "name": "EquipDisplayFlags",
           "opcode": 962
+        },
+        {
+          "name": "EffectResultBasic16",
+          "opcode": 265
         },
         {
           "name": "EffectResult16",
@@ -1107,12 +1107,12 @@
           "opcode": 603
         },
         {
-          "name": "ItemInfo",
-          "opcode": 268
+          "name": "IslandWorkshopSupplyDemand",
+          "opcode": 476
         },
         {
-          "name": "IslandWorkshopSupplyDemand",
-          "opcode": 466
+          "name": "ItemInfo",
+          "opcode": 268
         },
         {
           "name": "InventoryActionAck",
