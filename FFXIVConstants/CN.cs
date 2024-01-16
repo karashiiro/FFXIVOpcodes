@@ -5,11 +5,11 @@ namespace FFXIVConstants
 {
     public static class CN
     {
-        public const string Version = "6.40";
+        public const string Version = "6.45a";
 
         public static Dictionary<string, object> Constants = new Dictionary<string, object>
         {
-            { "InventoryOperationBaseValue", 0x03ab },
+            { "InventoryOperationBaseValue", 0x03e5 },
         };
     }
 }

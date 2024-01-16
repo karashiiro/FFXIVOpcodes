@@ -135,7 +135,7 @@
         InventoryActionAck = 0x02F7, // 6.401
         InventoryTransaction = 0x0216, // 6.401
         InventoryTransactionFinish = 0x0116, // 6.401
-        IslandWorkshopSupplyDemand = 0x01D2, // 6.401
+        IslandWorkshopSupplyDemand = 0x01DC, // 6.401
         ItemInfo = 0x010C, // 6.401
         ItemMarketBoardInfo = 0x0336, // 6.401
         LandAvailability = 0x038E, // 6.401
