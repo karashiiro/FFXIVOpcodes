@@ -162,6 +162,7 @@
         MarketBoardItemListingHistory = 0x0358, // 6.51
         MarketBoardPurchase = 0x03D2, // 6.51
         MarketBoardSearchResult = 0x02E9, // 6.51
+        MiniCactpotInit = 0x03A6, // 6.51
         ModelEquip = 0x031F, // 6.51
         Mount = 0x03D3, // 6.51
         MSQTrackerComplete = 0x0255, // 6.51
@@ -253,8 +254,8 @@
         ChatHandler = 0x008C, // 6.51
         ClientCountdownInitiate = 0x0308, // 6.51
         ClientTrigger = 0x0068, // 6.51
-        InventoryModifyHandler = 0x027F, // 6.51
-        // LogoutHandler = 0x0122, // 6.5
+        InventoryModifyHandler = 0x027F, // 6.51 (Base offset: 0x0286)
+        LogoutHandler = 0x0260, // 6.51
         MarketBoardPurchaseHandler = 0x0172, // 6.51
         SetSearchInfoHandler = 0x0349, // 6.51
         UpdatePositionHandler = 0x02B8, // 6.51
