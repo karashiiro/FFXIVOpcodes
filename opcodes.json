@@ -29,6 +29,10 @@
           "opcode": 842
         },
         {
+          "name": "ActorSetPos",
+          "opcode": 660
+        },
+        {
           "name": "ActorMove",
           "opcode": 351
         },
@@ -45,24 +49,28 @@
           "opcode": 403
         },
         {
-          "name": "ActorSetPos",
-          "opcode": 660
+          "name": "ContainerInfo",
+          "opcode": 697
         },
         {
           "name": "CFNotify",
           "opcode": 339
         },
         {
+          "name": "CraftingLog",
+          "opcode": 178
+        },
+        {
           "name": "CurrencyCrystalInfo",
           "opcode": 604
         },
         {
-          "name": "ContainerInfo",
-          "opcode": 697
-        },
-        {
           "name": "DesynthResult",
           "opcode": 764
+        },
+        {
+          "name": "EventPlay4",
+          "opcode": 548
         },
         {
           "name": "EventPlay16",
@@ -73,24 +81,20 @@
           "opcode": 581
         },
         {
-          "name": "ExamineSearchInfo",
-          "opcode": 554
+          "name": "EventPlay255",
+          "opcode": 696
         },
         {
           "name": "Effect",
           "opcode": 811
         },
         {
-          "name": "EventPlay4",
-          "opcode": 548
-        },
-        {
           "name": "EventPlay",
           "opcode": 845
         },
         {
-          "name": "EventPlay255",
-          "opcode": 696
+          "name": "ExamineSearchInfo",
+          "opcode": 554
         },
         {
           "name": "EventPlay32",
@@ -109,10 +113,6 @@
           "opcode": 258
         },
         {
-          "name": "EventStart",
-          "opcode": 168
-        },
-        {
           "name": "EnvironmentControl",
           "opcode": 337
         },
@@ -121,12 +121,16 @@
           "opcode": 335
         },
         {
-          "name": "EffectResultBasic",
-          "opcode": 305
+          "name": "EventStart",
+          "opcode": 168
         },
         {
           "name": "EffectResult",
           "opcode": 143
+        },
+        {
+          "name": "EffectResultBasic",
+          "opcode": 305
         },
         {
           "name": "FreeCompanyInfo",
@@ -137,6 +141,10 @@
           "opcode": 804
         },
         {
+          "name": "GatheringLog",
+          "opcode": 826
+        },
+        {
           "name": "InventoryTransactionFinish",
           "opcode": 195
         },
@@ -145,12 +153,12 @@
           "opcode": 727
         },
         {
-          "name": "IslandWorkshopSupplyDemand",
-          "opcode": 313
+          "name": "InventoryTransaction",
+          "opcode": 749
         },
         {
-          "name": "ItemMarketBoardInfo",
-          "opcode": 862
+          "name": "IslandWorkshopSupplyDemand",
+          "opcode": 313
         },
         {
           "name": "InitZone",
@@ -161,8 +169,8 @@
           "opcode": 897
         },
         {
-          "name": "InventoryTransaction",
-          "opcode": 749
+          "name": "ItemMarketBoardInfo",
+          "opcode": 862
         },
         {
           "name": "Logout",
@@ -205,16 +213,16 @@
           "opcode": 884
         },
         {
-          "name": "PrepareZoning",
-          "opcode": 217
+          "name": "PlayerSetup",
+          "opcode": 215
         },
         {
           "name": "PlayerSpawn",
           "opcode": 407
         },
         {
-          "name": "PlayerSetup",
-          "opcode": 215
+          "name": "PrepareZoning",
+          "opcode": 217
         },
         {
           "name": "PlaceFieldMarker",
@@ -233,8 +241,8 @@
           "opcode": 684
         },
         {
-          "name": "StatusEffectList3",
-          "opcode": 770
+          "name": "SubmarineProgressionStatus",
+          "opcode": 792
         },
         {
           "name": "SubmarineExplorationResult",
@@ -253,12 +261,12 @@
           "opcode": 976
         },
         {
-          "name": "SubmarineTimers",
-          "opcode": 214
+          "name": "StatusEffectList3",
+          "opcode": 770
         },
         {
-          "name": "SubmarineProgressionStatus",
-          "opcode": 792
+          "name": "SubmarineTimers",
+          "opcode": 214
         },
         {
           "name": "SystemLogMessage",

@@ -96,6 +96,9 @@ namespace FFXIVOpcodes.Global
         SubmarineStatusList = 0x008B, // updated 7.0h
         SubmarineExplorationResult = 0x0086, // updated 7.0h
 
+        CraftingLog = 0x00B2, // updated 7.0h
+        GatheringLog = 0x033A, // updated 7.0h
+
         ActorMove = 0x015F, // updated 7.0h
 
         EventPlay = 0x034D, // updated 7.0h
