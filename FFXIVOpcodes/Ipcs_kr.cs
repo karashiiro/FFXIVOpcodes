@@ -162,7 +162,7 @@
         MarketBoardItemListingHistory = 0x0322, // 6.57
         MarketBoardPurchase = 0x0073, // 6.57
         MarketBoardSearchResult = 0x0331, // 6.57
-        // MiniCactpotInit = 0x02E4, // 6.55
+        MiniCactpotInit = 0x03DF, // 6.57
         ModelEquip = 0x03A3, // 6.57
         Mount = 0x0261, // 6.57
         MSQTrackerComplete = 0x0291, // 6.57
@@ -249,14 +249,13 @@
     */
     enum ClientZoneIpcType : ushort
     {
-        // ActionRequest = 0x02FA, // 6.55
-        // ActionRequestGroundTargeted = 0x01D3, // 6.55
-        // ChatHandler = 0x0112, // 6.55
+        ActionRequest = 0x169, // 6.57
+        ActionRequestGroundTargeted = 0x02FF, // 6.57
+        ChatHandler = 0x027F, // 6.57
         ClientCountdownInitiate = 0x013E, // 6.57
-        // ClientTrigger = 0x00BB, // 6.55
-        // Heartbeat = 0x0146, // 6.55
-        // InventoryModifyHandler = 0x0192, // 6.55 (Base offset: 0x0199)
-        // LogoutHandler = 0x0285, // 6.55
+        ClientTrigger = 0x0288, // 6.57
+        InventoryModifyHandler = 0x0077, // 6.57 (Base offset: 0x007E)
+        LogoutHandler = 0x00B9, // 6.57
         MarketBoardPurchaseHandler = 0x01F4, // 6.57
         SetSearchInfoHandler = 0x0167, // 6.57
         UpdatePositionHandler = 0x031B, // 6.57
