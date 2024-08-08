@@ -6,309 +6,309 @@
       "ServerZoneIpcType": [
         {
           "name": "ActorControlSelf",
-          "opcode": 559
-        },
-        {
-          "name": "AirshipExplorationResult",
-          "opcode": 544
-        },
-        {
-          "name": "ActorCast",
-          "opcode": 365
+          "opcode": 517
         },
         {
           "name": "ActorControl",
-          "opcode": 967
-        },
-        {
-          "name": "AirshipTimers",
-          "opcode": 356
-        },
-        {
-          "name": "ActorControlTarget",
-          "opcode": 246
-        },
-        {
-          "name": "ActorGauge",
-          "opcode": 677
+          "opcode": 498
         },
         {
           "name": "ActorMove",
-          "opcode": 882
+          "opcode": 426
         },
         {
-          "name": "AirshipStatus",
-          "opcode": 685
+          "name": "AirshipTimers",
+          "opcode": 981
         },
         {
-          "name": "AirshipStatusList",
-          "opcode": 696
+          "name": "ActorGauge",
+          "opcode": 167
+        },
+        {
+          "name": "AirshipExplorationResult",
+          "opcode": 631
         },
         {
           "name": "ActorSetPos",
-          "opcode": 311
+          "opcode": 811
         },
         {
-          "name": "CraftingLog",
-          "opcode": 726
-        },
-        {
-          "name": "CurrencyCrystalInfo",
-          "opcode": 850
-        },
-        {
-          "name": "ContainerInfo",
-          "opcode": 155
-        },
-        {
-          "name": "CFNotify",
-          "opcode": 485
-        },
-        {
-          "name": "DesynthResult",
-          "opcode": 891
-        },
-        {
-          "name": "EventPlay32",
-          "opcode": 747
-        },
-        {
-          "name": "ExamineSearchInfo",
-          "opcode": 864
-        },
-        {
-          "name": "EventPlay255",
+          "name": "ActorControlTarget",
           "opcode": 660
         },
         {
-          "name": "EventPlay8",
-          "opcode": 915
+          "name": "AirshipStatusList",
+          "opcode": 756
         },
         {
-          "name": "EventPlay4",
-          "opcode": 635
+          "name": "AirshipStatus",
+          "opcode": 502
         },
         {
-          "name": "EventPlay",
-          "opcode": 623
+          "name": "ActorCast",
+          "opcode": 246
         },
         {
-          "name": "EnvironmentControl",
-          "opcode": 979
+          "name": "CurrencyCrystalInfo",
+          "opcode": 648
         },
         {
-          "name": "Effect",
-          "opcode": 422
+          "name": "CFNotify",
+          "opcode": 386
         },
         {
-          "name": "Examine",
-          "opcode": 106
+          "name": "CraftingLog",
+          "opcode": 267
         },
         {
-          "name": "EffectResult",
-          "opcode": 287
+          "name": "ContainerInfo",
+          "opcode": 248
         },
         {
-          "name": "EffectResultBasic",
-          "opcode": 329
+          "name": "DesynthResult",
+          "opcode": 254
         },
         {
-          "name": "EventPlay128",
-          "opcode": 398
-        },
-        {
-          "name": "EventFinish",
-          "opcode": 269
-        },
-        {
-          "name": "EventStart",
-          "opcode": 191
+          "name": "EventPlay32",
+          "opcode": 265
         },
         {
           "name": "EventPlay16",
-          "opcode": 321
+          "opcode": 233
+        },
+        {
+          "name": "EventPlay8",
+          "opcode": 807
+        },
+        {
+          "name": "ExamineSearchInfo",
+          "opcode": 698
+        },
+        {
+          "name": "EventPlay255",
+          "opcode": 216
+        },
+        {
+          "name": "Effect",
+          "opcode": 367
         },
         {
           "name": "EventPlay64",
-          "opcode": 162
+          "opcode": 207
         },
         {
-          "name": "FreeCompanyInfo",
-          "opcode": 805
+          "name": "EffectResultBasic",
+          "opcode": 910
+        },
+        {
+          "name": "EnvironmentControl",
+          "opcode": 949
+        },
+        {
+          "name": "EventFinish",
+          "opcode": 112
+        },
+        {
+          "name": "EventStart",
+          "opcode": 442
+        },
+        {
+          "name": "Examine",
+          "opcode": 627
+        },
+        {
+          "name": "EventPlay4",
+          "opcode": 591
+        },
+        {
+          "name": "EffectResult",
+          "opcode": 988
+        },
+        {
+          "name": "EventPlay",
+          "opcode": 769
+        },
+        {
+          "name": "EventPlay128",
+          "opcode": 589
         },
         {
           "name": "FreeCompanyDialog",
-          "opcode": 109
+          "opcode": 102
+        },
+        {
+          "name": "FreeCompanyInfo",
+          "opcode": 147
         },
         {
           "name": "GatheringLog",
-          "opcode": 630
+          "opcode": 570
         },
         {
           "name": "InventoryTransactionFinish",
-          "opcode": 472
+          "opcode": 564
         },
         {
           "name": "InitZone",
-          "opcode": 371
-        },
-        {
-          "name": "IslandWorkshopSupplyDemand",
-          "opcode": 693
-        },
-        {
-          "name": "InventoryActionAck",
-          "opcode": 783
-        },
-        {
-          "name": "ItemMarketBoardInfo",
-          "opcode": 777
+          "opcode": 488
         },
         {
           "name": "ItemInfo",
-          "opcode": 720
+          "opcode": 600
+        },
+        {
+          "name": "IslandWorkshopSupplyDemand",
+          "opcode": 725
+        },
+        {
+          "name": "ItemMarketBoardInfo",
+          "opcode": 809
         },
         {
           "name": "InventoryTransaction",
-          "opcode": 407
+          "opcode": 486
+        },
+        {
+          "name": "InventoryActionAck",
+          "opcode": 325
         },
         {
           "name": "Logout",
-          "opcode": 433
-        },
-        {
-          "name": "MarketBoardSearchResult",
-          "opcode": 900
+          "opcode": 851
         },
         {
           "name": "MarketBoardItemListingHistory",
-          "opcode": 703
+          "opcode": 849
         },
         {
-          "name": "MarketBoardItemListing",
-          "opcode": 931
-        },
-        {
-          "name": "MarketBoardPurchase",
-          "opcode": 989
+          "name": "MarketBoardSearchResult",
+          "opcode": 415
         },
         {
           "name": "MarketBoardItemListingCount",
-          "opcode": 563
+          "opcode": 957
+        },
+        {
+          "name": "MarketBoardPurchase",
+          "opcode": 741
+        },
+        {
+          "name": "MarketBoardItemListing",
+          "opcode": 780
         },
         {
           "name": "NpcSpawn",
-          "opcode": 857
+          "opcode": 787
         },
         {
           "name": "ObjectSpawn",
-          "opcode": 281
+          "opcode": 668
         },
         {
           "name": "PlayerSetup",
-          "opcode": 679
+          "opcode": 201
         },
         {
           "name": "PlaceFieldMarker",
-          "opcode": 355
-        },
-        {
-          "name": "PlayerSpawn",
-          "opcode": 357
-        },
-        {
-          "name": "PrepareZoning",
-          "opcode": 361
-        },
-        {
-          "name": "PlaceFieldMarkerPreset",
-          "opcode": 919
-        },
-        {
-          "name": "PlayerStats",
-          "opcode": 524
+          "opcode": 950
         },
         {
           "name": "Playtime",
-          "opcode": 275
+          "opcode": 996
         },
         {
-          "name": "ResultDialog",
-          "opcode": 375
+          "name": "PlaceFieldMarkerPreset",
+          "opcode": 745
+        },
+        {
+          "name": "PlayerSpawn",
+          "opcode": 708
+        },
+        {
+          "name": "PrepareZoning",
+          "opcode": 676
+        },
+        {
+          "name": "PlayerStats",
+          "opcode": 624
         },
         {
           "name": "RetainerInformation",
-          "opcode": 855
+          "opcode": 912
         },
         {
-          "name": "StatusEffectList",
-          "opcode": 384
-        },
-        {
-          "name": "SubmarineStatusList",
-          "opcode": 954
-        },
-        {
-          "name": "StatusEffectList3",
-          "opcode": 893
-        },
-        {
-          "name": "SubmarineTimers",
-          "opcode": 867
-        },
-        {
-          "name": "StatusEffectList2",
-          "opcode": 987
+          "name": "ResultDialog",
+          "opcode": 965
         },
         {
           "name": "SubmarineExplorationResult",
-          "opcode": 290
+          "opcode": 240
         },
         {
-          "name": "SubmarineProgressionStatus",
-          "opcode": 309
+          "name": "SubmarineStatusList",
+          "opcode": 110
         },
         {
           "name": "SystemLogMessage",
-          "opcode": 532
+          "opcode": 994
+        },
+        {
+          "name": "SubmarineTimers",
+          "opcode": 841
+        },
+        {
+          "name": "StatusEffectList",
+          "opcode": 351
+        },
+        {
+          "name": "StatusEffectList3",
+          "opcode": 394
+        },
+        {
+          "name": "SubmarineProgressionStatus",
+          "opcode": 516
+        },
+        {
+          "name": "StatusEffectList2",
+          "opcode": 179
         },
         {
           "name": "UpdateClassInfo",
-          "opcode": 327
-        },
-        {
-          "name": "UpdateHpMpTp",
-          "opcode": 512
-        },
-        {
-          "name": "UpdateSearchInfo",
-          "opcode": 815
+          "opcode": 317
         },
         {
           "name": "UpdateInventorySlot",
-          "opcode": 723
+          "opcode": 228
+        },
+        {
+          "name": "UpdateSearchInfo",
+          "opcode": 781
+        },
+        {
+          "name": "UpdateHpMpTp",
+          "opcode": 610
         },
         {
           "name": "WeatherChange",
-          "opcode": 495
+          "opcode": 185
         }
       ],
       "ClientZoneIpcType": [
         {
           "name": "InventoryModifyHandler",
-          "opcode": 259
+          "opcode": 969
         },
         {
           "name": "MarketBoardPurchaseHandler",
-          "opcode": 839
+          "opcode": 681
         },
         {
           "name": "SetSearchInfoHandler",
-          "opcode": 622
+          "opcode": 522
         },
         {
           "name": "UpdatePositionHandler",
-          "opcode": 812
+          "opcode": 215
         },
         {
           "name": "UpdatePositionInstance",
