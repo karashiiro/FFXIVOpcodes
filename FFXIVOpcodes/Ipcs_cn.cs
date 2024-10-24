@@ -78,7 +78,7 @@ namespace FFXIVOpcodes.CN
         Playtime = 0x0298,
         PrepareZoning = 0x0313,
         RetainerInformation = 0x0260,
-        RSV = 0x016D,
+        RSV = 0x016D,
         StatusEffectList = 0x0080,
         StatusEffectList2 = 0x01F1,
         StatusEffectList3 = 0x00A4,
