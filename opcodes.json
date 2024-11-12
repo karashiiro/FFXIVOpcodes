@@ -209,12 +209,16 @@
           "opcode": 675
         },
         {
-          "name": "PlayerSetup",
-          "opcode": 550
+          "name": "PlaceFieldMarkerPreset",
+          "opcode": 118
         },
         {
           "name": "PlayerSpawn",
           "opcode": 369
+        },
+        {
+          "name": "Playtime",
+          "opcode": 715
         },
         {
           "name": "PlayerStats",
@@ -225,56 +229,48 @@
           "opcode": 682
         },
         {
-          "name": "PlaceFieldMarkerPreset",
-          "opcode": 118
-        },
-        {
-          "name": "Playtime",
-          "opcode": 715
-        },
-        {
-          "name": "ResultDialog",
-          "opcode": 783
+          "name": "PlayerSetup",
+          "opcode": 550
         },
         {
           "name": "RetainerInformation",
           "opcode": 404
         },
         {
-          "name": "StatusEffectList2",
-          "opcode": 839
-        },
-        {
-          "name": "SubmarineStatusList",
-          "opcode": 844
-        },
-        {
-          "name": "SystemLogMessage",
-          "opcode": 822
-        },
-        {
-          "name": "StatusEffectList3",
-          "opcode": 556
-        },
-        {
-          "name": "SubmarineExplorationResult",
-          "opcode": 811
-        },
-        {
-          "name": "StatusEffectList",
-          "opcode": 961
-        },
-        {
-          "name": "SubmarineProgressionStatus",
-          "opcode": 249
+          "name": "ResultDialog",
+          "opcode": 783
         },
         {
           "name": "SubmarineTimers",
           "opcode": 243
         },
         {
-          "name": "UpdateInventorySlot",
-          "opcode": 621
+          "name": "SubmarineProgressionStatus",
+          "opcode": 249
+        },
+        {
+          "name": "StatusEffectList3",
+          "opcode": 556
+        },
+        {
+          "name": "StatusEffectList",
+          "opcode": 883
+        },
+        {
+          "name": "SubmarineStatusList",
+          "opcode": 844
+        },
+        {
+          "name": "StatusEffectList2",
+          "opcode": 839
+        },
+        {
+          "name": "SystemLogMessage",
+          "opcode": 822
+        },
+        {
+          "name": "SubmarineExplorationResult",
+          "opcode": 811
         },
         {
           "name": "UpdateClassInfo",
@@ -283,6 +279,10 @@
         {
           "name": "UpdateSearchInfo",
           "opcode": 948
+        },
+        {
+          "name": "UpdateInventorySlot",
+          "opcode": 621
         },
         {
           "name": "UpdateHpMpTp",
