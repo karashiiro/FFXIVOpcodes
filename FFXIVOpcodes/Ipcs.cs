@@ -81,7 +81,7 @@ namespace FFXIVOpcodes.Global
         ObjectSpawn = 0x009C, // updated 7.1
         EffectResultBasic = 0x018D, // updated 7.1
         Effect = 0x02E2, // updated 7.1
-        StatusEffectList = 0x03C1, // updated 7.1
+        StatusEffectList = 0x0373, // updated 7.1
         StatusEffectList2 = 0x0347, // updated 7.1
         StatusEffectList3 = 0x022C, // updated 7.1
         ActorGauge = 0x02F0, // updated 7.1
