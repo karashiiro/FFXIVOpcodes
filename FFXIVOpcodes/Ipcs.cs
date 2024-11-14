@@ -120,7 +120,7 @@ namespace FFXIVOpcodes.Global
     */
     enum ClientZoneIpcType : ushort
     {
-        UpdatePositionHandler = 0x022B, // updated 7.1
+        UpdatePositionHandler = 0x03DC, // updated 7.1
         //ClientTrigger = 0x0324, // updated 7.0h
         SetSearchInfoHandler = 0x03BD, // updated 7.1
         MarketBoardPurchaseHandler = 0x02B1, // updated 7.1
