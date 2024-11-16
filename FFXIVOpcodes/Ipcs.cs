@@ -124,7 +124,7 @@ namespace FFXIVOpcodes.Global
         //ClientTrigger = 0x0324, // updated 7.0h
         SetSearchInfoHandler = 0x03BD, // updated 7.1
         MarketBoardPurchaseHandler = 0x02B1, // updated 7.1
-        InventoryModifyHandler = 0x0217, // updated 7.1
+        InventoryModifyHandler = 0x0188, // updated 7.1
         //UpdatePositionInstance = 0x03CE, // updated 7.0h
     };
 
