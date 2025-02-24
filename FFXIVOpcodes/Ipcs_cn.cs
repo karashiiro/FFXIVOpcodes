@@ -52,7 +52,7 @@ namespace FFXIVOpcodes.CN
         FateInfo = 0x2B4,
         FreeCompanyDialog = 0x01f3,
         FreeCompanyInfo = 0x00e3,
-        HousingWardInfo = 0x035a,
+        HousingWardInfo = 0x01d4,
         InitZone = 0x0108,
         InventoryActionAck = 0x012d,
         InventoryTransaction = 0x0162,
@@ -79,8 +79,7 @@ namespace FFXIVOpcodes.CN
         Playtime = 0x01ba,
         PrepareZoning = 0x010c,
         RetainerInformation = 0x02b2,
-        RSV
- = 0x035A,
+        RSV = 0x035A,
         StatusEffectList = 0x0137,
         StatusEffectList2 = 0x0246,
         StatusEffectList3 = 0x019F,
