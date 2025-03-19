@@ -67,7 +67,7 @@
         CFRegistered = 0x036D, // 7.1
         CharaNameReq = 0x00A1, // 7.1
         CharaVisualEffect = 0x0232, // 7.1
-        Chat = 0x01E9, // 7.1
+        Chat = 0x0252, // 7.1
         CompletedAchievements = 0x037B, // 7.1
         ContainerInfo = 0x020D, // 7.1
         ContentDirectorSync = 0x0263, // 7.1
