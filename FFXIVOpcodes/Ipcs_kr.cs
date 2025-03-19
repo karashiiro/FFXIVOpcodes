@@ -58,7 +58,7 @@
         BattleTalk4 = 0x00E0, // 7.1
         BattleTalk8 = 0x0267, // 7.1
         BlackList = 0x027B, // 7.1
-        CEDirector = 0x00AD, // 7.1
+        CEDirector = 0x0337, // 7.1
         CeremonySetActorAppearance = 0x0126, // 7.1
         CFCancel = 0x0272, // 7.1
         CFDutyInfo = 0x0344, // 7.1
