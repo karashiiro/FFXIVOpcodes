@@ -111,7 +111,7 @@ namespace FFXIVOpcodes.Global
         EventPlay255 = 0x01D3, // updated 7.2
 
         EnvironmentControl = 0x00F2, // updated 7.2
-        IslandWorkshopSupplyDemand = 0x0322, // updated 7.2
+        IslandWorkshopSupplyDemand = 0x0360, // updated 7.2
         Logout = 0x0069, // updated 7.2
     };
 
