@@ -145,12 +145,12 @@
           "opcode": 444
         },
         {
-          "name": "ItemInfo",
-          "opcode": 850
+          "name": "IslandWorkshopSupplyDemand",
+          "opcode": 864
         },
         {
-          "name": "IslandWorkshopSupplyDemand",
-          "opcode": 802
+          "name": "ItemInfo",
+          "opcode": 850
         },
         {
           "name": "InventoryTransaction",
@@ -209,12 +209,12 @@
           "opcode": 401
         },
         {
-          "name": "PlayerSpawn",
-          "opcode": 817
-        },
-        {
           "name": "PrepareZoning",
           "opcode": 364
+        },
+        {
+          "name": "PlayerSpawn",
+          "opcode": 817
         },
         {
           "name": "PlayerSetup",
@@ -225,12 +225,12 @@
           "opcode": 577
         },
         {
-          "name": "PlaceFieldMarker",
-          "opcode": 569
-        },
-        {
           "name": "PlaceFieldMarkerPreset",
           "opcode": 413
+        },
+        {
+          "name": "PlaceFieldMarker",
+          "opcode": 569
         },
         {
           "name": "ResultDialog",
@@ -239,10 +239,6 @@
         {
           "name": "RetainerInformation",
           "opcode": 348
-        },
-        {
-          "name": "StatusEffectList3",
-          "opcode": 711
         },
         {
           "name": "SubmarineExplorationResult",
@@ -255,6 +251,10 @@
         {
           "name": "StatusEffectList",
           "opcode": 839
+        },
+        {
+          "name": "StatusEffectList3",
+          "opcode": 711
         },
         {
           "name": "SubmarineTimers",
