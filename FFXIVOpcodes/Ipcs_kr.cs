@@ -65,6 +65,7 @@
         CFRegistered = 0x025D, // 7.25
         Chat = 0x0237, // 7.25
         ContainerInfo = 0x0363, // 7.25
+        CosmicWeatherMissions = 0x034F, // 7.25
         Countdown = 0x0086, // 7.25
         CountdownCancel = 0x03C7, // 7.25
         CraftingCalculations = 0x0154, // 7.25
@@ -215,7 +216,7 @@
     enum ClientZoneIpcType : ushort
     {
         ActionRequest = 0x0214, // 7.25
-        ActionRequestGroundTargeted = 0x03D2, // 7.25
+        ActionRequestGroundTargeted = 0x024F, // 7.25
         ChatHandler = 0x0284, // 7.25
         ClientCountdownInitiate = 0x02E6, // 7.25
         ClientTrigger = 0x03D2, // 7.25
