@@ -160,6 +160,7 @@
         PlayerUpdateLook = 0x00C5, // 7.3
         Playtime = 0x01B4, // 7.3
         PrepareZoning = 0x0293, // 7.3
+        ResultDialog = 0x00B5, // 7.3
         RetainerInformation = 0x02F4, // 7.3
         RetainerSaleHistory = 0x0232, // 7.3
         RetainerState = 0x00C1, // 7.3
