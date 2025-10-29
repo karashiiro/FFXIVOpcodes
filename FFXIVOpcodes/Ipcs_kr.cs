@@ -58,6 +58,7 @@
         BattleTalk4 = 0x021A, // 7.3
         BattleTalk8 = 0x0067, // 7.3
         BlackList = 0x02B6, // 7.3
+        CEDirector = 0x00D7, // 7.3
         CFCancel = 0x0160, // 7.3
         CFDutyInfo = 0x024D, // 7.3
         CFNotify = 0x031D, // 7.3
@@ -137,8 +138,10 @@
         MarketBoardSearchResult = 0x00D0, // 7.3
         MiniCactpotInit = 0x01F9, // 7.3
         ModelEquip = 0x0103, // 7.3
+        Mount = 0x01DB, // 7.3
         NpcSpawn = 0x014C, // 7.3
         NpcSpawn2 = 0x0142, // 7.3
+        NpcYell = 0x0226, // 7.3
         ObjectDespawn = 0x00F0, // 7.3
         ObjectSpawn = 0x0216, // 7.3
         PartyMessage = 0x00FB, // 7.3
@@ -161,9 +164,14 @@
         RetainerSaleHistory = 0x0232, // 7.3
         RetainerState = 0x00C1, // 7.3
         RetainerSummary = 0x0151, // 7.3
-        RSFData = 0x00AE, // 7.3
-        RSVData = 0x00AB, // 7.3
+        RSFData = 0x0138, // 7.3
+        RSVData = 0x00AE, // 7.3
+        ServerNotice = 0x012C, // 7.3
+        ServerNoticeShort = 0x00E4, // 7.3
+        SetOnlineStatus = 0x0096, // 7.3
         SocialList = 0x0239, // 7.3
+        SocialMessage = 0x03E4, // 7.3
+        SocialMessage2 = 0x0115, // 7.3
         SocialRequestResponse = 0x0149, // 7.3
         StatusEffectList = 0x021C, // 7.3
         StatusEffectListBozja = 0x019B, // 7.3
