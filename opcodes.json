@@ -296,7 +296,7 @@
       "ClientZoneIpcType": [
         {
           "name": "InventoryModifyHandler",
-          "opcode": 652
+          "opcode": 725
         },
         {
           "name": "MarketBoardPurchaseHandler",
