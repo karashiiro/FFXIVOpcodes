@@ -63,8 +63,8 @@ namespace FFXIVOpcodes.Global
         EventStart = 0x03DA, // updated 7.4h2
         EventFinish = 0x034A, // updated 7.4h2
         DesynthResult = 0x02F1, // updated 7.4h2
-        FreeCompanyInfo = 0x0126, // updated 7.4h2
-        FreeCompanyDialog = 0x021D, // updated 7.4h2
+        FreeCompanyInfo = 0x006E, // updated 7.4h2
+        FreeCompanyDialog = 0x0105, // updated 7.4h2
         MarketBoardSearchResult = 0x02EE, // updated 7.4h2
         MarketBoardItemListingCount = 0x01AD, // updated 7.4h2
         MarketBoardItemListingHistory = 0x007E, // updated 7.4h2
