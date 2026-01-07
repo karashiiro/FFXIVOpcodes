@@ -67,8 +67,8 @@ namespace FFXIVOpcodes.Global
         FreeCompanyDialog = 0x0105, // updated 7.4h2
         MarketBoardSearchResult = 0x02EE, // updated 7.4h2
         MarketBoardItemListingCount = 0x01D8, // updated 7.4h2
-        MarketBoardItemListingHistory = 0x007E, // updated 7.4h2
-        MarketBoardItemListing = 0x0163, // updated 7.4h2
+        MarketBoardItemListingHistory = 0x025C, // updated 7.4h2
+        MarketBoardItemListing = 0x01AD, // updated 7.4h2
         MarketBoardPurchase = 0x02FA, // updated 7.4h2
         UpdateInventorySlot = 0x012B, // updated 7.4h2
         InventoryActionAck = 0x021A, // updated 7.4h2
