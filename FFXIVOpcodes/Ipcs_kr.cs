@@ -189,8 +189,8 @@
         OpenTreasure = 0x0247, // 7.4
         PartyMessage = 0x0255, // 7.4
         Ping = 0x0292, // 7.4
-        PlaceFieldMarker = 0x03B6, // 7.4
-        PlaceFieldMarkerPreset = 0x0256, // 7.4
+        PlaceFieldMarker = 0x036F, // 7.4
+        PlaceFieldMarkerPreset = 0x03B6, // 7.4
         PlayActionTimelineSync = 0x038D, // 7.4
         PlayerAddedToBlacklist = 0x00A8, // 7.4
         PlayerBlueMageActions = 0x0239, // 7.4
