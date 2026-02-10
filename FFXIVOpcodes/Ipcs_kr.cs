@@ -97,10 +97,10 @@
         EffectResultBasic4 = 0x0332, // 7.401
         EffectResultBasic64 = 0x0231, // 7.401
         EffectResultBasic8 = 0x025B, // 7.401
-        EnvironmentControl = 0x03A5, // 7.401
-        EnvironmentControl12 = 0x0303, // 7.401
-        EnvironmentControl4 = 0x0336, // 7.401
-        EnvironmentControl8 = 0x012B, // 7.401
+        EnvironmentControl = 0x012B, // 7.401
+        EnvironmentControl12 = 0x024A, // 7.401
+        EnvironmentControl4 = 0x0303, // 7.401
+        EnvironmentControl8 = 0x01B5, // 7.401
         EorzeaTimeOffset = 0x00B4, // 7.401
         EquipDisplayFlags = 0x0205, // 7.401
         EventContinue = 0x03E6, // 7.401
