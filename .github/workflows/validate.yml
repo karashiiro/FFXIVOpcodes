@@ -1,0 +1,29 @@
+name: Validate opcodes
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Nuget.exe
+      uses: NuGet/setup-nuget@v1.0.5
+    - name: Install dependencies
+      run: nuget restore
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - name: Validate opcodes
+      run: |
+        cd FFXIVOpcodes/bin/Release/netcoreapp3.1/
+        ./FFXIVOpcodes.exe
+    - name: Validate constants
+      run: |
+        cd FFXIVConstants/bin/Release/netcoreapp3.1/
+        ./FFXIVConstants.exe
