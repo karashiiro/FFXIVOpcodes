@@ -7,6 +7,7 @@ import sys
 import urllib.request
 
 IPCS_PATH = "FFXIVOpcodes/Ipcs.cs"
+CONSTANTS_PATH = "FFXIVConstants/Global.cs"
 DIFF_URL = "https://raw.githubusercontent.com/xivdev/opcodediff/refs/heads/main/diffs/{version}.diff.json"
 
 
@@ -46,6 +47,35 @@ def apply_diff(ipcs_text: str, diff: list[dict], version: str) -> tuple[str, int
     return ipcs_text, matched, skipped
 
 
+def update_constants(ipcs_text: str) -> bool:
+    """Update InventoryOperationBaseValue in Global.cs from InventoryModifyHandler + 7."""
+    m = re.search(r"InventoryModifyHandler\s*=\s*(0x[0-9A-Fa-f]+)", ipcs_text)
+    if not m:
+        print("  WARN: InventoryModifyHandler not found in Ipcs.cs, skipping constants update")
+        return False
+
+    handler_hex = m.group(1)
+
+    with open(CONSTANTS_PATH, "r") as f:
+        constants = f.read()
+
+    new_constants = re.sub(
+        r'("InventoryOperationBaseValue",\s*)0x[0-9A-Fa-f]+\+7',
+        rf"\g<1>{handler_hex}+7",
+        constants,
+    )
+
+    if new_constants == constants:
+        print(f"  InventoryOperationBaseValue already up to date")
+        return False
+
+    with open(CONSTANTS_PATH, "w") as f:
+        f.write(new_constants)
+
+    print(f"  Updated InventoryOperationBaseValue to {handler_hex}+7 in {CONSTANTS_PATH}")
+    return True
+
+
 def resolve_source(arg: str) -> tuple[str, str]:
     """Return (url_or_path, version) from a version string or explicit path/URL."""
     # Already a URL or file path
@@ -76,6 +106,8 @@ def main():
 
     with open(IPCS_PATH, "w") as f:
         f.write(result)
+
+    update_constants(result)
 
     print(f"Done! {matched} opcodes updated in {IPCS_PATH}")
     if skipped:
