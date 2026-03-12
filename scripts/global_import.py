@@ -20,31 +20,36 @@ def fetch_diff(source: str) -> list[dict]:
         return json.load(f)
 
 
-def apply_diff(ipcs_text: str, diff: list[dict], version: str) -> tuple[str, int, list[str]]:
+def apply_diff(ipcs_text: str, diff: list[dict], version: str) -> tuple[str, int, int]:
     """Replace old opcode hex values with new ones in the C# source."""
-    matched = 0
-    skipped = []
-
+    # Build old->new lookup (normalized to uppercase 0xNNNN)
+    # We precompute a mapping and run in a single pass to avoid cascading replacements.
+    mapping: dict[str, str] = {}
     for entry in diff:
-        old_val = int(entry["old"][0], 16)
-        new_val = int(entry["new"][0], 16)
-        old_hex = f"0x{old_val:04X}"
-        new_hex = f"0x{new_val:04X}"
+        old_hex = f"0x{int(entry['old'][0], 16):04X}"
+        new_hex = f"0x{int(entry['new'][0], 16):04X}"
+        mapping[old_hex] = new_hex
 
-        pattern = re.compile(
-            rf"^(\s+\w.*=\s*){re.escape(old_hex)}(\s*,\s*//\s*updated\s+)\S+",
-            re.IGNORECASE | re.MULTILINE,
-        )
-        ipcs_text, n = pattern.subn(
-            lambda m, nh=new_hex: f"{m.group(1)}{nh}{m.group(2)}{version}",
-            ipcs_text,
-        )
-        if n > 0:
-            matched += n
-        else:
-            skipped.append(old_hex)
+    matched = 0
+    unmatched = len(mapping)
 
-    return ipcs_text, matched, skipped
+    # Single-pass regex: match any uncommented opcode assignment line
+    pattern = re.compile(
+        r"^(\s+\w.*=\s*)(0x[0-9A-Fa-f]+)(\s*,\s*//\s*updated\s+)\S+",
+        re.IGNORECASE | re.MULTILINE,
+    )
+
+    def replacer(m: re.Match) -> str:
+        nonlocal matched, unmatched
+        old_hex = f"0x{int(m.group(2), 16):04X}"
+        if old_hex in mapping:
+            matched += 1
+            unmatched -= 1
+            return f"{m.group(1)}{mapping[old_hex]}{m.group(3)}{version}"
+        return m.group(0)
+
+    ipcs_text = pattern.sub(replacer, ipcs_text)
+    return ipcs_text, matched, unmatched
 
 
 def update_constants(ipcs_text: str) -> bool:
@@ -102,7 +107,7 @@ def main():
     with open(IPCS_PATH, "r") as f:
         original = f.read()
 
-    result, matched, skipped = apply_diff(original, diff, version)
+    result, matched, unmatched = apply_diff(original, diff, version)
 
     with open(IPCS_PATH, "w") as f:
         f.write(result)
@@ -110,8 +115,8 @@ def main():
     update_constants(result)
 
     print(f"Done! {matched} opcodes updated in {IPCS_PATH}")
-    if skipped:
-        print(f"  {len(skipped)} unmatched entries (not tracked in this file)")
+    if unmatched:
+        print(f"  {unmatched} unmatched entries (not tracked in this file)")
 
 
 if __name__ == "__main__":
