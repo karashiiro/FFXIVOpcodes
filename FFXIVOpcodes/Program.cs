@@ -20,12 +20,14 @@ namespace FFXIVOpcodes
                 new RegionSet { Region = "Global", Version = "6.05"},
                 new RegionSet { Region = "CN", Version = FFXIVConstants.CN.Version }, // <3
                 new RegionSet { Region = "KR", Version = "7.451" },
+                new RegionSet { Region = "TW", Version = "7.051" },
             };
 
             Type[][] enums = {
                 new[] { typeof(Global.ServerZoneIpcType), typeof(Global.ClientZoneIpcType), typeof(Global.ServerChatIpcType), typeof(Global.ClientChatIpcType), typeof(Global.ServerLobbyIpcType), typeof(Global.ClientLobbyIpcType), },
                 new[] { typeof(CN.ServerZoneIpcType), typeof(CN.ClientZoneIpcType), typeof(CN.ServerChatIpcType), typeof(CN.ClientChatIpcType), typeof(CN.ServerLobbyIpcType), typeof(CN.ClientLobbyIpcType), },
                 new[] { typeof(KR.ServerZoneIpcType), typeof(KR.ClientZoneIpcType), typeof(KR.ServerChatIpcType), typeof(KR.ClientChatIpcType), typeof(KR.ServerLobbyIpcType), typeof(KR.ClientLobbyIpcType), },
+                new[] { typeof(TW.ServerZoneIpcType), typeof(TW.ClientZoneIpcType), typeof(TW.ServerChatIpcType), typeof(TW.ClientChatIpcType), typeof(TW.ServerLobbyIpcType), typeof(TW.ClientLobbyIpcType), },
             };
 
             for (var i = 0; i < 3; i++)
@@ -59,7 +61,8 @@ namespace FFXIVOpcodes
             var globalIpcLists = new[] { typeof(Global.ClientChatIpcType), typeof(Global.ServerChatIpcType), typeof(Global.ClientLobbyIpcType), typeof(Global.ServerLobbyIpcType), typeof(Global.ClientZoneIpcType), typeof(Global.ServerZoneIpcType) };
             var cnIpcLists = new[] { typeof(CN.ClientChatIpcType), typeof(CN.ServerChatIpcType), typeof(CN.ClientZoneIpcType), typeof(CN.ServerZoneIpcType) };
             var krIpcLists = new[] { typeof(KR.ClientChatIpcType), typeof(KR.ServerChatIpcType), typeof(KR.ClientLobbyIpcType), typeof(KR.ServerLobbyIpcType), typeof(KR.ClientZoneIpcType), typeof(KR.ServerZoneIpcType) };
-            var ipcListsList = new[] { globalIpcLists, cnIpcLists, krIpcLists };
+            var twIpcLists = new[] { typeof(TW.ClientChatIpcType), typeof(TW.ServerChatIpcType), typeof(TW.ClientLobbyIpcType), typeof(TW.ServerLobbyIpcType), typeof(TW.ClientZoneIpcType), typeof(TW.ServerZoneIpcType) };
+            var ipcListsList = new[] { globalIpcLists, cnIpcLists, krIpcLists, twIpcLists };
             foreach (var ipcLists in ipcListsList)
             {
                 foreach (var ipcList in ipcLists)

@@ -10,6 +10,7 @@ namespace FFXIVConstants
         public Dictionary<string, object> Global;
         public Dictionary<string, object> CN;
         public Dictionary<string, object> KR;
+        public Dictionary<string, object> TW;
     }
 
     class Program
@@ -23,6 +24,7 @@ namespace FFXIVConstants
                 Global = Global.Constants,
                 CN = CN.Constants,
                 KR = KR.Constants,
+                TW = TW.Constants,
             };
 
             var path1 = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "..", "constants.json");
