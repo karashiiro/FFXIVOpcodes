@@ -30,9 +30,9 @@ namespace FFXIVOpcodes
                 new[] { typeof(TW.ServerZoneIpcType), typeof(TW.ClientZoneIpcType), typeof(TW.ServerChatIpcType), typeof(TW.ClientChatIpcType), typeof(TW.ServerLobbyIpcType), typeof(TW.ClientLobbyIpcType), },
             };
 
-            for (var i = 0; i < 3; i++)
+            for (var i = 0; i < enums.Length; i++)
             {
-                for (var j = 0; j < 6; j++)
+                for (var j = 0; j < enums[0].Length; j++)
                 {
                     foreach (var ipcCommand in Enum.GetValues(enums[i][j]))
                     {
