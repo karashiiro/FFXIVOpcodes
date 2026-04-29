@@ -308,7 +308,7 @@
         },
         {
           "name": "UpdatePositionHandler",
-          "opcode": 280
+          "opcode": 300
         }
       ],
       "ServerLobbyIpcType": [
