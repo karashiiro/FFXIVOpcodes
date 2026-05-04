@@ -113,6 +113,7 @@ namespace FFXIVOpcodes.Global
         EnvironmentControl = 0x01FF, // updated 7.5
         IslandWorkshopSupplyDemand = 0x01D1, // updated 7.5
         Logout = 0x0334, // updated 7.5
+        FishCaught = 0x0323, // updated 7.5
     };
 
     /**
