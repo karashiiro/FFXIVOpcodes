@@ -79,9 +79,9 @@ namespace FFXIVOpcodes.Global
         FreeCompanyDialog = 0x00B9, // updated 7.5
         StatusEffectList = 0x0117, // updated 7.5
         StatusEffectListEureka = 0x010E, // updated 7.5
-        StatusEffectListBozja = 0x03DC, // updated 7.5
-        StatusEffectListOccult = 0x012B, // updated 7.5
-        StatusEffectListDouble = 0x0232, // updated 7.5
+        StatusEffectListBozja = 0x03DC, // StatusEffectList2, updated 7.5
+        StatusEffectListOccult = 0x012B, // StatusEffectListForay3, updated 7.5
+        StatusEffectListDouble = 0x0232, // BossStatusEffectList, updated 7.5
         EffectResult = 0x00EA, // updated 7.5
         EffectResult4 = 0x0088, // updated 7.5
         EffectResult8 = 0x00F4, // updated 7.5
@@ -101,7 +101,7 @@ namespace FFXIVOpcodes.Global
         AoeEffect16 = 0x0240, // updated 7.5
         AoeEffect24 = 0x01CA, // updated 7.5
         AoeEffect32 = 0x03C8, // updated 7.5
-        StatusEffectListPlayer = 0x0336, // updated 7.5
+        StatusEffectListPlayer = 0x0336, // StatusEffectList3, updated 7.5
         StatusEffectListPlayerDouble = 0x03A9, // updated 7.5
         UpdateRecastTimes = 0x02FE, // updated 7.5
         UpdateDutyRecastTimes = 0x02EE, // updated 7.5
