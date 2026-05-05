@@ -211,7 +211,7 @@
     */
     enum ClientZoneIpcType : ushort
     {
-        ActionRequest = 0x02FA, // 7.5
+        ActionRequest = 0x02AF, // 7.5
         ActionRequestGroundTargeted = 0x01CD, // 7.5
         ChatHandler = 0x01EE, // 7.5
         ClientCountdownInitiate = 0x03A4, // 7.5
