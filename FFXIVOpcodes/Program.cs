@@ -20,7 +20,7 @@ namespace FFXIVOpcodes
                 new RegionSet { Region = "Global", Version = "7.55"},
                 new RegionSet { Region = "CN", Version = FFXIVConstants.CN.Version }, // <3
                 new RegionSet { Region = "KR", Version = "7.55" },
-                new RegionSet { Region = "TW", Version = "7.15" },
+                new RegionSet { Region = "TW", Version = "7.2" },
             };
 
             Type[][] enums = {
