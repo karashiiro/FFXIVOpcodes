@@ -1,12 +1,12 @@
 {
   "Global": {
-    "InventoryOperationBaseValue": 433
+    "InventoryOperationBaseValue": 261
   },
   "CN": {
-    "InventoryOperationBaseValue": 583
+    "InventoryOperationBaseValue": 261
   },
   "KR": {
-    "InventoryOperationBaseValue": 583
+    "InventoryOperationBaseValue": 261
   },
   "TW": {
     "InventoryOperationBaseValue": 184
