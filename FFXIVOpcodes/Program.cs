@@ -17,9 +17,9 @@ namespace FFXIVOpcodes
             Console.WriteLine("Exporting...");
 
             var regions = new List<RegionSet>{
-                new RegionSet { Region = "Global", Version = "7.55h2"},
+                new RegionSet { Region = "Global", Version = "7.56"},
                 new RegionSet { Region = "CN", Version = FFXIVConstants.CN.Version }, // <3
-                new RegionSet { Region = "KR", Version = "7.55h" },
+                new RegionSet { Region = "KR", Version = "7.56" },
                 new RegionSet { Region = "TW", Version = "7.2" },
             };
 
