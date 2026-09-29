@@ -17,82 +17,82 @@ namespace FFXIVOpcodes.TW
     */
     enum ServerZoneIpcType : ushort
     {
-        PlayerSetup = 0x030A, // updated 7.2
-        UpdateHpMpTp = 0x00D4, // updated 7.2
-        UpdateClassInfo = 0x0255, // updated 7.2
-        PlayerStats = 0x01EE, // updated 7.2
-        ActorControl = 0x015A, // updated 7.2
-        ActorControlSelf = 0x01F6, // updated 7.2
-        ActorControlTarget = 0x033A, // updated 7.2
-        Playtime = 0x013F, // updated 7.2
-        UpdateSearchInfo = 0x0169, // updated 7.2
-        ExamineSearchInfo = 0x0065, // updated 7.2
-        Examine = 0x021E, // updated 7.2
-        ActorCast = 0x035C, // updated 7.2
-        CurrencyCrystalInfo = 0x0086, // updated 7.2
-        InitZone = 0x0369, // updated 7.2
-        WeatherChange = 0x0186, // updated 7.2
-        PlayerSpawn = 0x01E7, // updated 7.2
-        ActorSetPos = 0x0266, // updated 7.2
-        PrepareZoning = 0x038C, // updated 7.2
-        ContainerInfo = 0x0308, // updated 7.2
-        ItemInfo = 0x01EB, // updated 7.2
-        PlaceFieldMarker = 0x00D8, // updated 7.2
-        PlaceFieldMarkerPreset = 0x02C3, // updated 7.2
-        EffectResult = 0x0365, // updated 7.2
-        EventStart = 0x03DC, // updated 7.2
-        EventFinish = 0x0078, // updated 7.2
-        DesynthResult = 0x0118, // updated 7.2
-        FreeCompanyInfo = 0x03DB, // updated 7.2
-        FreeCompanyDialog = 0x025D, // updated 7.2
-        MarketBoardSearchResult = 0x02A3, // updated 7.2
-        MarketBoardItemListingCount = 0x0270, // updated 7.2
-        MarketBoardItemListingHistory = 0x0261, // updated 7.2
-        MarketBoardItemListing = 0x01E0, // updated 7.2
-        MarketBoardPurchase = 0x0239, // updated 7.2
-        UpdateInventorySlot = 0x01BB, // updated 7.2
-        InventoryActionAck = 0x0296, // updated 7.2
-        InventoryTransaction = 0x024D, // updated 7.2
-        InventoryTransactionFinish = 0x00D7, // updated 7.2
-        ResultDialog = 0x0109, // updated 7.2
-        RetainerInformation = 0x009E, // updated 7.2
-        NpcSpawn = 0x02D2, // updated 7.2
-        ItemMarketBoardInfo = 0x03E2, // updated 7.2
-        ObjectSpawn = 0x0306, // updated 7.2
-        EffectResultBasic = 0x006A, // updated 7.2
-        Effect = 0x025E, // updated 7.2
-        StatusEffectList = 0x026F, // updated 7.2
-        StatusEffectList2 = 0x0135, // updated 7.2
-        StatusEffectList3 = 0x0123, // updated 7.2
-        ActorGauge = 0x03C5, // updated 7.2
-        CFNotify = 0x00B8, // updated 7.2
-        SystemLogMessage = 0x0125, // updated 7.2
-        AirshipTimers = 0x0140, // updated 7.2
-        SubmarineTimers = 0x03DF, // updated 7.2
-        AirshipStatusList = 0x00BB, // updated 7.2
-        AirshipStatus = 0x03C0, // updated 7.2
-        AirshipExplorationResult = 0x0119, // updated 7.2
-        SubmarineProgressionStatus = 0x00C0, // updated 7.2
-        SubmarineStatusList = 0x00FC, // updated 7.2
-        SubmarineExplorationResult = 0x01AF, // updated 7.2
+        PlayerSetup = 0x02DE, // updated 7.25
+        UpdateHpMpTp = 0x038F, // updated 7.25
+        UpdateClassInfo = 0x0132, // updated 7.25
+        PlayerStats = 0x00FF, // updated 7.25
+        ActorControl = 0x0325, // updated 7.25
+        ActorControlSelf = 0x0111, // updated 7.25
+        ActorControlTarget = 0x025A, // updated 7.25
+        Playtime = 0x00A1, // updated 7.25
+        UpdateSearchInfo = 0x0141, // updated 7.25
+        ExamineSearchInfo = 0x0181, // updated 7.25
+        Examine = 0x02CD, // updated 7.25
+        ActorCast = 0x035D, // updated 7.25
+        CurrencyCrystalInfo = 0x01EB, // updated 7.25
+        InitZone = 0x00EB, // updated 7.25
+        WeatherChange = 0x01A6, // updated 7.25
+        PlayerSpawn = 0x037C, // updated 7.25
+        ActorSetPos = 0x0279, // updated 7.25
+        PrepareZoning = 0x0380, // updated 7.25
+        ContainerInfo = 0x0093, // updated 7.25
+        ItemInfo = 0x0178, // updated 7.25
+        PlaceFieldMarker = 0x0338, // updated 7.25
+        PlaceFieldMarkerPreset = 0x01C9, // updated 7.25
+        EffectResult = 0x0311, // updated 7.25
+        EventStart = 0x0168, // updated 7.25
+        EventFinish = 0x015B, // updated 7.25
+        DesynthResult = 0x010E, // updated 7.25
+        FreeCompanyInfo = 0x030F, // updated 7.25
+        FreeCompanyDialog = 0x0295, // updated 7.25
+        MarketBoardSearchResult = 0x018F, // updated 7.25
+        MarketBoardItemListingCount = 0x0176, // updated 7.25
+        MarketBoardItemListingHistory = 0x036D, // updated 7.25
+        MarketBoardItemListing = 0x0113, // updated 7.25
+        MarketBoardPurchase = 0x0110, // updated 7.25
+        UpdateInventorySlot = 0x00AC, // updated 7.25
+        InventoryActionAck = 0x0248, // updated 7.25
+        InventoryTransaction = 0x0069, // updated 7.25
+        InventoryTransactionFinish = 0x0348, // updated 7.25
+        ResultDialog = 0x014A, // updated 7.25
+        RetainerInformation = 0x00CC, // updated 7.25
+        NpcSpawn = 0x0374, // updated 7.25
+        ItemMarketBoardInfo = 0x006C, // updated 7.25
+        ObjectSpawn = 0x034A, // updated 7.25
+        EffectResultBasic = 0x0162, // updated 7.25
+        Effect = 0x01BE, // updated 7.25
+        StatusEffectList = 0x0300, // updated 7.25
+        StatusEffectList2 = 0x019D, // updated 7.25
+        StatusEffectList3 = 0x016E, // updated 7.25
+        ActorGauge = 0x00FD, // updated 7.25
+        CFNotify = 0x0187, // updated 7.25
+        SystemLogMessage = 0x02CF, // updated 7.25
+        AirshipTimers = 0x036B, // updated 7.25
+        SubmarineTimers = 0x01A7, // updated 7.25
+        AirshipStatusList = 0x0329, // updated 7.25
+        AirshipStatus = 0x00BF, // updated 7.25
+        AirshipExplorationResult = 0x006E, // updated 7.25
+        SubmarineProgressionStatus = 0x03CE, // updated 7.25
+        SubmarineStatusList = 0x0206, // updated 7.25
+        SubmarineExplorationResult = 0x00A9, // updated 7.25
 
-        CraftingLog = 0x013B, // updated 7.2
-        GatheringLog = 0x024B, // updated 7.2
+        CraftingLog = 0x01AA, // updated 7.25
+        GatheringLog = 0x0242, // updated 7.25
 
-        ActorMove = 0x00AF, // updated 7.2
+        ActorMove = 0x0229, // updated 7.25
 
-        EventPlay = 0x03A7, // updated 7.2
-        EventPlay4 = 0x02CA, // updated 7.2
-        EventPlay8 = 0x024F, // updated 7.2
-        EventPlay16 = 0x016E, // updated 7.2
-        EventPlay32 = 0x0289, // updated 7.2
-        EventPlay64 = 0x03E5, // updated 7.2
-        EventPlay128 = 0x017B, // updated 7.2
-        EventPlay255 = 0x0388, // updated 7.2
+        EventPlay = 0x01BB, // updated 7.25
+        EventPlay4 = 0x0265, // updated 7.25
+        EventPlay8 = 0x0148, // updated 7.25
+        EventPlay16 = 0x0369, // updated 7.25
+        EventPlay32 = 0x03B7, // updated 7.25
+        EventPlay64 = 0x0122, // updated 7.25
+        EventPlay128 = 0x02BB, // updated 7.25
+        EventPlay255 = 0x0188, // updated 7.25
 
-        EnvironmentControl = 0x03C1, // updated 7.2
-        IslandWorkshopSupplyDemand = 0x0100, // updated 7.2
-        Logout = 0x0183, // updated 7.2
+        EnvironmentControl = 0x0251, // updated 7.25
+        IslandWorkshopSupplyDemand = 0x0172, // updated 7.25
+        Logout = 0x0232, // updated 7.25
     };
 
     /**
@@ -100,10 +100,10 @@ namespace FFXIVOpcodes.TW
     */
     enum ClientZoneIpcType : ushort
     {
-        UpdatePositionHandler = 0x029E, // updated 7.2
-        SetSearchInfoHandler = 0x00BD, // updated 7.2
-        MarketBoardPurchaseHandler = 0x02B2, // updated 7.2
-        InventoryModifyHandler = 0x00B1, // updated 7.2
+        UpdatePositionHandler = 0x0264, // updated 7.25
+        SetSearchInfoHandler = 0x007E, // updated 7.25
+        MarketBoardPurchaseHandler = 0x0342, // updated 7.25
+        InventoryModifyHandler = 0x0297, // updated 7.25
     };
 
     enum ServerChatIpcType : ushort
